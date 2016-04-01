@@ -1,0 +1,186 @@
+.lmagenta {
+  color: #F92672; }
+
+.lmoradito {
+  color: #AE81FF; }
+
+.lcyan {
+  color: #66D9EF; }
+
+.lblanco {
+  color: #F8F8F2; }
+
+.lcuruba {
+  color: #FFE792; }
+
+.lverde {
+  color: #A6E22E; }
+
+body {
+  background: #272822;
+  font-family: "Droid Sans Mono"; }
+
+.container {
+  margin: 0 auto;
+  width: 960px; }
+
+.hcodigo {
+  color: #A6E22E;
+  display: inline-table;
+  background: #272822;
+  z-index: 2;
+  position: relative;
+  margin-bottom: -18px;
+  margin-left: 10px;
+  padding: 0px 5px 5px 5px; }
+  .hcodigo::after {
+    content: "{";
+    background: #272822;
+    color: #F8F8F2; }
+
+h3, h4 {
+  color: #FFE792; }
+  h3 b, h4 b {
+    color: #A6E22E; }
+  h3 span, h4 span {
+    color: #F8F8F2; }
+
+em {
+  font-style: normal;
+  color: #F8F8F2;
+  font-size: 1.5em;
+  margin-bottom: -30px;
+  display: block;
+  background: #272822;
+  width: 20px; }
+  em.h1 {
+    font-size: 2em;
+    margin-bottom: -40px; }
+
+#hojadevida, #encabezado, #personalSkills, #professionalSkills, #educationItems, #workItems, #intereses, #clientes {
+  border: 1px dotted #FFE792;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: #FFE792; }
+
+#encabezado .fotoJohan {
+  padding: 20px;
+  float: left;
+  width: 33%; }
+  #encabezado .fotoJohan img {
+    max-width: 250px;
+    height: auto; }
+#encabezado .encabezadoRight {
+  float: left;
+  width: 61%; }
+  #encabezado .encabezadoRight .eRightTopRedes a {
+    text-decoration: none;
+    cursor: pointer; }
+
+.middle #professionalSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .middle #professionalSkills .professionalSkill {
+    float: left;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center; }
+  .middle #professionalSkills em {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-weight: bold; }
+.middle #personalSkills {
+  padding: 30px 30px 20px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .middle #personalSkills a {
+    text-decoration: none; }
+    .middle #personalSkills a[data-peso="1"] {
+      color: #F8F8F2;
+      font-size: 1em; }
+    .middle #personalSkills a[data-peso="2"] {
+      color: #F92672;
+      font-size: 1.5em; }
+    .middle #personalSkills a[data-peso="3"] {
+      color: #66D9EF;
+      font-size: 2em; }
+    .middle #personalSkills a[data-peso="4"] {
+      color: #A6E22E;
+      font-size: 2.5em; }
+    .middle #personalSkills a[data-peso="5"] {
+      color: #FD971F;
+      font-size: 3em; }
+    .middle #personalSkills a[data-peso="6"] {
+      color: #FFE792;
+      font-size: 3.5em; }
+    .middle #personalSkills a[data-peso="7"] {
+      color: #AE81FF;
+      font-size: 4em; }
+  .middle #personalSkills em {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-weight: bold; }
+.middle #educationItems, .middle #workItems {
+  display: flex;
+  flex-wrap: wrap; }
+  .middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
+    width: 22%;
+    text-align: center;
+    margin: 20px 5px;
+    padding: 5px;
+    border: #FFE792 1px dotted;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .middle #educationItems .educationItem .eiIcono, .middle #educationItems .workItem .eiIcono, .middle #workItems .educationItem .eiIcono, .middle #workItems .workItem .eiIcono {
+      font-size: 2em; }
+    .middle #educationItems .educationItem .eiAnio, .middle #educationItems .educationItem .wiAnio, .middle #educationItems .educationItem .iiNombre, .middle #educationItems .workItem .eiAnio, .middle #educationItems .workItem .wiAnio, .middle #educationItems .workItem .iiNombre, .middle #workItems .educationItem .eiAnio, .middle #workItems .educationItem .wiAnio, .middle #workItems .educationItem .iiNombre, .middle #workItems .workItem .eiAnio, .middle #workItems .workItem .wiAnio, .middle #workItems .workItem .iiNombre {
+      color: #A6E22E;
+      font-weight: bold; }
+    .middle #educationItems .educationItem .eiInstitucion, .middle #educationItems .educationItem .wiCargo, .middle #educationItems .workItem .eiInstitucion, .middle #educationItems .workItem .wiCargo, .middle #workItems .educationItem .eiInstitucion, .middle #workItems .educationItem .wiCargo, .middle #workItems .workItem .eiInstitucion, .middle #workItems .workItem .wiCargo {
+      color: #FFE792; }
+    .middle #educationItems .educationItem .eiCarrera, .middle #educationItems .educationItem .wiEmpresa, .middle #educationItems .workItem .eiCarrera, .middle #educationItems .workItem .wiEmpresa, .middle #workItems .educationItem .eiCarrera, .middle #workItems .educationItem .wiEmpresa, .middle #workItems .workItem .eiCarrera, .middle #workItems .workItem .wiEmpresa {
+      color: #F92672;
+      font-weight: bold; }
+    .middle #educationItems .educationItem .wiImgEmpresa img, .middle #educationItems .educationItem .iiImgEmpresa img, .middle #educationItems .workItem .wiImgEmpresa img, .middle #educationItems .workItem .iiImgEmpresa img, .middle #workItems .educationItem .wiImgEmpresa img, .middle #workItems .educationItem .iiImgEmpresa img, .middle #workItems .workItem .wiImgEmpresa img, .middle #workItems .workItem .iiImgEmpresa img {
+      max-width: 150px;
+      margin: 10px; }
+  .middle #educationItems em, .middle #workItems em {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-weight: bold; }
+
+#intereses {
+  display: flex;
+  flex-wrap: wrap; }
+  #intereses .interes {
+    width: 22%;
+    text-align: center;
+    margin: 20px 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    #intereses .interes .iiNombre {
+      color: #A6E22E;
+      font-weight: bold; }
+    #intereses .interes .iiImgEmpresa img {
+      max-width: 150px;
+      margin: 10px; }
+  #intereses em {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
