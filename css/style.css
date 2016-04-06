@@ -64,19 +64,23 @@ em {
   padding: 20px;
   color: #FFE792; }
 
-#encabezado .fotoJohan {
-  padding: 20px;
-  float: left;
-  width: 33%; }
-  #encabezado .fotoJohan img {
-    max-width: 250px;
-    height: auto; }
-#encabezado .encabezadoRight {
-  float: left;
-  width: 61%; }
-  #encabezado .encabezadoRight .eRightTopRedes a {
-    text-decoration: none;
-    cursor: pointer; }
+#encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #encabezado .fotoJohan {
+    padding: 20px;
+    float: left;
+    width: 33%; }
+    #encabezado .fotoJohan img {
+      max-width: 250px;
+      height: auto; }
+  #encabezado .encabezadoRight {
+    float: left;
+    width: 61%; }
+    #encabezado .encabezadoRight .eRightTopRedes a {
+      text-decoration: none;
+      cursor: pointer; }
 
 .middle #professionalSkills {
   display: flex;

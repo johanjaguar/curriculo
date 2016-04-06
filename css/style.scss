@@ -86,6 +86,9 @@ em{
 
 
 #encabezado{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	.fotoJohan{
 		padding: 20px;
 		float: left;
