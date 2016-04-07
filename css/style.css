@@ -68,6 +68,11 @@ em {
   display: flex;
   justify-content: center;
   align-items: center; }
+  #encabezado em {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-weight: bold; }
   #encabezado .fotoJohan {
     padding: 20px;
     float: left;
