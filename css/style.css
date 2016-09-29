@@ -18,7 +18,7 @@
 
 body {
   background: #272822;
-  font-family: "Droid Sans Mono"; }
+  font-family: 'Droid Sans Mono', monospace; }
 
 .container {
   margin: 0 auto;
