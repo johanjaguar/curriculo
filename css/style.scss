@@ -118,9 +118,17 @@ em{
 	.encabezadoRight{
 		float: left;
 		width: 61%;
-		.eRightTopRedes a{
-			text-decoration: none;
-			cursor: pointer;
+		.eRightTopRedes{
+			a{
+				text-decoration: none;
+				cursor: pointer;
+				transition: color ease-in-out .5s;
+				&:hover, &:focus{
+					color: white;	
+				}
+			}
+			
+
 		}
 	}
 }

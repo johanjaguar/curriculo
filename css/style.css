@@ -105,7 +105,10 @@ em {
     width: 61%; }
     #encabezado .encabezadoRight .eRightTopRedes a {
       text-decoration: none;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: color ease-in-out .5s; }
+      #encabezado .encabezadoRight .eRightTopRedes a:hover, #encabezado .encabezadoRight .eRightTopRedes a:focus {
+        color: white; }
 
 .middle #professionalSkills {
   display: flex;
