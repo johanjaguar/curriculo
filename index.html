@@ -10,7 +10,7 @@
 	</head>
 
 	<body>
-
+	
 	<div class="container">
 		<h1 class="hcodigo" id="h1HojaDeVida">#hoja_De_Vida</h1>
 		<div class="hojadevidaBox" id="hojaDeVida">
@@ -236,129 +236,47 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
 				<div class="middleRight">
 					<h2 id="h2Education" class="hcodigo">#Educación</h2>
 					<div id="educationItems">
-						<div class="educationItem" id="educationItem1">
-							<p class="eiIcono"><i class="fa fa-book"></i></p>
-							<p class="eiAnio">2016 (Actualmente)</p>
-							<p class="eiInstitucion">Universidad Nacional Abierta y a Distancia UNAD</p>
-							<p class="eiCarrera">Ingenieria de Sistemas</p>
-						</div>
-						<div class="educationItem" id="educationItem2">
-							<p class="eiIcono"><i class="fa fa-book"></i></p>
-							<p class="eiAnio">2010-2007</p>
-							<p class="eiInstitucion">Universidad Distrital Francisco Jose de Caldas</p>
-							<p class="eiCarrera">Ingenieria de Sistemas</p>
-						</div>
-						<div class="educationItem" id="educationItem4">
-							<p class="eiIcono"><i class="fa fa-graduation-cap"></i></p>
-							<p class="eiAnio">1993-2003</p>
-							<p class="eiInstitucion">Colegio San Antonio</p>
-							<p class="eiCarrera">Bachiller tecnologico con enfasis en Programacion</p>
-						</div>	
-						<div class="educationItem" id="educationItem5">
-							<p class="eiIcono"><i class="fa fa-flag"></i></p>
-							<p class="eiAnio">2008-2010</p>
-							<p class="eiInstitucion">Instituto de Lenguas Universidad Distrital ILUD</p>
-							<p class="eiCarrera">English Intermediate I, II, III</p>
-						</div>
-						<div class="educationItem" id="educationItem6">
-							<p class="eiIcono"><i class="fa fa-laptop"></i></p>
-							<p class="eiAnio">2016</p>
-							<p class="eiInstitucion">Codebabes</p>
-							<p class="eiCarrera">SEO Virgin</p>
-						</div>
-						<div class="educationItem" id="educationItem7">
-							<p class="eiIcono"><i class="fa fa-laptop"></i></p>
-							<p class="eiAnio">2016</p>
-							<p class="eiInstitucion">Codeacademy -Codeschool</p>
-							<p class="eiCarrera">Learn Git / Try Git / Git Real</p>
-						</div>
-	
-						<div class="educationItem" id="educationItem11">
-							<p class="eiIcono"><i class="fa fa-laptop"></i></p>
-							<p class="eiAnio">2015</p>
-							<p class="eiInstitucion">Codeacademy - Codeschool</p>
-							<p class="eiCarrera">jQuery / Try jQuery</p>
-						</div>
-						<div class="educationItem" id="educationItem12">
-							<p class="eiIcono"><i class="fa fa-laptop"></i></p>
-							<p class="eiAnio">2015</p>
-							<p class="eiInstitucion">Codeschool</p>
-							<p class="eiCarrera">Shaping up with Angular.js</p>
-						</div>
-						<div class="educationItem" id="educationItem13">
-							<p class="eiIcono"><i class="fa fa-laptop"></i></p>
-							<p class="eiAnio">2015</p>
-							<p class="eiInstitucion">Codeacademy - Codeschool</p>
-							<p class="eiCarrera">HTML & CSS / Assembling Sass</p>
-						</div>
-						<div class="educationItem" id="educationItem15">
-							<p class="eiIcono"><i class="fa fa-laptop"></i></p>
-							<p class="eiAnio">2015</p>
-							<p class="eiInstitucion">Codeacademy</p>
-							<p class="eiCarrera">PHP + Ruby + Javascript</p>
-						</div>
-						<div class="educationItem" id="educationItem19">
-							<p class="eiIcono"><i class="fa fa-laptop"></i></p>
-							<p class="eiAnio">2009</p>
-							<p class="eiInstitucion">SENA Virtual</p>
-							<p class="eiCarrera">Diseño Web con Adobe Dreamweaver CS3 + Flash - Animacion en 2D</p>
-						</div>
-						
+						<script src="js/educacion.js"></script>
+						<script>
+							document.write( educacion('book', '2010-2007', 'Universidad Distrital Francisco José de Caldas', 'Ingenieria de Sistemas' ));
+							document.write( educacion('graduation-cap', '1993-2003', 'Colegio San Antonio', 'Bachiller tecnologico con enfasis en Programación' ));
+							document.write( educacion('flag', '2008-2010', 'Instituto de Lenguas Universidad Distrital ILUD', 'English Intermediate I, II, III' ));
+							document.write( educacion('laptop', '2016', 'Codebabes', 'SEO Virgin' ));
+							document.write( educacion('laptop', '2016', 'Codeacademy - Codeschool', '>Learn Git / Try Git / Git Real<' ));
+							document.write( educacion('laptop', '2015', 'Codeacademy - Codeschool', 'jQuery / Try jQuery' ));
+							document.write( educacion('laptop', '2015', 'Codeacademy - Codeschool', 'HTML & CSS / Assembling Sass' ));
+							document.write( educacion('laptop', '2015', 'Codeschool', 'Shaping up with Angular.js' ));
+							document.write( educacion('laptop', '2015', 'Codeacademy', 'PHP + Ruby + Javascript' ));
+							document.write( educacion('laptop', '2009', 'SENA VIRTUAL', 'Diseño Web con Adobe Dreamweaver CS3 + Flash - Animacion en 2D' ));
+						</script>	
 						<em class="h2">}</em>
-
-
 					</div>
-
-
 				</div>
 			</div>
 
 			<h2 id="h2Intereses" class="hcodigo">#intereses</h2>
 			<div id="intereses">
-				<div class="interes" id="interes1">
-					<p class="iiImgEmpresa"><img src="img/rugby.png"/></p>
-					<p class="iiNombre">Rugby</p>
-				</div>
-				<div class="interes" id="interes2">
-					<p class="iiImgEmpresa"><img src="img/socialmedia.png"/></p>
-					<p class="iiNombre">Social Media</p>
-				</div>
-				<div class="interes" id="interes3">
-					<p class="iiImgEmpresa"><img src="img/programming.png"/></p>
-					<p class="iiNombre">Programación</p>
-				</div>
-				<div class="interes" id="interes4">
-					<p class="iiImgEmpresa"><img src="img/cloud.png"/></p>
-					<p class="iiNombre">Cloud Computing</p>
-				</div>
-				<div class="interes" id="interes5">
-					<p class="iiImgEmpresa"><img src="img/videogames.png"/></p>
-					<p class="iiNombre">Videojuegos</p>
-				</div>
-				<div class="interes" id="interes6">
-					<p class="iiImgEmpresa"><img src="img/travel.png"/></p>
-					<p class="iiNombre">Viajes</p>
-				</div>	
-				<div class="interes" id="interes7">
-					<p class="iiImgEmpresa"><img src="img/photo.png"/></p>
-					<p class="iiNombre">Fotografía</p>
-				</div>
-				<div class="interes" id="interes8">
-					<p class="iiImgEmpresa"><img src="img/music.png"/></p>
-					<p class="iiNombre">Música del mundo</p>
-				</div>							
+				<script src="js/intereses.js"></script>
+				<script>
+					document.write( intereses('rugby', 'Rugby') );
+					document.write( intereses('socialmedia', 'Social Media') );
+					document.write( intereses('programming', 'Programación') );
+					document.write( intereses('cloud', 'Cloud Computing') );
+
+					document.write( intereses('videogames', 'Videojuegos') );
+					document.write( intereses('travel', 'Viajes') );
+					document.write( intereses('photo', 'Fotografía') );
+					document.write( intereses('music', 'Música del mundo') );
+				</script>					
 				<em class="h2">}</em>
 			</div>
 		
 		</div>
-		<!--<div class="idiomas">
-			<p>ingles</p>
-			<p>español</p>
-		</div>-->
 	<script type="text/javascript">
     $(function(){
         $("[id$='circle']").percircle();
     });
 </script>
+  	
 	</body>
 </html>
