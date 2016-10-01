@@ -96,10 +96,20 @@ em {
   #encabezado .fotoJohan {
     padding: 20px;
     float: left;
-    width: 33%; }
+    width: 33%;
+    transition: transform ease-out .3s; }
     #encabezado .fotoJohan img {
       max-width: 250px;
-      height: auto; }
+      height: auto;
+      transition: border ease-in-out .5s;
+      border: 10px solid transparent;
+      border-radius: 50%; }
+    #encabezado .fotoJohan:hover, #encabezado .fotoJohan:focus {
+      transform: scale(1.2) rotate(10deg);
+      cursor: crosshair; }
+      #encabezado .fotoJohan:hover img, #encabezado .fotoJohan:focus img {
+        border: 10px solid white;
+        border-radius: 50%; }
   #encabezado .encabezadoRight {
     float: left;
     width: 61%; }
@@ -172,7 +182,11 @@ em {
     border: #FFE792 1px dotted;
     display: flex;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    transition: background ease-out .3s; }
+    .middle #educationItems .educationItem:hover, .middle #educationItems .workItem:hover, .middle #workItems .educationItem:hover, .middle #workItems .workItem:hover {
+      background: #444444;
+      cursor: pointer; }
     .middle #educationItems .educationItem .eiIcono, .middle #educationItems .workItem .eiIcono, .middle #workItems .educationItem .eiIcono, .middle #workItems .workItem .eiIcono {
       font-size: 2em; }
     .middle #educationItems .educationItem .eiAnio, .middle #educationItems .educationItem .wiAnio, .middle #educationItems .educationItem .iiNombre, .middle #educationItems .educationItem .wiTelefono, .middle #educationItems .workItem .eiAnio, .middle #educationItems .workItem .wiAnio, .middle #educationItems .workItem .iiNombre, .middle #educationItems .workItem .wiTelefono, .middle #workItems .educationItem .eiAnio, .middle #workItems .educationItem .wiAnio, .middle #workItems .educationItem .iiNombre, .middle #workItems .educationItem .wiTelefono, .middle #workItems .workItem .eiAnio, .middle #workItems .workItem .wiAnio, .middle #workItems .workItem .iiNombre, .middle #workItems .workItem .wiTelefono {
@@ -208,7 +222,15 @@ em {
       font-weight: bold; }
     #intereses .interes .iiImgEmpresa img {
       max-width: 150px;
-      margin: 10px; }
+      margin: 10px;
+      transition: transform ease-out .3s;
+      border: 8px solid transparent;
+      border-radius: 50%; }
+      #intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
+        transform: scale(1.2) rotate(10deg);
+        cursor: crosshair;
+        border: 8px solid white;
+        border-radius: 50%; }
   #intereses em {
     position: absolute;
     bottom: 15px;
