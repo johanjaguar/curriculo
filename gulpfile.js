@@ -7,16 +7,17 @@ requireDir('./gulp-tasks');
 
 //tarea default-watch
 gulp.task( 'default', ['browser-sync'], function(){
-//accion que ejecuta y vigila el directorio con la tarea asociada
+  //accion que ejecuta y vigila el directorio con la tarea asociada
 
-gulp.watch('sources/scss/**/*.scss', ['sass','cssmin']);
-//cssgulp.watch('sources/haml/**/*.haml', ['haml']);
-//gulp.watch('sources/javascript/**/*.js', ['js']);
-//gulp.watch([
-//'sources/images/**/*.gif', 'sources/images/**/*.png', 'sources/images/**/*.jpg', 'sources/images/**/*.jpeg']
-//,['imagesmin']
-//);
-gulp.watch("**/*.html").on('change', browserSync.reload);
+  gulp.watch('sources/scss/**/*.scss', ['sass']);
+  gulp.watch('build/css/**/*.css', ['cssmin']);
+  //cssgulp.watch('sources/haml/**/*.haml', ['haml']);
+  //gulp.watch('sources/javascript/**/*.js', ['js']);
+  //gulp.watch([
+  //'sources/images/**/*.gif', 'sources/images/**/*.png', 'sources/images/**/*.jpg', 'sources/images/**/*.jpeg']
+  //,['imagesmin']
+  //);
+  gulp.watch("**/*.html").on('change', browserSync.reload);
 }
 
 );

@@ -7,7 +7,7 @@ $verde: #A6E22E;
 $grisMedio: #75715E;
 $naranja: #FD971F;
 $curuba: #FFE792;
-$moradito: #AE81FF;
+$moradito: #aE81FF;
 
 $coloresLetra: $blanco, $magenta, $cyan, $verde, $naranja, $curuba, $moradito;
 
@@ -46,7 +46,7 @@ body{
 	margin-bottom: -18px;
 	margin-left: 10px;
 	padding: 0px 5px 5px 5px;
-	&::after { 
+	&::after {
     	content: "{";
 		background: $negro;
 		color: $blanco;
@@ -138,10 +138,10 @@ em{
 				cursor: pointer;
 				transition: color ease-in-out .5s;
 				&:hover, &:focus{
-					color: white;	
+					color: white;
 				}
 			}
-			
+
 
 		}
 	}
@@ -173,7 +173,7 @@ em{
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		a{	
+		a{
 			text-decoration: none;
 			&[data-peso = "1"]{
 				color: nth($coloresLetra, 1);
@@ -246,7 +246,7 @@ em{
 				max-width: 150px;
 				margin: 10px;
 			}
-			
+
 		}
 		em{
 			position: absolute;
@@ -285,7 +285,7 @@ em{
 				border-radius: 50%;
 			}
 		}
-		
+
 	}
 	em{
 		position: absolute;
@@ -296,14 +296,14 @@ em{
 }
 
 .hiddenAnimate {
-  opacity: 0; 
+  opacity: 0;
 }
 .visibleAnimate {
   opacity: 1;
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: initial;
   /* Chrome, Safari, Opera */
-  animation-iteration-count: initial; 
+  animation-iteration-count: initial;
 }
 
 @keyframes fadein {
