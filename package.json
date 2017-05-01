@@ -1,0 +1,28 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "A webpage with the CV of Johan Vargas Sanchez, frontend developer. Bogotá - Colombia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanjaguar/curriculo.git"
+  },
+  "author": "Johan Vargas Sánchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johanjaguar/curriculo/issues"
+  },
+  "homepage": "https://github.com/johanjaguar/curriculo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "require-dir": "^0.3.1"
+  }
+}
