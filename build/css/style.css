@@ -1,43 +1,65 @@
+/* line 1, sources/scss/style.css */
 .lmagenta {
-  color: #F92672; }
+  color: #F92672;
+}
 
+/* line 4, sources/scss/style.css */
 .lmoradito {
-  color: #aE81FF; }
+  color: #ae81ff;
+}
 
+/* line 7, sources/scss/style.css */
 .lcyan {
-  color: #66D9EF; }
+  color: #66f9ef;
+}
 
+/* line 10, sources/scss/style.css */
 .lblanco {
-  color: #F8F8F2; }
+  color: #f8f8f2;
+}
 
+/* line 13, sources/scss/style.css */
 .lcuruba {
-  color: #FFE792; }
+  color: #ffe792;
+}
 
+/* line 16, sources/scss/style.css */
 .lverde {
-  color: #A6E22E; }
+  color: #a6e22e;
+}
 
+/* line 19, sources/scss/style.css */
 body {
   background: #272822;
-  font-family: 'Droid Sans Mono', monospace; }
+  font-family: 'Droid Sans Mono', monospace;
+}
 
+/* line 23, sources/scss/style.css */
 .container {
   margin: 0 auto;
-  width: 960px; }
+  width: 960px;
+}
 
+/* line 27, sources/scss/style.css */
 .hcodigo {
-  color: #A6E22E;
+  color: #a6e22e;
   display: inline-table;
   background: #272822;
   z-index: 2;
   position: relative;
   margin-bottom: -18px;
   margin-left: 10px;
-  padding: 0px 5px 5px 5px; }
-  .hcodigo::after {
-    content: "{";
-    background: #272822;
-    color: #F8F8F2; }
+  padding: 0px 5px 5px 5px;
+}
 
+/* line 36, sources/scss/style.css */
+.hcodigo::after {
+  content: "{";
+  background: #272822;
+  color: #f8f8f2;
+}
+
+/* line 41, sources/scss/style.css */
 h1 {
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -47,33 +69,48 @@ h1 {
   /* Internet Explorer */
   -o-animation: fadein 2s;
   /* Opera < 12.1 */
-  animation: fadein 2s; }
+  animation: fadein 2s;
+}
 
+/* line 52, sources/scss/style.css */
 h3, h4 {
-  color: #FFE792; }
-  h3 b, h4 b {
-    color: #A6E22E; }
-  h3 span, h4 span {
-    color: #F8F8F2; }
+  color: #ffe792;
+}
 
+/* line 54, sources/scss/style.css */
+h3 b, h4 b {
+  color: #a6e22e;
+}
+
+/* line 56, sources/scss/style.css */
+h3 span, h4 span {
+  color: #f8f8f2;
+}
+
+/* line 59, sources/scss/style.css */
 em {
   font-style: normal;
-  color: #F8F8F2;
+  color: #f8f8f2;
   font-size: 1.5em;
   margin-bottom: -30px;
   display: block;
   background: #272822;
-  width: 20px; }
-  em.h1 {
-    font-size: 2em;
-    margin-bottom: -40px; }
+  width: 20px;
+}
 
+/* line 67, sources/scss/style.css */
+em.h1 {
+  font-size: 2em;
+  margin-bottom: -40px;
+}
+
+/* line 71, sources/scss/style.css */
 #hojadevida, #encabezado, #personalSkills, #professionalSkills, #educationItems, #workItems, #intereses, #clientes {
-  border: 1px dotted #FFE792;
+  border: 1px dotted #ffe792;
   position: relative;
   z-index: 1;
   padding: 20px;
-  color: #FFE792;
+  color: #ffe792;
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s;
@@ -82,203 +119,331 @@ em {
   /* Internet Explorer */
   -o-animation: fadein 2s;
   /* Opera < 12.1 */
-  animation: fadein 2s; }
+  animation: fadein 2s;
+}
 
+/* line 87, sources/scss/style.css */
 #encabezado {
   display: flex;
   justify-content: center;
-  align-items: center; }
-  #encabezado em {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    font-weight: bold; }
-  #encabezado .fotoJohan {
-    padding: 20px;
-    float: left;
-    width: 33%;
-    transition: transform ease-out .3s; }
-    #encabezado .fotoJohan img {
-      max-width: 250px;
-      height: auto;
-      transition: border ease-in-out .5s;
-      border: 10px solid transparent;
-      border-radius: 50%; }
-    #encabezado .fotoJohan:hover, #encabezado .fotoJohan:focus {
-      transform: scale(1.2) rotate(10deg);
-      cursor: crosshair; }
-      #encabezado .fotoJohan:hover img, #encabezado .fotoJohan:focus img {
-        border: 10px solid white;
-        border-radius: 50%; }
-  #encabezado .encabezadoRight {
-    float: left;
-    width: 61%; }
-    #encabezado .encabezadoRight .eRightTopRedes a {
-      text-decoration: none;
-      cursor: pointer;
-      transition: color ease-in-out .5s; }
-      #encabezado .encabezadoRight .eRightTopRedes a:hover, #encabezado .encabezadoRight .eRightTopRedes a:focus {
-        color: white; }
+  align-items: center;
+}
 
+/* line 91, sources/scss/style.css */
+#encabezado em {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+/* line 96, sources/scss/style.css */
+#encabezado .fotoJohan {
+  padding: 20px;
+  float: left;
+  width: 33%;
+  transition: transform ease-out .3s;
+}
+
+/* line 101, sources/scss/style.css */
+#encabezado .fotoJohan img {
+  max-width: 250px;
+  height: auto;
+  transition: border ease-in-out .5s;
+  border: 10px solid transparent;
+  border-radius: 50%;
+}
+
+/* line 107, sources/scss/style.css */
+#encabezado .fotoJohan:hover, #encabezado .fotoJohan:focus {
+  transform: scale(1.2) rotate(10deg);
+  cursor: crosshair;
+}
+
+/* line 110, sources/scss/style.css */
+#encabezado .fotoJohan:hover img, #encabezado .fotoJohan:focus img {
+  border: 10px solid white;
+  border-radius: 50%;
+}
+
+/* line 113, sources/scss/style.css */
+#encabezado .encabezadoRight {
+  float: left;
+  width: 61%;
+}
+
+/* line 116, sources/scss/style.css */
+#encabezado .encabezadoRight .eRightTopRedes a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: color ease-in-out .5s;
+}
+
+/* line 120, sources/scss/style.css */
+#encabezado .encabezadoRight .eRightTopRedes a:hover, #encabezado .encabezadoRight .eRightTopRedes a:focus {
+  color: white;
+}
+
+/* line 123, sources/scss/style.css */
 .middle #professionalSkills {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; }
-  .middle #professionalSkills .professionalSkill {
-    float: left;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; }
-  .middle #professionalSkills em {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    font-weight: bold; }
+  flex-wrap: wrap;
+}
 
+/* line 128, sources/scss/style.css */
+.middle #professionalSkills .professionalSkill {
+  float: left;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* line 135, sources/scss/style.css */
+.middle #professionalSkills em {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+/* line 141, sources/scss/style.css */
 .middle #personalSkills {
   padding: 30px 30px 20px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; }
-  .middle #personalSkills a {
-    text-decoration: none; }
-    .middle #personalSkills a[data-peso="1"] {
-      color: #F8F8F2;
-      font-size: 1em; }
-    .middle #personalSkills a[data-peso="2"] {
-      color: #F92672;
-      font-size: 1.5em; }
-    .middle #personalSkills a[data-peso="3"] {
-      color: #66D9EF;
-      font-size: 2em; }
-    .middle #personalSkills a[data-peso="4"] {
-      color: #A6E22E;
-      font-size: 2.5em; }
-    .middle #personalSkills a[data-peso="5"] {
-      color: #FD971F;
-      font-size: 3em; }
-    .middle #personalSkills a[data-peso="6"] {
-      color: #FFE792;
-      font-size: 3.5em; }
-    .middle #personalSkills a[data-peso="7"] {
-      color: #aE81FF;
-      font-size: 4em; }
-  .middle #personalSkills em {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    font-weight: bold; }
+  flex-wrap: wrap;
+}
 
+/* line 147, sources/scss/style.css */
+.middle #personalSkills a {
+  text-decoration: none;
+}
+
+/* line 149, sources/scss/style.css */
+.middle #personalSkills a[data-peso="1"] {
+  color: #f8f8f2;
+  font-size: 1em;
+}
+
+/* line 152, sources/scss/style.css */
+.middle #personalSkills a[data-peso="2"] {
+  color: #F92672;
+  font-size: 1.5em;
+}
+
+/* line 155, sources/scss/style.css */
+.middle #personalSkills a[data-peso="3"] {
+  color: #66f9ef;
+  font-size: 2em;
+}
+
+/* line 158, sources/scss/style.css */
+.middle #personalSkills a[data-peso="4"] {
+  color: #a6e22e;
+  font-size: 2.5em;
+}
+
+/* line 161, sources/scss/style.css */
+.middle #personalSkills a[data-peso="5"] {
+  color: #fd971f;
+  font-size: 3em;
+}
+
+/* line 164, sources/scss/style.css */
+.middle #personalSkills a[data-peso="6"] {
+  color: #ffe792;
+  font-size: 3.5em;
+}
+
+/* line 167, sources/scss/style.css */
+.middle #personalSkills a[data-peso="7"] {
+  color: #ae81ff;
+  font-size: 4em;
+}
+
+/* line 170, sources/scss/style.css */
+.middle #personalSkills em {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+/* line 176, sources/scss/style.css */
 .middle #educationItems, .middle #workItems {
   display: flex;
-  flex-wrap: wrap; }
-  .middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
-    width: 22%;
-    text-align: center;
-    margin: 20px 5px;
-    padding: 5px;
-    border: #FFE792 1px dotted;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: background ease-out .3s; }
-    .middle #educationItems .educationItem:hover, .middle #educationItems .workItem:hover, .middle #workItems .educationItem:hover, .middle #workItems .workItem:hover {
-      background: #444444;
-      cursor: pointer; }
-    .middle #educationItems .educationItem .eiIcono, .middle #educationItems .workItem .eiIcono, .middle #workItems .educationItem .eiIcono, .middle #workItems .workItem .eiIcono {
-      font-size: 2em; }
-    .middle #educationItems .educationItem .eiAnio, .middle #educationItems .educationItem .wiAnio, .middle #educationItems .educationItem .iiNombre, .middle #educationItems .educationItem .wiTelefono, .middle #educationItems .workItem .eiAnio, .middle #educationItems .workItem .wiAnio, .middle #educationItems .workItem .iiNombre, .middle #educationItems .workItem .wiTelefono, .middle #workItems .educationItem .eiAnio, .middle #workItems .educationItem .wiAnio, .middle #workItems .educationItem .iiNombre, .middle #workItems .educationItem .wiTelefono, .middle #workItems .workItem .eiAnio, .middle #workItems .workItem .wiAnio, .middle #workItems .workItem .iiNombre, .middle #workItems .workItem .wiTelefono {
-      color: #A6E22E;
-      font-weight: bold; }
-    .middle #educationItems .educationItem .eiInstitucion, .middle #educationItems .educationItem .wiCargo, .middle #educationItems .educationItem .wiJefe, .middle #educationItems .workItem .eiInstitucion, .middle #educationItems .workItem .wiCargo, .middle #educationItems .workItem .wiJefe, .middle #workItems .educationItem .eiInstitucion, .middle #workItems .educationItem .wiCargo, .middle #workItems .educationItem .wiJefe, .middle #workItems .workItem .eiInstitucion, .middle #workItems .workItem .wiCargo, .middle #workItems .workItem .wiJefe {
-      color: #FFE792; }
-    .middle #educationItems .educationItem .eiCarrera, .middle #educationItems .educationItem .wiEmpresa, .middle #educationItems .workItem .eiCarrera, .middle #educationItems .workItem .wiEmpresa, .middle #workItems .educationItem .eiCarrera, .middle #workItems .educationItem .wiEmpresa, .middle #workItems .workItem .eiCarrera, .middle #workItems .workItem .wiEmpresa {
-      color: #F92672;
-      font-weight: bold; }
-    .middle #educationItems .educationItem .wiImgEmpresa img, .middle #educationItems .educationItem .iiImgEmpresa img, .middle #educationItems .workItem .wiImgEmpresa img, .middle #educationItems .workItem .iiImgEmpresa img, .middle #workItems .educationItem .wiImgEmpresa img, .middle #workItems .educationItem .iiImgEmpresa img, .middle #workItems .workItem .wiImgEmpresa img, .middle #workItems .workItem .iiImgEmpresa img {
-      max-width: 150px;
-      margin: 10px; }
-  .middle #educationItems em, .middle #workItems em {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    font-weight: bold; }
+  flex-wrap: wrap;
+}
 
+/* line 179, sources/scss/style.css */
+.middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
+  width: 22%;
+  text-align: center;
+  margin: 20px 5px;
+  padding: 5px;
+  border: #ffe792 1px dotted;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: background ease-out .3s;
+}
+
+/* line 189, sources/scss/style.css */
+.middle #educationItems .educationItem:hover, .middle #educationItems .workItem:hover, .middle #workItems .educationItem:hover, .middle #workItems .workItem:hover {
+  background: #444444;
+  cursor: pointer;
+}
+
+/* line 192, sources/scss/style.css */
+.middle #educationItems .educationItem .eiIcono, .middle #educationItems .workItem .eiIcono, .middle #workItems .educationItem .eiIcono, .middle #workItems .workItem .eiIcono {
+  font-size: 2em;
+}
+
+/* line 194, sources/scss/style.css */
+.middle #educationItems .educationItem .eiAnio, .middle #educationItems .educationItem .wiAnio, .middle #educationItems .educationItem .iiNombre, .middle #educationItems .educationItem .wiTelefono, .middle #educationItems .workItem .eiAnio, .middle #educationItems .workItem .wiAnio, .middle #educationItems .workItem .iiNombre, .middle #educationItems .workItem .wiTelefono, .middle #workItems .educationItem .eiAnio, .middle #workItems .educationItem .wiAnio, .middle #workItems .educationItem .iiNombre, .middle #workItems .educationItem .wiTelefono, .middle #workItems .workItem .eiAnio, .middle #workItems .workItem .wiAnio, .middle #workItems .workItem .iiNombre, .middle #workItems .workItem .wiTelefono {
+  color: #a6e22e;
+  font-weight: bold;
+}
+
+/* line 197, sources/scss/style.css */
+.middle #educationItems .educationItem .eiInstitucion, .middle #educationItems .educationItem .wiCargo, .middle #educationItems .educationItem .wiJefe, .middle #educationItems .workItem .eiInstitucion, .middle #educationItems .workItem .wiCargo, .middle #educationItems .workItem .wiJefe, .middle #workItems .educationItem .eiInstitucion, .middle #workItems .educationItem .wiCargo, .middle #workItems .educationItem .wiJefe, .middle #workItems .workItem .eiInstitucion, .middle #workItems .workItem .wiCargo, .middle #workItems .workItem .wiJefe {
+  color: #ffe792;
+}
+
+/* line 199, sources/scss/style.css */
+.middle #educationItems .educationItem .eiCarrera, .middle #educationItems .educationItem .wiEmpresa, .middle #educationItems .workItem .eiCarrera, .middle #educationItems .workItem .wiEmpresa, .middle #workItems .educationItem .eiCarrera, .middle #workItems .educationItem .wiEmpresa, .middle #workItems .workItem .eiCarrera, .middle #workItems .workItem .wiEmpresa {
+  color: #F92672;
+  font-weight: bold;
+}
+
+/* line 202, sources/scss/style.css */
+.middle #educationItems .educationItem .wiImgEmpresa img, .middle #educationItems .educationItem .iiImgEmpresa img, .middle #educationItems .workItem .wiImgEmpresa img, .middle #educationItems .workItem .iiImgEmpresa img, .middle #workItems .educationItem .wiImgEmpresa img, .middle #workItems .educationItem .iiImgEmpresa img, .middle #workItems .workItem .wiImgEmpresa img, .middle #workItems .workItem .iiImgEmpresa img {
+  max-width: 150px;
+  margin: 10px;
+}
+
+/* line 205, sources/scss/style.css */
+.middle #educationItems em, .middle #workItems em {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+/* line 211, sources/scss/style.css */
 #intereses {
   display: flex;
-  flex-wrap: wrap; }
-  #intereses .interes {
-    width: 22%;
-    text-align: center;
-    margin: 20px 5px;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column; }
-    #intereses .interes .iiNombre {
-      color: #A6E22E;
-      font-weight: bold; }
-    #intereses .interes .iiImgEmpresa img {
-      max-width: 150px;
-      margin: 10px;
-      transition: transform ease-out .3s;
-      border: 8px solid transparent;
-      border-radius: 50%; }
-      #intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
-        transform: scale(1.2) rotate(10deg);
-        cursor: crosshair;
-        border: 8px solid white;
-        border-radius: 50%; }
-  #intereses em {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    font-weight: bold; }
+  flex-wrap: wrap;
+}
 
+/* line 214, sources/scss/style.css */
+#intereses .interes {
+  width: 22%;
+  text-align: center;
+  margin: 20px 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* line 222, sources/scss/style.css */
+#intereses .interes .iiNombre {
+  color: #a6e22e;
+  font-weight: bold;
+}
+
+/* line 225, sources/scss/style.css */
+#intereses .interes .iiImgEmpresa img {
+  max-width: 150px;
+  margin: 10px;
+  transition: transform ease-out .3s;
+  border: 8px solid transparent;
+  border-radius: 50%;
+}
+
+/* line 231, sources/scss/style.css */
+#intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
+  transform: scale(1.2) rotate(10deg);
+  cursor: crosshair;
+  border: 8px solid white;
+  border-radius: 50%;
+}
+
+/* line 236, sources/scss/style.css */
+#intereses em {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+}
+
+/* line 242, sources/scss/style.css */
 .hiddenAnimate {
-  opacity: 0; }
+  opacity: 0;
+}
 
+/* line 245, sources/scss/style.css */
 .visibleAnimate {
   opacity: 1;
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: initial;
   /* Chrome, Safari, Opera */
-  animation-iteration-count: initial; }
+  animation-iteration-count: initial;
+}
 
 @keyframes fadein {
   from {
-    opacity: 0; }
+    opacity: 0;
+  }
   to {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 /* Firefox < 16 */
 @-moz-keyframes fadein {
   from {
-    opacity: 0; }
+    opacity: 0;
+  }
   to {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
   from {
-    opacity: 0; }
+    opacity: 0;
+  }
   to {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
+  /* line 274, sources/scss/style.css */
   from {
-    opacity: 0; }
+    opacity: 0;
+  }
+  /* line 276, sources/scss/style.css */
   to {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 /* Opera < 12.1 */
 @-o-keyframes fadein {
   from {
-    opacity: 0; }
+    opacity: 0;
+  }
   to {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}

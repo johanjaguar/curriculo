@@ -2,12 +2,11 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="build/cssmin/style.min.css">
+		<link rel="stylesheet" type="text/css" href="build/css/style.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
-		<script src="dist/js/jquery-1.12.2.min.js"></script>
-		<script type="text/javascript" src="dist/js/percircle.js"></script>
-		<link rel="stylesheet" href="build/cssmin/percircle.min.css">
-		<link rel="stylesheet" href="build/cssmin/animate.min.css">
+		<script src="build/js/final.js"></script>
+		<link rel="stylesheet" href="build/css/percircle.min.css">
+		<link rel="stylesheet" href="build/css/animate.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 	</head>
@@ -20,7 +19,7 @@
 			<h2 id="h2Encabezado" class="hcodigo">#información_General</h2>
 			<div id="encabezado">
 				<div class="fotoJohan">
-					<img src="img/johan.png"/>
+					<img src="build/images-op/johan.png"/>
 				</div>
 				<div class="encabezadoRight">
 					<div class="eRightTop">
@@ -57,7 +56,6 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
 
 								<h2 id="h2Referencias" class="hcodigo">#Cursos de Rugby</h2>
 					<div id="workItems">
-						<script src="js/referencia.js"></script>
 						<script>
 							document.write( referencia('http://www.worldrugby.org/', 'wr', 'World Rugby', 'World Rugby Curso de Leyes del Juego','','2012','' ));
 							document.write( referencia('http://www.worldrugby.org/', 'wr', 'World Rugby', 'World Rugby Curso de Rugby Ready','','2012','' ));
@@ -75,7 +73,6 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
 
 					<h2 id="h2Referencias" class="hcodigo">#Trabajo</h2>
 					<div id="workItems">
-						<script src="js/referencia.js"></script>
 						<script>
 							document.write( referencia('http://eltiempo.com/', 'eltiempo', 'Casa Editorial El Tiempo (Actualmente)', 'Desarrollador Front-End','317 8945533','2016','Gabriel Bobadilla' ));
 							document.write( referencia('http://elevatepeople.tv/', 'godat', 'Godat', 'Desarrollador Front-End','320 8857544','2016','Jair Celis' ));
@@ -96,7 +93,7 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
 					<div id="workItems">
 
 						<script>
-							document.write( referencia('#', 'cris', 'Cristian Gonzalez', 'Publicista - MediaTIC', '300 8983569' ));
+							document.write( referencia('#', 'cris', 'Cristian Gonzalez', 'Publicista - MediaTIC', '300 8983569 ' ));
 							document.write( referencia('#', 'stifen', 'Stifen Panche', 'Consultor de Aplicaciones ORACLE', '301 6628525' ));
 							document.write( referencia('#', 'bimbo', 'Camilo Bermudez', 'Jefe de Oficina de Turismo Tourexito / Egencia', '301 3970158' ));
 							document.write( referencia('#', 'nando', 'Hernando Navarro', 'Gerente General Codipapel', '310 3466271' ));
@@ -107,7 +104,6 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
 
 					<h2 id="h2ProfessionalSkills" class="hcodigo">#Habilidades_Profesionales</h2>
 					<div id="professionalSkills">
-						<script src="js/skills.js"></script>
 						<script>
 							document.write( skill(80, 'yellow', 'Desarrollo Web') );
 							document.write( skill(95, 'green', 'HTML') );
@@ -129,7 +125,6 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
 				<div class="middleRight">
 					<h2 id="h2Education" class="hcodigo">#Educación</h2>
 					<div id="educationItems">
-						<script src="js/educacion.js"></script>
 						<script>
 							document.write( educacion('book', '2010-2007', 'Universidad Distrital Francisco José de Caldas', 'Ingenieria de Sistemas' ));
 							document.write( educacion('graduation-cap', '1993-2003', 'Colegio San Antonio', 'Bachiller tecnologico con enfasis en Programación' ));
@@ -149,7 +144,6 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
 
 			<h2 id="h2Intereses" class="hcodigo">#Intereses</h2>
 			<div id="intereses">
-				<script src="js/intereses.js"></script>
 				<script>
 					document.write( intereses('rugby', 'Rugby') );
 					document.write( intereses('socialmedia', 'Social Media') );
@@ -169,6 +163,5 @@ Finalmente, me defino como una persona con deseo de seguir aprendiendo y consoli
         $("[id$='circle']").percircle();
     });
 </script>
-  	<script src="js/animaciones.js"></script>
 	</body>
 </html>
