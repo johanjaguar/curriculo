@@ -9,7 +9,7 @@ function referencia(link, imagen, empresa, cargo, telefono, anio, jefe){
 								if( anio.length > 0 ){ html += '		<p class="wiAnio">'+anio+'</p>'; }
 								if( jefe != 'NULL' ){
                   if(lang == "en")
-                    html += '		<p class="wiJefe">Boss:<br/>'+jefe+'</p>';
+                    html += '		<p class="wiJefe">Inmediate Supervisor:<br/>'+jefe+'</p>';
                   else
                     html += '		<p class="wiJefe">Jefe Inmediato:<br/>'+jefe+'</p>';
                 }
