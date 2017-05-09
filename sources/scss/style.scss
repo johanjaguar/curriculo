@@ -151,6 +151,8 @@ em{
 			border-radius: 50%;
 			@media screen and (max-width: $mobile-split-width) {
 				max-width: 85%;
+				margin: 0 auto;
+    		display: flex;
 			}
 		}
 		&:hover, &:focus{
