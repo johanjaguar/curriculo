@@ -48,6 +48,56 @@ body {
 }
 
 /* line 30, sources/scss/style.css */
+.nota {
+  max-width: 100%;
+  float: none;
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 35, sources/scss/style.css */
+  .nota {
+    display: block;
+    margin: 0 5px 20px 10px;
+  }
+}
+
+/* line 38, sources/scss/style.css */
+.nota .notaBox {
+  opacity: 0.9;
+  width: 33%;
+  float: right;
+  background: #272822;
+  z-index: 11;
+  position: absolute;
+  padding: 3px 6px;
+  border: 1px dashed #66f9ef;
+  right: 10px;
+  top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 50, sources/scss/style.css */
+  .nota .notaBox {
+    width: 100%;
+    float: none;
+    position: relative;
+  }
+}
+
+/* line 54, sources/scss/style.css */
+.nota .notaBox p {
+  font-size: 0.6em;
+  color: #75715e;
+}
+
+/* line 57, sources/scss/style.css */
+.nota .notaBox a {
+  color: #66f9ef;
+  text-decoration: none;
+}
+
+/* line 61, sources/scss/style.css */
 .hcodigo {
   color: #a6e22e;
   display: inline-table;
@@ -59,7 +109,7 @@ body {
   padding: 0px 5px 5px 5px;
 }
 
-/* line 39, sources/scss/style.css */
+/* line 70, sources/scss/style.css */
 .hcodigo::after {
   content: "{";
   background: #272822;
@@ -67,14 +117,14 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 44, sources/scss/style.css */
+  /* line 75, sources/scss/style.css */
   .hcodigo {
     font-size: 1em;
     margin-top: 20px;
   }
 }
 
-/* line 48, sources/scss/style.css */
+/* line 79, sources/scss/style.css */
 h1 {
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -88,29 +138,29 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 59, sources/scss/style.css */
+  /* line 90, sources/scss/style.css */
   h1.hcodigo {
     margin-top: 0;
     font-size: 1.8em;
   }
 }
 
-/* line 63, sources/scss/style.css */
+/* line 94, sources/scss/style.css */
 h3, h4 {
   color: #ffe792;
 }
 
-/* line 65, sources/scss/style.css */
+/* line 96, sources/scss/style.css */
 h3 b, h4 b {
   color: #a6e22e;
 }
 
-/* line 67, sources/scss/style.css */
+/* line 98, sources/scss/style.css */
 h3 span, h4 span {
   color: #f8f8f2;
 }
 
-/* line 70, sources/scss/style.css */
+/* line 101, sources/scss/style.css */
 em {
   font-style: normal;
   color: #f8f8f2;
@@ -122,26 +172,26 @@ em {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 79, sources/scss/style.css */
+  /* line 110, sources/scss/style.css */
   em {
     font-size: 1em;
   }
 }
 
-/* line 81, sources/scss/style.css */
+/* line 112, sources/scss/style.css */
 em.h1 {
   font-size: 2em;
   margin-bottom: -40px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 85, sources/scss/style.css */
+  /* line 116, sources/scss/style.css */
   em.h1 {
     font-size: 1em;
   }
 }
 
-/* line 88, sources/scss/style.css */
+/* line 119, sources/scss/style.css */
 #hojadevida, #encabezado, #personalSkills, #professionalSkills, #educationItems, #workItems, #intereses, #clientes {
   border: 1px dotted #ffe792;
   position: relative;
@@ -160,13 +210,13 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 104, sources/scss/style.css */
+  /* line 135, sources/scss/style.css */
   #hojadevida, #encabezado, #personalSkills, #professionalSkills, #educationItems, #workItems, #intereses, #clientes {
     padding: 5px;
   }
 }
 
-/* line 107, sources/scss/style.css */
+/* line 138, sources/scss/style.css */
 #encabezado {
   display: flex;
   justify-content: center;
@@ -174,7 +224,7 @@ em.h1 {
   flex-wrap: wrap;
 }
 
-/* line 112, sources/scss/style.css */
+/* line 143, sources/scss/style.css */
 #encabezado em {
   position: absolute;
   bottom: 15px;
@@ -182,7 +232,7 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 117, sources/scss/style.css */
+/* line 148, sources/scss/style.css */
 #encabezado .fotoJohan {
   padding: 20px;
   float: left;
@@ -191,7 +241,7 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 123, sources/scss/style.css */
+  /* line 154, sources/scss/style.css */
   #encabezado .fotoJohan {
     width: 100%;
     float: none;
@@ -199,7 +249,7 @@ em.h1 {
   }
 }
 
-/* line 127, sources/scss/style.css */
+/* line 158, sources/scss/style.css */
 #encabezado .fotoJohan img {
   max-width: 250px;
   height: auto;
@@ -209,7 +259,7 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 134, sources/scss/style.css */
+  /* line 165, sources/scss/style.css */
   #encabezado .fotoJohan img {
     max-width: 85%;
     margin: 0 auto;
@@ -217,26 +267,26 @@ em.h1 {
   }
 }
 
-/* line 138, sources/scss/style.css */
+/* line 169, sources/scss/style.css */
 #encabezado .fotoJohan:hover, #encabezado .fotoJohan:focus {
   transform: scale(1.2) rotate(10deg);
   cursor: crosshair;
 }
 
-/* line 141, sources/scss/style.css */
+/* line 172, sources/scss/style.css */
 #encabezado .fotoJohan:hover img, #encabezado .fotoJohan:focus img {
   border: 10px solid white;
   border-radius: 50%;
 }
 
-/* line 144, sources/scss/style.css */
+/* line 175, sources/scss/style.css */
 #encabezado .encabezadoRight {
   float: left;
   width: 61%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 148, sources/scss/style.css */
+  /* line 179, sources/scss/style.css */
   #encabezado .encabezadoRight {
     width: 100%;
     float: none;
@@ -244,19 +294,19 @@ em.h1 {
   }
 }
 
-/* line 152, sources/scss/style.css */
+/* line 183, sources/scss/style.css */
 #encabezado .encabezadoRight .eRightTopRedes a {
   text-decoration: none;
   cursor: pointer;
   transition: color ease-in-out .5s;
 }
 
-/* line 156, sources/scss/style.css */
+/* line 187, sources/scss/style.css */
 #encabezado .encabezadoRight .eRightTopRedes a:hover, #encabezado .encabezadoRight .eRightTopRedes a:focus {
   color: white;
 }
 
-/* line 159, sources/scss/style.css */
+/* line 190, sources/scss/style.css */
 .middle #professionalSkills {
   display: flex;
   justify-content: center;
@@ -264,7 +314,7 @@ em.h1 {
   flex-wrap: wrap;
 }
 
-/* line 164, sources/scss/style.css */
+/* line 195, sources/scss/style.css */
 .middle #professionalSkills .professionalSkill {
   float: left;
   padding: 20px;
@@ -275,7 +325,7 @@ em.h1 {
   text-align: center;
 }
 
-/* line 172, sources/scss/style.css */
+/* line 203, sources/scss/style.css */
 .middle #professionalSkills em {
   position: absolute;
   bottom: 15px;
@@ -283,7 +333,7 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 178, sources/scss/style.css */
+/* line 209, sources/scss/style.css */
 .middle #personalSkills {
   padding: 30px 30px 20px 30px;
   display: flex;
@@ -292,54 +342,54 @@ em.h1 {
   flex-wrap: wrap;
 }
 
-/* line 184, sources/scss/style.css */
+/* line 215, sources/scss/style.css */
 .middle #personalSkills a {
   text-decoration: none;
 }
 
-/* line 186, sources/scss/style.css */
+/* line 217, sources/scss/style.css */
 .middle #personalSkills a[data-peso="1"] {
   color: #f8f8f2;
   font-size: 1em;
 }
 
-/* line 189, sources/scss/style.css */
+/* line 220, sources/scss/style.css */
 .middle #personalSkills a[data-peso="2"] {
   color: #F92672;
   font-size: 1.5em;
 }
 
-/* line 192, sources/scss/style.css */
+/* line 223, sources/scss/style.css */
 .middle #personalSkills a[data-peso="3"] {
   color: #66f9ef;
   font-size: 2em;
 }
 
-/* line 195, sources/scss/style.css */
+/* line 226, sources/scss/style.css */
 .middle #personalSkills a[data-peso="4"] {
   color: #a6e22e;
   font-size: 2.5em;
 }
 
-/* line 198, sources/scss/style.css */
+/* line 229, sources/scss/style.css */
 .middle #personalSkills a[data-peso="5"] {
   color: #fd971f;
   font-size: 3em;
 }
 
-/* line 201, sources/scss/style.css */
+/* line 232, sources/scss/style.css */
 .middle #personalSkills a[data-peso="6"] {
   color: #ffe792;
   font-size: 3.5em;
 }
 
-/* line 204, sources/scss/style.css */
+/* line 235, sources/scss/style.css */
 .middle #personalSkills a[data-peso="7"] {
   color: #ae81ff;
   font-size: 4em;
 }
 
-/* line 207, sources/scss/style.css */
+/* line 238, sources/scss/style.css */
 .middle #personalSkills em {
   position: absolute;
   bottom: 15px;
@@ -347,13 +397,13 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 213, sources/scss/style.css */
+/* line 244, sources/scss/style.css */
 .middle #educationItems, .middle #workItems {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 216, sources/scss/style.css */
+/* line 247, sources/scss/style.css */
 .middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
   width: 22%;
   text-align: center;
@@ -367,58 +417,58 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 227, sources/scss/style.css */
+  /* line 258, sources/scss/style.css */
   .middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
     width: 100%;
   }
-  /* line 229, sources/scss/style.css */
+  /* line 260, sources/scss/style.css */
   .middle #educationItems .educationItem p, .middle #educationItems .workItem p, .middle #workItems .educationItem p, .middle #workItems .workItem p {
     font-size: 0.9em;
   }
 }
 
 @media screen and (max-width: 768px) {
-  /* line 232, sources/scss/style.css */
+  /* line 263, sources/scss/style.css */
   .middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
     margin: 5px;
   }
 }
 
-/* line 234, sources/scss/style.css */
+/* line 265, sources/scss/style.css */
 .middle #educationItems .educationItem:hover, .middle #educationItems .workItem:hover, .middle #workItems .educationItem:hover, .middle #workItems .workItem:hover {
   background: #444444;
   cursor: pointer;
 }
 
-/* line 237, sources/scss/style.css */
+/* line 268, sources/scss/style.css */
 .middle #educationItems .educationItem .eiIcono, .middle #educationItems .workItem .eiIcono, .middle #workItems .educationItem .eiIcono, .middle #workItems .workItem .eiIcono {
   font-size: 2em;
 }
 
-/* line 239, sources/scss/style.css */
+/* line 270, sources/scss/style.css */
 .middle #educationItems .educationItem .eiAnio, .middle #educationItems .educationItem .wiAnio, .middle #educationItems .educationItem .iiNombre, .middle #educationItems .educationItem .wiTelefono, .middle #educationItems .workItem .eiAnio, .middle #educationItems .workItem .wiAnio, .middle #educationItems .workItem .iiNombre, .middle #educationItems .workItem .wiTelefono, .middle #workItems .educationItem .eiAnio, .middle #workItems .educationItem .wiAnio, .middle #workItems .educationItem .iiNombre, .middle #workItems .educationItem .wiTelefono, .middle #workItems .workItem .eiAnio, .middle #workItems .workItem .wiAnio, .middle #workItems .workItem .iiNombre, .middle #workItems .workItem .wiTelefono {
   color: #a6e22e;
   font-weight: bold;
 }
 
-/* line 242, sources/scss/style.css */
+/* line 273, sources/scss/style.css */
 .middle #educationItems .educationItem .eiInstitucion, .middle #educationItems .educationItem .wiCargo, .middle #educationItems .educationItem .wiJefe, .middle #educationItems .workItem .eiInstitucion, .middle #educationItems .workItem .wiCargo, .middle #educationItems .workItem .wiJefe, .middle #workItems .educationItem .eiInstitucion, .middle #workItems .educationItem .wiCargo, .middle #workItems .educationItem .wiJefe, .middle #workItems .workItem .eiInstitucion, .middle #workItems .workItem .wiCargo, .middle #workItems .workItem .wiJefe {
   color: #ffe792;
 }
 
-/* line 244, sources/scss/style.css */
+/* line 275, sources/scss/style.css */
 .middle #educationItems .educationItem .eiCarrera, .middle #educationItems .educationItem .wiEmpresa, .middle #educationItems .workItem .eiCarrera, .middle #educationItems .workItem .wiEmpresa, .middle #workItems .educationItem .eiCarrera, .middle #workItems .educationItem .wiEmpresa, .middle #workItems .workItem .eiCarrera, .middle #workItems .workItem .wiEmpresa {
   color: #F92672;
   font-weight: bold;
 }
 
-/* line 247, sources/scss/style.css */
+/* line 278, sources/scss/style.css */
 .middle #educationItems .educationItem .wiImgEmpresa img, .middle #educationItems .educationItem .iiImgEmpresa img, .middle #educationItems .workItem .wiImgEmpresa img, .middle #educationItems .workItem .iiImgEmpresa img, .middle #workItems .educationItem .wiImgEmpresa img, .middle #workItems .educationItem .iiImgEmpresa img, .middle #workItems .workItem .wiImgEmpresa img, .middle #workItems .workItem .iiImgEmpresa img {
   max-width: 150px;
   margin: 10px;
 }
 
-/* line 250, sources/scss/style.css */
+/* line 281, sources/scss/style.css */
 .middle #educationItems em, .middle #workItems em {
   position: absolute;
   bottom: 15px;
@@ -426,13 +476,13 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 256, sources/scss/style.css */
+/* line 287, sources/scss/style.css */
 #intereses {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 259, sources/scss/style.css */
+/* line 290, sources/scss/style.css */
 #intereses .interes {
   width: 22%;
   text-align: center;
@@ -444,19 +494,19 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 268, sources/scss/style.css */
+  /* line 299, sources/scss/style.css */
   #intereses .interes {
     width: 100%;
   }
 }
 
-/* line 270, sources/scss/style.css */
+/* line 301, sources/scss/style.css */
 #intereses .interes .iiNombre {
   color: #a6e22e;
   font-weight: bold;
 }
 
-/* line 273, sources/scss/style.css */
+/* line 304, sources/scss/style.css */
 #intereses .interes .iiImgEmpresa img {
   max-width: 150px;
   margin: 10px;
@@ -465,7 +515,7 @@ em.h1 {
   border-radius: 50%;
 }
 
-/* line 279, sources/scss/style.css */
+/* line 310, sources/scss/style.css */
 #intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
   transform: scale(1.2) rotate(10deg);
   cursor: crosshair;
@@ -473,7 +523,7 @@ em.h1 {
   border-radius: 50%;
 }
 
-/* line 284, sources/scss/style.css */
+/* line 315, sources/scss/style.css */
 #intereses em {
   position: absolute;
   bottom: 15px;
@@ -481,12 +531,12 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 290, sources/scss/style.css */
+/* line 321, sources/scss/style.css */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 293, sources/scss/style.css */
+/* line 324, sources/scss/style.css */
 .visibleAnimate {
   opacity: 1;
   -webkit-animation-duration: 3s;
@@ -526,11 +576,11 @@ em.h1 {
 
 /* Internet Explorer */
 @-ms-keyframes fadein {
-  /* line 322, sources/scss/style.css */
+  /* line 353, sources/scss/style.css */
   from {
     opacity: 0;
   }
-  /* line 324, sources/scss/style.css */
+  /* line 355, sources/scss/style.css */
   to {
     opacity: 1;
   }

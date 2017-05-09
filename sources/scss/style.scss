@@ -40,7 +40,42 @@ body{
 		width: 100%;
 	}
 }
+.nota{
+	max-width: 100%;
+	float: none;
+	display: inline;
 
+	@media screen and (max-width: $mobile-split-width) {
+		display: block;
+    margin: 0 5px 20px 10px;
+	}
+	.notaBox{
+		opacity: 0.9;
+		width: 33%;
+		float: right;
+		background: $negro;
+		z-index: 11;
+    position: absolute;
+		padding: 3px 6px;
+		border: 1px dashed $cyan;
+		right: 10px;
+		top: 10px;
+		@media screen and (max-width: $mobile-split-width) {
+			width: 100%;
+			float: none;
+			position: relative;
+		}
+		p{
+			font-size: 0.6em;
+			color: $grisMedio;
+		}
+		a{
+			color: $cyan;
+			text-decoration: none;;
+		}
+	}
+
+}
 .hcodigo{
 	color: $verde;
 	display: inline-table;
