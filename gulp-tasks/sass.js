@@ -2,19 +2,21 @@ var gulp = require('gulp');
 var sass = require('gulp-sass');
 var cssmin = require('gulp-cssmin');
 var rename = require('gulp-rename');
+var sourcemaps = require('gulp-sourcemaps');
 
 //tarea sass
 gulp.task('sass', function(){
 
   //fuente de los archivos
   gulp.src('sources/scss/**/*.scss')
-    .pipe(sass.sync().on('error', sass.logError))
-		.pipe(
+    .pipe(sourcemaps.init())
+    .pipe(
     	sass({
 	  		outputStyle: 'expanded',
 	  		sourceComments: true
-	    })
+	    }).on('error', sass.logError)
 	  )
+    .pipe(sourcemaps.write())
 	  //destino de los archivos
 	  .pipe( gulp.dest('build/css/' ))
 });
