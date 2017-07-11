@@ -1,9 +1,18 @@
-$blanco: #f8f8f2;
+@import "generals/mixins";
+@import "generals/typography";
+@import "generals/colors";
+@import "generals/variables";
+@import "generals/animations";
+@import "generals/visual";
+@import "generals/layout";   
+  
+ 
+$blanco:#f8f8f2;   
 $negro: #272822;
 $grisMuyOscuro: #49483e;
 $magenta: #F92672;
 $cyan: #66f9ef;
-$verde: #a6e22e;
+$verde: #a6e22e; 
 $grisMedio: #75715e;
 $naranja: #fd971f;
 $curuba: #ffe792;
@@ -43,7 +52,7 @@ body{
 .nota{
 	max-width: 100%;
 	float: none;
-	display: inline;
+	display: inline; 
 
 	@media screen and (max-width: $mobile-split-width) {
 		display: block;
@@ -65,7 +74,7 @@ body{
 			float: none;
 			position: relative;
 		}
-		p{
+		p{ 
 			font-size: 0.6em;
 			color: $grisMedio;
 		}

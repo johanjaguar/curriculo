@@ -5,10 +5,10 @@ var imagemin = require('gulp-imagemin'),
 //optimizacion de imagenes
 gulp.task('imagesmin', function(){
   gulp.src([
-    'sources/images/**/*.gif',
-    'sources/images/**/*.png',
-    'sources/images/**/*.jpg',
-    'sources/images/**/*.jpeg'
+    'src/images/**/*.gif',
+    'src/images/**/*.png',
+    'src/images/**/*.jpg',
+    'src/images/**/*.jpeg'
   ])
   	.pipe(imagemin(
       {
