@@ -1,608 +1,15 @@
-/* line 14, src/scss/generals/_colors.scss */
-.lmagenta {
-  color: #F92672;
-}
-
-/* line 17, src/scss/generals/_colors.scss */
-.lmoradito {
-  color: #ae81ff;
-}
-
-/* line 20, src/scss/generals/_colors.scss */
-.lcyan {
-  color: #66f9ef;
-}
-
-/* line 23, src/scss/generals/_colors.scss */
-.lblanco {
-  color: #f8f8f2;
-}
-
-/* line 26, src/scss/generals/_colors.scss */
-.lcuruba {
-  color: #ffe792;
-}
-
-/* line 29, src/scss/generals/_colors.scss */
-.lverde {
-  color: #a6e22e;
-}
-
-/*The generals layout rules could be finded here, like grid system, responsive behavior and the rules for the differents components that I can generalize*/
-/* line 23, src/scss/style.scss */
-.lmagenta {
-  color: #F92672;
-}
-
-/* line 26, src/scss/style.scss */
-.lmoradito {
-  color: #ae81ff;
-}
-
-/* line 29, src/scss/style.scss */
-.lcyan {
-  color: #66f9ef;
-}
-
-/* line 32, src/scss/style.scss */
-.lblanco {
-  color: #f8f8f2;
-}
-
-/* line 35, src/scss/style.scss */
-.lcuruba {
-  color: #ffe792;
-}
-
-/* line 38, src/scss/style.scss */
-.lverde {
-  color: #a6e22e;
-}
-
-/* line 41, src/scss/style.scss */
-body {
-  background: #272822;
-  font-family: 'Droid Sans Mono', monospace;
-}
-
-/* line 45, src/scss/style.scss */
-.container {
-  margin: 0 auto;
-  width: 960px;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 45, src/scss/style.scss */
-  .container {
-    width: 100%;
-  }
-}
-
-/* line 52, src/scss/style.scss */
-.nota {
-  max-width: 100%;
-  float: none;
-  display: inline;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 52, src/scss/style.scss */
-  .nota {
-    display: block;
-    margin: 0 5px 20px 10px;
-  }
-}
-
-/* line 61, src/scss/style.scss */
-.nota .notaBox {
-  opacity: 0.9;
-  width: 33%;
-  float: right;
-  background: #272822;
-  z-index: 11;
-  position: absolute;
-  padding: 3px 6px;
-  border: 1px dashed #66f9ef;
-  right: 10px;
-  top: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 61, src/scss/style.scss */
-  .nota .notaBox {
-    width: 100%;
-    float: none;
-    position: relative;
-  }
-}
-
-/* line 77, src/scss/style.scss */
-.nota .notaBox p {
-  font-size: 0.6em;
-  color: #75715e;
-}
-
-/* line 81, src/scss/style.scss */
-.nota .notaBox a {
-  color: #66f9ef;
-  text-decoration: none;
-}
-
-/* line 88, src/scss/style.scss */
-.hcodigo {
-  color: #a6e22e;
-  display: inline-table;
-  background: #272822;
-  z-index: 2;
-  position: relative;
-  margin-bottom: -18px;
-  margin-left: 10px;
-  padding: 0px 5px 5px 5px;
-}
-
-/* line 97, src/scss/style.scss */
-.hcodigo::after {
-  content: "{";
-  background: #272822;
-  color: #f8f8f2;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 88, src/scss/style.scss */
-  .hcodigo {
-    font-size: 1em;
-    margin-top: 20px;
-  }
-}
-
-/* line 108, src/scss/style.scss */
-h1 {
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  /* Firefox < 16 */
-  /* Internet Explorer */
-  /* Opera < 12.1 */
-  animation: fadein 2s;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 115, src/scss/style.scss */
-  h1.hcodigo {
-    margin-top: 0;
-    font-size: 1.8em;
-  }
-}
-
-/* line 121, src/scss/style.scss */
-h3, h4 {
-  color: #ffe792;
-}
-
-/* line 123, src/scss/style.scss */
-h3 b, h4 b {
-  color: #a6e22e;
-}
-
-/* line 126, src/scss/style.scss */
-h3 span, h4 span {
-  color: #f8f8f2;
-}
-
-/* line 131, src/scss/style.scss */
-em {
-  font-style: normal;
-  color: #f8f8f2;
-  font-size: 1.5em;
-  margin-bottom: -30px;
-  display: block;
-  background: #272822;
-  width: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 131, src/scss/style.scss */
-  em {
-    font-size: 1em;
-  }
-}
-
-/* line 142, src/scss/style.scss */
-em.h1 {
-  font-size: 2em;
-  margin-bottom: -40px;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 142, src/scss/style.scss */
-  em.h1 {
-    font-size: 1em;
-  }
-}
-
-/* line 150, src/scss/style.scss */
-#hojadevida, #encabezado, #personalSkills, #professionalSkills, #educationItems, #workItems, #intereses, #clientes {
-  border: 1px dotted #ffe792;
-  position: relative;
-  z-index: 1;
-  padding: 20px;
-  color: #ffe792;
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  /* Firefox < 16 */
-  /* Internet Explorer */
-  /* Opera < 12.1 */
-  animation: fadein 2s;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 150, src/scss/style.scss */
-  #hojadevida, #encabezado, #personalSkills, #professionalSkills, #educationItems, #workItems, #intereses, #clientes {
-    padding: 5px;
-  }
-}
-
-/* line 169, src/scss/style.scss */
-#encabezado {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-/* line 174, src/scss/style.scss */
-#encabezado em {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  font-weight: bold;
-}
-
-/* line 180, src/scss/style.scss */
-#encabezado .fotoJohan {
-  padding: 20px;
-  float: left;
-  width: 33%;
-  -webkit-transition: -webkit-transform ease-out .3s;
-  transition: -webkit-transform ease-out .3s;
-  transition: transform ease-out .3s;
-  transition: transform ease-out .3s, -webkit-transform ease-out .3s;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 180, src/scss/style.scss */
-  #encabezado .fotoJohan {
-    width: 100%;
-    float: none;
-    padding: 5px;
-  }
-}
-
-/* line 190, src/scss/style.scss */
-#encabezado .fotoJohan img {
-  max-width: 250px;
-  height: auto;
-  -webkit-transition: border ease-in-out .5s;
-  transition: border ease-in-out .5s;
-  border: 10px solid transparent;
-  border-radius: 50%;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 190, src/scss/style.scss */
-  #encabezado .fotoJohan img {
-    max-width: 85%;
-    margin: 0 auto;
-    display: -webkit-box;
-    display: flex;
-  }
-}
-
-/* line 202, src/scss/style.scss */
-#encabezado .fotoJohan:hover, #encabezado .fotoJohan:focus {
-  -webkit-transform: scale(1.2) rotate(10deg);
-  transform: scale(1.2) rotate(10deg);
-  cursor: crosshair;
-}
-
-/* line 205, src/scss/style.scss */
-#encabezado .fotoJohan:hover img, #encabezado .fotoJohan:focus img {
-  border: 10px solid white;
-  border-radius: 50%;
-}
-
-/* line 211, src/scss/style.scss */
-#encabezado .encabezadoRight {
-  float: left;
-  width: 61%;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 211, src/scss/style.scss */
-  #encabezado .encabezadoRight {
-    width: 100%;
-    float: none;
-    font-size: 0.8em;
-  }
-}
-
-/* line 220, src/scss/style.scss */
-#encabezado .encabezadoRight .eRightTopRedes a {
-  text-decoration: none;
-  cursor: pointer;
-  -webkit-transition: color ease-in-out .5s;
-  transition: color ease-in-out .5s;
-}
-
-/* line 224, src/scss/style.scss */
-#encabezado .encabezadoRight .eRightTopRedes a:hover, #encabezado .encabezadoRight .eRightTopRedes a:focus {
-  color: white;
-}
-
-/* line 234, src/scss/style.scss */
-.middle #professionalSkills {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-/* line 239, src/scss/style.scss */
-.middle #professionalSkills .professionalSkill {
-  float: left;
-  padding: 20px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  text-align: center;
-}
-
-/* line 248, src/scss/style.scss */
-.middle #professionalSkills em {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  font-weight: bold;
-}
-
-/* line 255, src/scss/style.scss */
-.middle #personalSkills {
-  padding: 30px 30px 20px 30px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  margin-bottom: -30px;
-  flex-wrap: wrap;
-}
-
-/* line 261, src/scss/style.scss */
-.middle #personalSkills a {
-  text-decoration: none;
-}
-
-/* line 263, src/scss/style.scss */
-.middle #personalSkills a[data-peso="1"] {
-  color: #f8f8f2;
-  font-size: 1em;
-}
-
-/* line 267, src/scss/style.scss */
-.middle #personalSkills a[data-peso="2"] {
-  color: #F92672;
-  font-size: 1.5em;
-}
-
-/* line 271, src/scss/style.scss */
-.middle #personalSkills a[data-peso="3"] {
-  color: #66f9ef;
-  font-size: 2em;
-}
-
-/* line 275, src/scss/style.scss */
-.middle #personalSkills a[data-peso="4"] {
-  color: #a6e22e;
-  font-size: 2.5em;
-}
-
-/* line 279, src/scss/style.scss */
-.middle #personalSkills a[data-peso="5"] {
-  color: #fd971f;
-  font-size: 3em;
-}
-
-/* line 283, src/scss/style.scss */
-.middle #personalSkills a[data-peso="6"] {
-  color: #ffe792;
-  font-size: 3.5em;
-}
-
-/* line 287, src/scss/style.scss */
-.middle #personalSkills a[data-peso="7"] {
-  color: #ae81ff;
-  font-size: 4em;
-}
-
-/* line 292, src/scss/style.scss */
-.middle #personalSkills em {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  font-weight: bold;
-}
-
-/* line 299, src/scss/style.scss */
-.middle #educationItems, .middle #workItems {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* line 302, src/scss/style.scss */
-.middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
-  width: 22%;
-  text-align: center;
-  margin: 20px 5px;
-  padding: 5px;
-  border: #ffe792 1px dotted;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  -webkit-transition: background ease-out .3s;
-  transition: background ease-out .3s;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 302, src/scss/style.scss */
-  .middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
-    width: 100%;
-  }
-  /* line 306, src/scss/style.scss */
-  .middle #educationItems .educationItem p, .middle #educationItems .workItem p, .middle #workItems .educationItem p, .middle #workItems .workItem p {
-    font-size: 0.9em;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  /* line 302, src/scss/style.scss */
-  .middle #educationItems .educationItem, .middle #educationItems .workItem, .middle #workItems .educationItem, .middle #workItems .workItem {
-    margin: 5px;
-  }
-}
-
-/* line 321, src/scss/style.scss */
-.middle #educationItems .educationItem:hover, .middle #educationItems .workItem:hover, .middle #workItems .educationItem:hover, .middle #workItems .workItem:hover {
-  background: #444444;
-  cursor: pointer;
-}
-
-/* line 325, src/scss/style.scss */
-.middle #educationItems .educationItem .eiIcono, .middle #educationItems .workItem .eiIcono, .middle #workItems .educationItem .eiIcono, .middle #workItems .workItem .eiIcono {
-  font-size: 2em;
-}
-
-/* line 328, src/scss/style.scss */
-.middle #educationItems .educationItem .eiAnio, .middle #educationItems .educationItem .wiAnio, .middle #educationItems .educationItem .iiNombre, .middle #educationItems .educationItem .wiTelefono, .middle #educationItems .workItem .eiAnio, .middle #educationItems .workItem .wiAnio, .middle #educationItems .workItem .iiNombre, .middle #educationItems .workItem .wiTelefono, .middle #workItems .educationItem .eiAnio, .middle #workItems .educationItem .wiAnio, .middle #workItems .educationItem .iiNombre, .middle #workItems .educationItem .wiTelefono, .middle #workItems .workItem .eiAnio, .middle #workItems .workItem .wiAnio, .middle #workItems .workItem .iiNombre, .middle #workItems .workItem .wiTelefono {
-  color: #a6e22e;
-  font-weight: bold;
-}
-
-/* line 332, src/scss/style.scss */
-.middle #educationItems .educationItem .eiInstitucion, .middle #educationItems .educationItem .wiCargo, .middle #educationItems .educationItem .wiJefe, .middle #educationItems .workItem .eiInstitucion, .middle #educationItems .workItem .wiCargo, .middle #educationItems .workItem .wiJefe, .middle #workItems .educationItem .eiInstitucion, .middle #workItems .educationItem .wiCargo, .middle #workItems .educationItem .wiJefe, .middle #workItems .workItem .eiInstitucion, .middle #workItems .workItem .wiCargo, .middle #workItems .workItem .wiJefe {
-  color: #ffe792;
-}
-
-/* line 335, src/scss/style.scss */
-.middle #educationItems .educationItem .eiCarrera, .middle #educationItems .educationItem .wiEmpresa, .middle #educationItems .workItem .eiCarrera, .middle #educationItems .workItem .wiEmpresa, .middle #workItems .educationItem .eiCarrera, .middle #workItems .educationItem .wiEmpresa, .middle #workItems .workItem .eiCarrera, .middle #workItems .workItem .wiEmpresa {
-  color: #F92672;
-  font-weight: bold;
-}
-
-/* line 339, src/scss/style.scss */
-.middle #educationItems .educationItem .wiImgEmpresa img, .middle #educationItems .educationItem .iiImgEmpresa img, .middle #educationItems .workItem .wiImgEmpresa img, .middle #educationItems .workItem .iiImgEmpresa img, .middle #workItems .educationItem .wiImgEmpresa img, .middle #workItems .educationItem .iiImgEmpresa img, .middle #workItems .workItem .wiImgEmpresa img, .middle #workItems .workItem .iiImgEmpresa img {
-  max-width: 150px;
-  margin: 10px;
-}
-
-/* line 345, src/scss/style.scss */
-.middle #educationItems em, .middle #workItems em {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  font-weight: bold;
-}
-
-/* line 354, src/scss/style.scss */
-#intereses {
-  display: -webkit-box;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-/* line 357, src/scss/style.scss */
-#intereses .interes {
-  width: 22%;
-  text-align: center;
-  margin: 20px 5px;
-  padding: 5px;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 357, src/scss/style.scss */
-  #intereses .interes {
-    width: 100%;
-  }
-}
-
-/* line 368, src/scss/style.scss */
-#intereses .interes .iiNombre {
-  color: #a6e22e;
-  font-weight: bold;
-}
-
-/* line 372, src/scss/style.scss */
-#intereses .interes .iiImgEmpresa img {
-  max-width: 150px;
-  margin: 10px;
-  -webkit-transition: -webkit-transform ease-out .3s;
-  transition: -webkit-transform ease-out .3s;
-  transition: transform ease-out .3s;
-  transition: transform ease-out .3s, -webkit-transform ease-out .3s;
-  border: 8px solid transparent;
-  border-radius: 50%;
-}
-
-/* line 378, src/scss/style.scss */
-#intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
-  -webkit-transform: scale(1.2) rotate(10deg);
-  transform: scale(1.2) rotate(10deg);
-  cursor: crosshair;
-  border: 8px solid white;
-  border-radius: 50%;
-}
-
-/* line 387, src/scss/style.scss */
-#intereses em {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  font-weight: bold;
-}
-
-/* line 395, src/scss/style.scss */
+/* line 2, src/scss/generals/_animations.scss */
 .hiddenAnimate {
   opacity: 0;
 }
 
-/* line 398, src/scss/style.scss */
+/* line 6, src/scss/generals/_animations.scss */
 .visibleAnimate {
-  opacity: 1;
   -webkit-animation-duration: 3s;
   -webkit-animation-iteration-count: initial;
   /* Chrome, Safari, Opera */
   animation-iteration-count: initial;
+  opacity: 1;
 }
 
 @keyframes fadein {
@@ -615,6 +22,14 @@ em.h1 {
 }
 
 /* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 
 /* Safari, Chrome and Opera > 12.1 */
 @-webkit-keyframes fadein {
@@ -627,7 +42,1068 @@ em.h1 {
 }
 
 /* Internet Explorer */
+@-ms-keyframes fadein {
+  /* line 33, src/scss/generals/_animations.scss */
+  from {
+    opacity: 0;
+  }
+  /* line 34, src/scss/generals/_animations.scss */
+  to {
+    opacity: 1;
+  }
+}
 
 /* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*The generals layout rules could be finded here, like grid system, responsive behavior and the rules for the differents components that I can generalize*/
+/* line 3, src/scss/generals/_layout.scss */
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 3, src/scss/generals/_layout.scss */
+  .container {
+    width: 100%;
+  }
+}
+
+/* line 17, src/scss/themes/_monokai.scss */
+body.monokai {
+  background: #272822;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+/* line 21, src/scss/themes/_monokai.scss */
+body.monokai .lmagenta {
+  color: #F92672;
+}
+
+/* line 25, src/scss/themes/_monokai.scss */
+body.monokai .lmoradito {
+  color: #ae81ff;
+}
+
+/* line 29, src/scss/themes/_monokai.scss */
+body.monokai .lcyan {
+  color: #66f9ef;
+}
+
+/* line 33, src/scss/themes/_monokai.scss */
+body.monokai .lblanco {
+  color: #f8f8f2;
+}
+
+/* line 37, src/scss/themes/_monokai.scss */
+body.monokai .lcuruba {
+  color: #ffe792;
+}
+
+/* line 41, src/scss/themes/_monokai.scss */
+body.monokai .lverde {
+  color: #a6e22e;
+}
+
+/* line 46, src/scss/themes/_monokai.scss */
+body.monokai .nota .notaBox {
+  background: #272822;
+  border: 1px dotted rgba(248, 248, 242, 0.7);
+}
+
+/* line 50, src/scss/themes/_monokai.scss */
+body.monokai .nota .notaBox p {
+  color: #75715e;
+}
+
+/* line 54, src/scss/themes/_monokai.scss */
+body.monokai .nota .notaBox a {
+  color: #66f9ef;
+}
+
+/* line 60, src/scss/themes/_monokai.scss */
+body.monokai .hcodigo {
+  background: #272822;
+  color: #a6e22e;
+}
+
+/* line 64, src/scss/themes/_monokai.scss */
+body.monokai .hcodigo::after {
+  background: #272822;
+  color: #f8f8f2;
+}
+
+/* line 70, src/scss/themes/_monokai.scss */
+body.monokai h3, body.monokai h4 {
+  color: #ffe792;
+}
+
+/* line 73, src/scss/themes/_monokai.scss */
+body.monokai h3 b, body.monokai h4 b {
+  color: #a6e22e;
+}
+
+/* line 77, src/scss/themes/_monokai.scss */
+body.monokai h3 span, body.monokai h4 span {
+  color: #f8f8f2;
+}
+
+/* line 82, src/scss/themes/_monokai.scss */
+body.monokai em {
+  background: #272822;
+  color: #f8f8f2;
+}
+
+/* line 87, src/scss/themes/_monokai.scss */
+body.monokai #clientes,
+body.monokai #encabezado,
+body.monokai #hojadevida,
+body.monokai #intereses,
+body.monokai #personalSkills,
+body.monokai #professionalSkills,
+body.monokai #educationItems,
+body.monokai #workItems {
+  border: 1px dotted #ffe792;
+  color: #ffe792;
+}
+
+/* line 102, src/scss/themes/_monokai.scss */
+body.monokai #encabezado .fotoJohan:hover img, body.monokai #encabezado .fotoJohan:focus img {
+  border: 10px solid #f8f8f2;
+}
+
+/* line 112, src/scss/themes/_monokai.scss */
+body.monokai .middle #personalSkills a[data-peso="1"] {
+  color: #f8f8f2;
+}
+
+/* line 116, src/scss/themes/_monokai.scss */
+body.monokai .middle #personalSkills a[data-peso="2"] {
+  color: #F92672;
+}
+
+/* line 120, src/scss/themes/_monokai.scss */
+body.monokai .middle #personalSkills a[data-peso="3"] {
+  color: #66f9ef;
+}
+
+/* line 124, src/scss/themes/_monokai.scss */
+body.monokai .middle #personalSkills a[data-peso="4"] {
+  color: #a6e22e;
+}
+
+/* line 128, src/scss/themes/_monokai.scss */
+body.monokai .middle #personalSkills a[data-peso="5"] {
+  color: #fd971f;
+}
+
+/* line 132, src/scss/themes/_monokai.scss */
+body.monokai .middle #personalSkills a[data-peso="6"] {
+  color: #ffe792;
+}
+
+/* line 136, src/scss/themes/_monokai.scss */
+body.monokai .middle #personalSkills a[data-peso="7"] {
+  color: #ae81ff;
+}
+
+/* line 144, src/scss/themes/_monokai.scss */
+body.monokai .middle #educationItems .educationItem,
+body.monokai .middle #educationItems .workItem,
+body.monokai .middle #workItems .educationItem,
+body.monokai .middle #workItems .workItem {
+  border: #ffe792 1px dotted;
+}
+
+/* line 148, src/scss/themes/_monokai.scss */
+body.monokai .middle #educationItems .educationItem:hover,
+body.monokai .middle #educationItems .workItem:hover,
+body.monokai .middle #workItems .educationItem:hover,
+body.monokai .middle #workItems .workItem:hover {
+  background: #444;
+}
+
+/* line 152, src/scss/themes/_monokai.scss */
+body.monokai .middle #educationItems .educationItem .eiAnio,
+body.monokai .middle #educationItems .educationItem .iiNombre,
+body.monokai .middle #educationItems .educationItem .wiAnio,
+body.monokai .middle #educationItems .educationItem .wiTelefono,
+body.monokai .middle #educationItems .workItem .eiAnio,
+body.monokai .middle #educationItems .workItem .iiNombre,
+body.monokai .middle #educationItems .workItem .wiAnio,
+body.monokai .middle #educationItems .workItem .wiTelefono,
+body.monokai .middle #workItems .educationItem .eiAnio,
+body.monokai .middle #workItems .educationItem .iiNombre,
+body.monokai .middle #workItems .educationItem .wiAnio,
+body.monokai .middle #workItems .educationItem .wiTelefono,
+body.monokai .middle #workItems .workItem .eiAnio,
+body.monokai .middle #workItems .workItem .iiNombre,
+body.monokai .middle #workItems .workItem .wiAnio,
+body.monokai .middle #workItems .workItem .wiTelefono {
+  color: #a6e22e;
+}
+
+/* line 159, src/scss/themes/_monokai.scss */
+body.monokai .middle #educationItems .educationItem .eiInstitucion,
+body.monokai .middle #educationItems .educationItem .wiCargo,
+body.monokai .middle #educationItems .educationItem .wiJefe,
+body.monokai .middle #educationItems .workItem .eiInstitucion,
+body.monokai .middle #educationItems .workItem .wiCargo,
+body.monokai .middle #educationItems .workItem .wiJefe,
+body.monokai .middle #workItems .educationItem .eiInstitucion,
+body.monokai .middle #workItems .educationItem .wiCargo,
+body.monokai .middle #workItems .educationItem .wiJefe,
+body.monokai .middle #workItems .workItem .eiInstitucion,
+body.monokai .middle #workItems .workItem .wiCargo,
+body.monokai .middle #workItems .workItem .wiJefe {
+  color: #ffe792;
+}
+
+/* line 165, src/scss/themes/_monokai.scss */
+body.monokai .middle #educationItems .educationItem .eiCarrera,
+body.monokai .middle #educationItems .educationItem .wiEmpresa,
+body.monokai .middle #educationItems .workItem .eiCarrera,
+body.monokai .middle #educationItems .workItem .wiEmpresa,
+body.monokai .middle #workItems .educationItem .eiCarrera,
+body.monokai .middle #workItems .educationItem .wiEmpresa,
+body.monokai .middle #workItems .workItem .eiCarrera,
+body.monokai .middle #workItems .workItem .wiEmpresa {
+  color: #F92672;
+}
+
+/* line 175, src/scss/themes/_monokai.scss */
+body.monokai #intereses .interes .iiNombre {
+  color: #a6e22e;
+}
+
+/* line 180, src/scss/themes/_monokai.scss */
+body.monokai #intereses .interes .iiImgEmpresa img:hover, body.monokai #intereses .interes .iiImgEmpresa img:focus {
+  border: 8px solid #f8f8f2;
+}
+
+/* line 188, src/scss/themes/_monokai.scss */
+body.monokai .tema_box {
+  border: 1px dashed #ffe792;
+  color: #f8f8f2;
+}
+
+/* line 192, src/scss/themes/_monokai.scss */
+body.monokai .tema_box span {
+  color: #ffe792;
+}
+
+/* line 196, src/scss/themes/_monokai.scss */
+body.monokai .tema_box li:hover {
+  color: #F92672;
+}
+
+/* line 21, src/scss/themes/_mono.scss */
+body.mono {
+  background: #fff;
+  font-family: 'Droid Sans Mono', monospace;
+}
+
+/* line 25, src/scss/themes/_mono.scss */
+body.mono img, body.mono .percircle {
+  filter: grayscale(100%);
+}
+
+/* line 29, src/scss/themes/_mono.scss */
+body.mono .lmagenta {
+  color: #000000;
+}
+
+/* line 33, src/scss/themes/_mono.scss */
+body.mono .lmoradito {
+  color: #49483e;
+}
+
+/* line 37, src/scss/themes/_mono.scss */
+body.mono .lcyan {
+  color: #75715e;
+}
+
+/* line 41, src/scss/themes/_mono.scss */
+body.mono .lclr-fondo {
+  color: #444;
+}
+
+/* line 45, src/scss/themes/_mono.scss */
+body.mono .lcuruba {
+  color: #000000;
+}
+
+/* line 49, src/scss/themes/_mono.scss */
+body.mono .lverde {
+  color: #49483e;
+}
+
+/* line 54, src/scss/themes/_mono.scss */
+body.mono .nota .notaBox {
+  background: #fff;
+  border: 1px dotted rgba(0, 0, 0, 0.7);
+}
+
+/* line 58, src/scss/themes/_mono.scss */
+body.mono .nota .notaBox p {
+  color: #49483e;
+}
+
+/* line 62, src/scss/themes/_mono.scss */
+body.mono .nota .notaBox a {
+  color: #75715e;
+}
+
+/* line 68, src/scss/themes/_mono.scss */
+body.mono .hcodigo {
+  background: #fff;
+  color: #000000;
+}
+
+/* line 72, src/scss/themes/_mono.scss */
+body.mono .hcodigo::after {
+  background: #fff;
+  color: #000000;
+}
+
+/* line 78, src/scss/themes/_mono.scss */
+body.mono h3, body.mono h4 {
+  color: #000000;
+}
+
+/* line 81, src/scss/themes/_mono.scss */
+body.mono h3 b, body.mono h4 b {
+  color: #75715e;
+}
+
+/* line 85, src/scss/themes/_mono.scss */
+body.mono h3 span, body.mono h4 span {
+  color: #444;
+}
+
+/* line 90, src/scss/themes/_mono.scss */
+body.mono em {
+  background: #fff;
+  color: #000000;
+}
+
+/* line 95, src/scss/themes/_mono.scss */
+body.mono #clientes,
+body.mono #encabezado,
+body.mono #hojadevida,
+body.mono #intereses,
+body.mono #personalSkills,
+body.mono #professionalSkills,
+body.mono #educationItems,
+body.mono #workItems {
+  border: 1px dotted #000000;
+  color: #000000;
+}
+
+/* line 110, src/scss/themes/_mono.scss */
+body.mono #encabezado .fotoJohan:hover img, body.mono #encabezado .fotoJohan:focus img {
+  border: 10px solid #75715e;
+}
+
+/* line 120, src/scss/themes/_mono.scss */
+body.mono .middle #personalSkills a[data-peso="1"] {
+  color: #000000;
+}
+
+/* line 124, src/scss/themes/_mono.scss */
+body.mono .middle #personalSkills a[data-peso="2"] {
+  color: #49483e;
+}
+
+/* line 128, src/scss/themes/_mono.scss */
+body.mono .middle #personalSkills a[data-peso="3"] {
+  color: #75715e;
+}
+
+/* line 132, src/scss/themes/_mono.scss */
+body.mono .middle #personalSkills a[data-peso="4"] {
+  color: #444;
+}
+
+/* line 136, src/scss/themes/_mono.scss */
+body.mono .middle #personalSkills a[data-peso="5"] {
+  color: #000000;
+}
+
+/* line 140, src/scss/themes/_mono.scss */
+body.mono .middle #personalSkills a[data-peso="6"] {
+  color: #49483e;
+}
+
+/* line 144, src/scss/themes/_mono.scss */
+body.mono .middle #personalSkills a[data-peso="7"] {
+  color: #75715e;
+}
+
+/* line 152, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem,
+body.mono .middle #educationItems .workItem,
+body.mono .middle #workItems .educationItem,
+body.mono .middle #workItems .workItem {
+  border: #000000 1px dotted;
+}
+
+/* line 156, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem .eiAnio,
+body.mono .middle #educationItems .educationItem .iiNombre,
+body.mono .middle #educationItems .educationItem .wiAnio,
+body.mono .middle #educationItems .educationItem .wiTelefono,
+body.mono .middle #educationItems .workItem .eiAnio,
+body.mono .middle #educationItems .workItem .iiNombre,
+body.mono .middle #educationItems .workItem .wiAnio,
+body.mono .middle #educationItems .workItem .wiTelefono,
+body.mono .middle #workItems .educationItem .eiAnio,
+body.mono .middle #workItems .educationItem .iiNombre,
+body.mono .middle #workItems .educationItem .wiAnio,
+body.mono .middle #workItems .educationItem .wiTelefono,
+body.mono .middle #workItems .workItem .eiAnio,
+body.mono .middle #workItems .workItem .iiNombre,
+body.mono .middle #workItems .workItem .wiAnio,
+body.mono .middle #workItems .workItem .wiTelefono {
+  color: #75715e;
+}
+
+/* line 163, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem .eiInstitucion,
+body.mono .middle #educationItems .educationItem .wiCargo,
+body.mono .middle #educationItems .educationItem .wiJefe,
+body.mono .middle #educationItems .workItem .eiInstitucion,
+body.mono .middle #educationItems .workItem .wiCargo,
+body.mono .middle #educationItems .workItem .wiJefe,
+body.mono .middle #workItems .educationItem .eiInstitucion,
+body.mono .middle #workItems .educationItem .wiCargo,
+body.mono .middle #workItems .educationItem .wiJefe,
+body.mono .middle #workItems .workItem .eiInstitucion,
+body.mono .middle #workItems .workItem .wiCargo,
+body.mono .middle #workItems .workItem .wiJefe {
+  color: #000000;
+}
+
+/* line 169, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem .eiCarrera,
+body.mono .middle #educationItems .educationItem .wiEmpresa,
+body.mono .middle #educationItems .workItem .eiCarrera,
+body.mono .middle #educationItems .workItem .wiEmpresa,
+body.mono .middle #workItems .educationItem .eiCarrera,
+body.mono .middle #workItems .educationItem .wiEmpresa,
+body.mono .middle #workItems .workItem .eiCarrera,
+body.mono .middle #workItems .workItem .wiEmpresa {
+  color: #49483e;
+}
+
+/* line 174, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem:hover,
+body.mono .middle #educationItems .workItem:hover,
+body.mono .middle #workItems .educationItem:hover,
+body.mono .middle #workItems .workItem:hover {
+  background: #75715e;
+  color: #fff;
+}
+
+/* line 178, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem:hover .eiAnio,
+body.mono .middle #educationItems .educationItem:hover .iiNombre,
+body.mono .middle #educationItems .educationItem:hover .wiAnio,
+body.mono .middle #educationItems .educationItem:hover .wiTelefono,
+body.mono .middle #educationItems .workItem:hover .eiAnio,
+body.mono .middle #educationItems .workItem:hover .iiNombre,
+body.mono .middle #educationItems .workItem:hover .wiAnio,
+body.mono .middle #educationItems .workItem:hover .wiTelefono,
+body.mono .middle #workItems .educationItem:hover .eiAnio,
+body.mono .middle #workItems .educationItem:hover .iiNombre,
+body.mono .middle #workItems .educationItem:hover .wiAnio,
+body.mono .middle #workItems .educationItem:hover .wiTelefono,
+body.mono .middle #workItems .workItem:hover .eiAnio,
+body.mono .middle #workItems .workItem:hover .iiNombre,
+body.mono .middle #workItems .workItem:hover .wiAnio,
+body.mono .middle #workItems .workItem:hover .wiTelefono {
+  color: #fff;
+}
+
+/* line 185, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem:hover .eiInstitucion,
+body.mono .middle #educationItems .educationItem:hover .wiCargo,
+body.mono .middle #educationItems .educationItem:hover .wiJefe,
+body.mono .middle #educationItems .workItem:hover .eiInstitucion,
+body.mono .middle #educationItems .workItem:hover .wiCargo,
+body.mono .middle #educationItems .workItem:hover .wiJefe,
+body.mono .middle #workItems .educationItem:hover .eiInstitucion,
+body.mono .middle #workItems .educationItem:hover .wiCargo,
+body.mono .middle #workItems .educationItem:hover .wiJefe,
+body.mono .middle #workItems .workItem:hover .eiInstitucion,
+body.mono .middle #workItems .workItem:hover .wiCargo,
+body.mono .middle #workItems .workItem:hover .wiJefe {
+  color: #fff;
+}
+
+/* line 191, src/scss/themes/_mono.scss */
+body.mono .middle #educationItems .educationItem:hover .eiCarrera,
+body.mono .middle #educationItems .educationItem:hover .wiEmpresa,
+body.mono .middle #educationItems .workItem:hover .eiCarrera,
+body.mono .middle #educationItems .workItem:hover .wiEmpresa,
+body.mono .middle #workItems .educationItem:hover .eiCarrera,
+body.mono .middle #workItems .educationItem:hover .wiEmpresa,
+body.mono .middle #workItems .workItem:hover .eiCarrera,
+body.mono .middle #workItems .workItem:hover .wiEmpresa {
+  color: #fff;
+}
+
+/* line 202, src/scss/themes/_mono.scss */
+body.mono #intereses .interes .iiNombre {
+  color: #75715e;
+}
+
+/* line 207, src/scss/themes/_mono.scss */
+body.mono #intereses .interes .iiImgEmpresa img:hover, body.mono #intereses .interes .iiImgEmpresa img:focus {
+  border: 8px solid #fff;
+}
+
+/* line 215, src/scss/themes/_mono.scss */
+body.mono .tema_box {
+  border: 1px dashed #000000;
+  color: #000000;
+}
+
+/* line 219, src/scss/themes/_mono.scss */
+body.mono .tema_box span {
+  color: #000000;
+}
+
+/* line 223, src/scss/themes/_mono.scss */
+body.mono .tema_box li:hover {
+  color: #49483e;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+/* line 10, src/scss/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 14, src/scss/style.scss */
+.container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 14, src/scss/style.scss */
+  .container {
+    width: 100%;
+  }
+}
+
+/* line 23, src/scss/style.scss */
+.nota {
+  display: inline;
+  float: none;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 23, src/scss/style.scss */
+  .nota {
+    display: block;
+    margin: 0 5px 20px 10px;
+  }
+}
+
+/* line 33, src/scss/style.scss */
+.nota .notaBox {
+  float: right;
+  opacity: 0.9;
+  padding: 3px 6px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 33%;
+  z-index: 11;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 33, src/scss/style.scss */
+  .nota .notaBox {
+    float: none;
+    position: relative;
+    width: 100%;
+  }
+}
+
+/* line 49, src/scss/style.scss */
+.nota .notaBox p {
+  font-size: 0.6em;
+}
+
+/* line 53, src/scss/style.scss */
+.nota .notaBox a {
+  text-decoration: none;
+}
+
+/* line 59, src/scss/style.scss */
+.hcodigo {
+  display: inline-table;
+  margin-bottom: -18px;
+  margin-left: 10px;
+  padding: 0px 5px 5px 5px;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 67, src/scss/style.scss */
+.hcodigo::after {
+  content: "{";
+}
+
+@media screen and (max-width: 768px) {
+  /* line 59, src/scss/style.scss */
+  .hcodigo {
+    font-size: 1em;
+    margin-top: 20px;
+  }
+}
+
+/* line 77, src/scss/style.scss */
+h1 {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 85, src/scss/style.scss */
+  h1.hcodigo {
+    font-size: 1.8em;
+    margin-top: 0;
+  }
+}
+
+/* line 92, src/scss/style.scss */
+em {
+  display: block;
+  font-style: normal;
+  font-size: 1.5em;
+  margin-bottom: -30px;
+  width: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 92, src/scss/style.scss */
+  em {
+    font-size: 1em;
+  }
+}
+
+/* line 103, src/scss/style.scss */
+em.h1 {
+  font-size: 2em;
+  margin-bottom: -40px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 103, src/scss/style.scss */
+  em.h1 {
+    font-size: 1em;
+  }
+}
+
+/* line 113, src/scss/style.scss */
+#clientes,
+#encabezado,
+#hojadevida,
+#intereses,
+#personalSkills,
+#professionalSkills,
+#educationItems,
+#workItems {
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 113, src/scss/style.scss */
+  #clientes,
+  #encabezado,
+  #hojadevida,
+  #intereses,
+  #personalSkills,
+  #professionalSkills,
+  #educationItems,
+  #workItems {
+    padding: 5px;
+  }
+}
+
+/* line 135, src/scss/style.scss */
+#encabezado {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 141, src/scss/style.scss */
+#encabezado em {
+  bottom: 15px;
+  font-weight: bold;
+  left: 15px;
+  position: absolute;
+}
+
+/* line 148, src/scss/style.scss */
+#encabezado .fotoJohan {
+  float: left;
+  padding: 20px;
+  transition: transform ease-out .3s;
+  width: 33%;
+}
+
+/* line 154, src/scss/style.scss */
+#encabezado .fotoJohan img {
+  border: 10px solid transparent;
+  border-radius: 50%;
+  height: auto;
+  max-width: 250px;
+  transition: border ease-in-out .5s;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 148, src/scss/style.scss */
+  #encabezado .fotoJohan {
+    float: none;
+    padding: 5px;
+    width: 100%;
+  }
+  /* line 167, src/scss/style.scss */
+  #encabezado .fotoJohan img {
+    display: flex;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}
+
+/* line 175, src/scss/style.scss */
+#encabezado .fotoJohan:hover, #encabezado .fotoJohan:focus {
+  cursor: crosshair;
+  transform: scale(1.2) rotate(10deg);
+}
+
+/* line 179, src/scss/style.scss */
+#encabezado .fotoJohan:hover img, #encabezado .fotoJohan:focus img {
+  border-radius: 50%;
+}
+
+/* line 185, src/scss/style.scss */
+#encabezado .encabezadoRight {
+  float: left;
+  width: 61%;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 185, src/scss/style.scss */
+  #encabezado .encabezadoRight {
+    width: 100%;
+    float: none;
+    font-size: 0.8em;
+  }
+}
+
+/* line 194, src/scss/style.scss */
+#encabezado .encabezadoRight .eRightTopRedes a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: color ease-in-out .5s;
+}
+
+/* line 198, src/scss/style.scss */
+#encabezado .encabezadoRight .eRightTopRedes a:hover, #encabezado .encabezadoRight .eRightTopRedes a:focus {
+  color: white;
+}
+
+/* line 209, src/scss/style.scss */
+.middle #professionalSkills {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* line 215, src/scss/style.scss */
+.middle #professionalSkills .professionalSkill {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* line 225, src/scss/style.scss */
+.middle #professionalSkills em {
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+  position: absolute;
+}
+
+/* line 233, src/scss/style.scss */
+.middle #personalSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: -30px;
+  padding: 30px 30px 20px 30px;
+}
+
+/* line 240, src/scss/style.scss */
+.middle #personalSkills a {
+  text-decoration: none;
+}
+
+/* line 243, src/scss/style.scss */
+.middle #personalSkills a[data-peso="1"] {
+  font-size: 1em;
+}
+
+/* line 247, src/scss/style.scss */
+.middle #personalSkills a[data-peso="2"] {
+  font-size: 1.5em;
+}
+
+/* line 251, src/scss/style.scss */
+.middle #personalSkills a[data-peso="3"] {
+  font-size: 2em;
+}
+
+/* line 255, src/scss/style.scss */
+.middle #personalSkills a[data-peso="4"] {
+  font-size: 2.5em;
+}
+
+/* line 259, src/scss/style.scss */
+.middle #personalSkills a[data-peso="5"] {
+  font-size: 3em;
+}
+
+/* line 263, src/scss/style.scss */
+.middle #personalSkills a[data-peso="6"] {
+  font-size: 3.5em;
+}
+
+/* line 267, src/scss/style.scss */
+.middle #personalSkills a[data-peso="7"] {
+  font-size: 4em;
+}
+
+/* line 272, src/scss/style.scss */
+.middle #personalSkills em {
+  bottom: 15px;
+  font-weight: bold;
+  left: 15px;
+  position: absolute;
+}
+
+/* line 280, src/scss/style.scss */
+.middle #educationItems,
+.middle #workItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 285, src/scss/style.scss */
+.middle #educationItems .educationItem,
+.middle #educationItems .workItem,
+.middle #workItems .educationItem,
+.middle #workItems .workItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 5px;
+  padding: 5px;
+  text-align: center;
+  transition: background ease-out .3s;
+  width: 22%;
+}
+
+/* line 296, src/scss/style.scss */
+.middle #educationItems .educationItem:hover,
+.middle #educationItems .workItem:hover,
+.middle #workItems .educationItem:hover,
+.middle #workItems .workItem:hover {
+  cursor: pointer;
+}
+
+/* line 300, src/scss/style.scss */
+.middle #educationItems .educationItem .eiIcono,
+.middle #educationItems .workItem .eiIcono,
+.middle #workItems .educationItem .eiIcono,
+.middle #workItems .workItem .eiIcono {
+  font-size: 2em;
+}
+
+/* line 304, src/scss/style.scss */
+.middle #educationItems .educationItem .eiAnio,
+.middle #educationItems .educationItem .iiNombre,
+.middle #educationItems .educationItem .wiAnio,
+.middle #educationItems .educationItem .wiTelefono,
+.middle #educationItems .workItem .eiAnio,
+.middle #educationItems .workItem .iiNombre,
+.middle #educationItems .workItem .wiAnio,
+.middle #educationItems .workItem .wiTelefono,
+.middle #workItems .educationItem .eiAnio,
+.middle #workItems .educationItem .iiNombre,
+.middle #workItems .educationItem .wiAnio,
+.middle #workItems .educationItem .wiTelefono,
+.middle #workItems .workItem .eiAnio,
+.middle #workItems .workItem .iiNombre,
+.middle #workItems .workItem .wiAnio,
+.middle #workItems .workItem .wiTelefono {
+  font-weight: bold;
+}
+
+/* line 311, src/scss/style.scss */
+.middle #educationItems .educationItem .eiCarrera, .middle #educationItems .educationItem .wiEmpresa,
+.middle #educationItems .workItem .eiCarrera,
+.middle #educationItems .workItem .wiEmpresa,
+.middle #workItems .educationItem .eiCarrera,
+.middle #workItems .educationItem .wiEmpresa,
+.middle #workItems .workItem .eiCarrera,
+.middle #workItems .workItem .wiEmpresa {
+  font-weight: bold;
+}
+
+/* line 315, src/scss/style.scss */
+.middle #educationItems .educationItem .wiImgEmpresa img,
+.middle #educationItems .educationItem .iiImgEmpresa img,
+.middle #educationItems .workItem .wiImgEmpresa img,
+.middle #educationItems .workItem .iiImgEmpresa img,
+.middle #workItems .educationItem .wiImgEmpresa img,
+.middle #workItems .educationItem .iiImgEmpresa img,
+.middle #workItems .workItem .wiImgEmpresa img,
+.middle #workItems .workItem .iiImgEmpresa img {
+  margin: 10px;
+  max-width: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 285, src/scss/style.scss */
+  .middle #educationItems .educationItem,
+  .middle #educationItems .workItem,
+  .middle #workItems .educationItem,
+  .middle #workItems .workItem {
+    margin: 5px;
+    width: 100%;
+  }
+  /* line 325, src/scss/style.scss */
+  .middle #educationItems .educationItem p,
+  .middle #educationItems .workItem p,
+  .middle #workItems .educationItem p,
+  .middle #workItems .workItem p {
+    font-size: 0.9em;
+  }
+}
+
+/* line 331, src/scss/style.scss */
+.middle #educationItems em,
+.middle #workItems em {
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+  position: absolute;
+}
+
+/* line 340, src/scss/style.scss */
+#intereses {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 344, src/scss/style.scss */
+#intereses .interes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 5px;
+  padding: 5px;
+  text-align: center;
+  width: 22%;
+}
+
+/* line 353, src/scss/style.scss */
+#intereses .interes .iiNombre {
+  font-weight: bold;
+}
+
+/* line 357, src/scss/style.scss */
+#intereses .interes .iiImgEmpresa img {
+  border: 8px solid transparent;
+  border-radius: 50%;
+  margin: 10px;
+  max-width: 150px;
+  transition: transform ease-out .3s;
+}
+
+/* line 364, src/scss/style.scss */
+#intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
+  border-radius: 50%;
+  cursor: crosshair;
+  transform: scale(1.2) rotate(10deg);
+}
+
+@media screen and (max-width: 768px) {
+  /* line 344, src/scss/style.scss */
+  #intereses .interes {
+    width: 100%;
+  }
+}
+
+/* line 377, src/scss/style.scss */
+#intereses em {
+  bottom: 15px;
+  left: 15px;
+  font-weight: bold;
+  position: absolute;
+}
+
+/* line 385, src/scss/style.scss */
+.tema_box {
+  padding: 20px;
+  width: 200px;
+}
+
+/* line 389, src/scss/style.scss */
+.tema_box li {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=maps/style.css.map */
