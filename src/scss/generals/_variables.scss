@@ -1,1 +1,14 @@
 $mobile-split-width: 768px;
+
+@media print {
+	.no-print,
+	.no-print * {
+		display: none !important;
+	}
+}
+
+* {
+	transition: ease-in-out color 0.5s,
+							ease-in-out background 0.5s
+							ease-in-out border 0.5s;
+}
