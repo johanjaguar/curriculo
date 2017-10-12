@@ -1,8 +1,9 @@
 /*The generals layout rules could be finded here, like grid system, responsive behavior and the rules for the differents components that I can generalize*/ 
 
- .container{
+.container {
 	margin: 0 auto;
 	width: 960px;
+	 
 	@media screen and (max-width: $mobile-split-width) {
 		width: 100%;
 	}

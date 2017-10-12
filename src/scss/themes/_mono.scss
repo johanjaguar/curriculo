@@ -1,0 +1,229 @@
+$blanco: #fff;
+$cyan: #66f9ef;
+$clr-letra1: #ffe792;
+$gris4: #444;
+$grisMedio: #75715e;
+$grisMuyOscuro: #49483e;
+$clr-letra2: #F92672;
+$moradito: #ae81ff;
+$naranja: #fd971f;
+$negro: #000000;
+
+$clr-letra1: $negro;
+$clr-letra2: $grisMuyOscuro;
+$clr-letra3: $grisMedio;
+$clr-letra4: $gris4;
+$clr-letra-hover: $blanco;
+
+$clr-fondo: $blanco;
+$clr-borde: $negro;
+
+body.mono {
+	background: $clr-fondo;
+	font-family: 'Droid Sans Mono', monospace;
+	
+	img, .percircle {
+	 filter: grayscale(100%);	
+	}
+	
+	.lmagenta {
+		color: $clr-letra1;
+	}
+
+	.lmoradito {
+		color: $clr-letra2;
+	}
+
+	.lcyan {
+		color: $clr-letra3;
+	}
+
+	.lclr-fondo {
+		color: $clr-letra4;
+	}
+
+	.lcuruba {
+		color: $clr-letra1;
+	}
+
+	.lverde {
+		color: $clr-letra2;
+	}
+	
+	.nota {
+		.notaBox {
+			background: $clr-fondo;
+			border: 1px dotted rgba( $clr-borde, 0.7 );
+			
+			p { 
+				color: $clr-letra2;
+			}
+
+			a {
+				color: $clr-letra3;
+			}
+		}
+	}
+	
+	.hcodigo {
+		background: $clr-fondo;
+		color: $clr-letra1;
+
+		&::after {
+			background: $clr-fondo;
+			color: $clr-letra1;
+		}
+	}
+
+	h3, h4 {
+		color: $clr-letra1;
+
+		b {
+			color: $clr-letra3;
+		}
+
+		span {
+			color: $clr-letra4;
+		}
+	}
+
+	em {
+		background: $clr-fondo;
+		color: $clr-letra1;
+	}
+	
+	#clientes,
+	#encabezado, 
+	#hojadevida,
+	#intereses, 
+	#personalSkills, 
+	#professionalSkills, 
+	#educationItems,
+	#workItems {
+		border: 1px dotted $clr-borde;
+		color: $clr-letra1;
+	}
+
+	#encabezado {
+		.fotoJohan {
+			&:hover, &:focus {
+				img {
+					border: 10px solid $clr-letra3;
+				}
+			}
+		}
+	}
+	
+	.middle {
+		#personalSkills {
+			a {
+				&[data-peso = "1"]{
+					color: $clr-letra1;
+				}
+				
+				&[data-peso = "2"]{
+					color: $clr-letra2;
+				}
+				
+				&[data-peso = "3"]{
+					color: $clr-letra3;
+				}
+				
+				&[data-peso = "4"]{
+					color: $clr-letra4;
+				}
+				
+				&[data-peso = "5"]{
+					color: $clr-letra1;
+				}
+				
+				&[data-peso = "6"]{
+					color: $clr-letra2;
+				}
+				
+				&[data-peso = "7"]{
+					color: $clr-letra3;
+				}
+			}
+		}
+		
+		#educationItems, 
+		#workItems {
+    	.educationItem, 
+			.workItem {
+				border: $clr-borde 1px dotted;
+				
+				.eiAnio, 
+				.iiNombre, 
+				.wiAnio, 
+				.wiTelefono {
+					color: $clr-letra3;
+				}
+				
+				.eiInstitucion, 
+				.wiCargo, 
+				.wiJefe {
+					color: $clr-letra1;
+				}
+				
+				.eiCarrera, 
+				.wiEmpresa {
+					color: $clr-letra2;
+				}
+				
+				&:hover {
+					background: $clr-letra3;
+					color: $clr-letra-hover;
+					
+					.eiAnio, 
+					.iiNombre, 
+					.wiAnio, 
+					.wiTelefono {
+						color: $clr-letra-hover;
+					}
+
+					.eiInstitucion, 
+					.wiCargo, 
+					.wiJefe {
+						color: $clr-letra-hover;
+					}
+
+					.eiCarrera, 
+					.wiEmpresa {
+						color: $clr-letra-hover;
+					}
+				}
+			}
+		}
+	}
+	
+	#intereses {
+		.interes {
+			.iiNombre {
+				color: $clr-letra3;
+			}
+			
+			.iiImgEmpresa img {
+				&:hover, 
+				&:focus {
+					border: 8px solid $clr-fondo;
+				}
+			}
+		}
+	}
+	
+	.tema_box {
+		border: 1px dashed $clr-letra1;
+		color: $clr-letra1;
+		
+		span {
+			color: $clr-letra1;
+		} 
+		
+		li:hover {
+			color: $clr-letra2;
+			font-weight: bold;
+			transform: scale(1.1);
+		}
+	}	
+}

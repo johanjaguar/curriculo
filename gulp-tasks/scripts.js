@@ -8,7 +8,7 @@ var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
 gulp.task('scripts', function(){
-  return gulp.src( ['angular.js','custom.js'] , {cwd: 'src/javascript'} )
+  return gulp.src( ['*.js'] , {cwd: 'src/javascript'} )
     .pipe(sourcemaps.init())
     .pipe(babel({presets: ['babili']}))
     .pipe(concat('final.js'))

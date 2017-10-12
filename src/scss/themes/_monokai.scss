@@ -1,0 +1,200 @@
+$blanco:#f8f8f2;
+$cyan: #66f9ef;
+$curuba: #ffe792;
+$gris4: #444;
+$grisMedio: #75715e;
+$grisMuyOscuro: #49483e;
+$magenta: #F92672;
+$moradito: #ae81ff;
+$naranja: #fd971f;
+$negro: #272822;
+$verde: #a6e22e;
+
+$coloresLetra: $blanco, $magenta, $cyan, $verde, $naranja, $curuba, $moradito;
+
+$clr-fondo: $negro;
+
+body.monokai {
+	background: $clr-fondo;
+	font-family: 'Droid Sans Mono', monospace;
+
+	.lmagenta {
+		color: $magenta;
+	}
+
+	.lmoradito {
+		color: $moradito;
+	}
+
+	.lcyan {
+		color: $cyan;
+	}
+
+	.lblanco {
+		color: $blanco;
+	}
+
+	.lcuruba {
+		color: $curuba;
+	}
+
+	.lverde {
+		color: $verde;
+	}
+	
+	.nota {
+		.notaBox {
+			background: $clr-fondo;
+			border: 1px dotted rgba($blanco, 0.7);
+			
+			p { 
+				color: $grisMedio;
+			}
+
+			a {
+				color: $cyan;
+			}
+		}
+	}
+	
+	.hcodigo {
+		background: $negro;
+		color: $verde;
+
+		&::after {
+			background: $negro;
+			color: $blanco;
+		}
+	}
+
+	h3, h4 {
+		color: $curuba;
+
+		b {
+			color: $verde;
+		}
+
+		span {
+			color: $blanco;
+		}
+	}
+
+	em {
+		background: $negro;
+		color: $blanco;
+	}
+	
+	#clientes,
+	#encabezado, 
+	#hojadevida,
+	#intereses, 
+	#personalSkills, 
+	#professionalSkills, 
+	#educationItems,
+	#workItems {
+		border: 1px dotted $curuba;
+		color: $curuba;
+	}
+
+	#encabezado {
+		.fotoJohan {
+			&:hover, &:focus {
+				img {
+					border: 10px solid $blanco;
+				}
+			}
+		}
+	}
+	
+	.middle {
+		#personalSkills {
+			a {
+				&[data-peso = "1"]{
+					color: nth($coloresLetra, 1);
+				}
+				
+				&[data-peso = "2"]{
+					color: nth($coloresLetra, 2);
+				}
+				
+				&[data-peso = "3"]{
+					color: nth($coloresLetra, 3);
+				}
+				
+				&[data-peso = "4"]{
+					color: nth($coloresLetra, 4);
+				}
+				
+				&[data-peso = "5"]{
+					color: nth($coloresLetra, 5);
+				}
+				
+				&[data-peso = "6"]{
+					color: nth($coloresLetra, 6);
+				}
+				
+				&[data-peso = "7"]{
+					color: nth($coloresLetra, 7);
+				}
+			}
+		}
+		
+		#educationItems, 
+		#workItems {
+    	.educationItem, 
+			.workItem {
+				border: $curuba 1px dotted;
+				
+				&:hover {
+					background: $gris4;
+				}
+				
+				.eiAnio, 
+				.iiNombre, 
+				.wiAnio, 
+				.wiTelefono {
+					color: $verde;
+				}
+				
+				.eiInstitucion, 
+				.wiCargo, 
+				.wiJefe {
+					color: $curuba;
+				}
+				
+				.eiCarrera, 
+				.wiEmpresa {
+					color: $magenta;
+				}
+			}
+		}
+	}
+	
+	#intereses {
+		.interes {
+			.iiNombre {
+				color: $verde;
+			}
+			
+			.iiImgEmpresa img {
+				&:hover, 
+				&:focus {
+					border: 8px solid $blanco;
+				}
+			}
+		}
+	}
+	
+	.tema_box {
+		border: 1px dashed $curuba;
+		color: $blanco;
+		
+		span {
+			color: $curuba;
+		} 
+		
+		li:hover {
+			color: $magenta;
+		}
+	}	
+}

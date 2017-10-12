@@ -11,9 +11,11 @@ gulp.task( 'default',
     gulp.watch('**/*.scss',
       {cwd: 'src/scss'} ,
       ['sass']);
+	
     gulp.watch(  '**/*.js',
       {cwd: 'src/javascript'} ,
       ['scripts']);
+	
     gulp.watch([ '**/*.gif' , '**/*.png' , '**/*.jpg' , '**/*.jpeg' ]
       , {cwd: 'src/images'} ,
       ['imagesmin']
