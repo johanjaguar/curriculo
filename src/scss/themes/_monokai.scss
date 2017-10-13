@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+$fte-droid-sans-mono: 'Droid Sans Mono', monospace;
 $blanco:#f8f8f2;
 $cyan: #66f9ef;
 $curuba: #ffe792;
@@ -16,7 +18,7 @@ $clr-fondo: $negro;
 
 body.monokai {
 	background: $clr-fondo;
-	font-family: 'Droid Sans Mono', monospace;
+	font-family: $fte-droid-sans-mono;
 
 	.lmagenta {
 		color: $magenta;
@@ -84,14 +86,7 @@ body.monokai {
 		color: $blanco;
 	}
 	
-	#clientes,
-	#encabezado, 
-	#hojadevida,
-	#intereses, 
-	#personalSkills, 
-	#professionalSkills, 
-	#educationItems,
-	#workItems {
+	.cajaHV {
 		border: 1px dotted $curuba;
 		color: $curuba;
 	}

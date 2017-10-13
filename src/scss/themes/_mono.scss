@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+$fte-arimo: 'Arimo', sans-serif;
 $blanco: #fff;
 $cyan: #66f9ef;
 $clr-letra1: #ffe792;
@@ -16,11 +18,16 @@ $clr-letra4: $gris4;
 $clr-letra-hover: $blanco;
 
 $clr-fondo: $blanco;
-$clr-borde: $negro; 
+$clr-borde: $negro;
+$clr-borde2: $grisMedio;
 
 body.mono {
 	background: $clr-fondo;
-	font-family: Helvetica, Arial, serif;
+	font-family: $fte-arimo;
+	
+	.container {
+		width: 100%;	
+	}
 	
 	img, .percircle {
 	 filter: grayscale(100%);	
@@ -53,7 +60,7 @@ body.mono {
 	.nota {
 		.notaBox {
 			background: $clr-fondo;
-			border: 1px dotted rgba( $clr-borde, 0.7 );
+			border: 1px outset rgba( $clr-borde, 0.7 );
 			
 			p { 
 				color: $clr-letra2;
@@ -70,8 +77,7 @@ body.mono {
 		color: $clr-letra1;
 
 		&::after {
-			background: $clr-fondo;
-			color: $clr-letra1;
+			display: none;
 		}
 	}
 
@@ -88,24 +94,24 @@ body.mono {
 	}
 
 	em {
-		background: $clr-fondo;
+		display: none;
+	}
+	
+	.cajaHV {
+		border: 1px outset $clr-borde;
 		color: $clr-letra1;
 	}
 	
-	#clientes,
-	#encabezado, 
-	#hojadevida,
-	#intereses, 
-	#personalSkills, 
-	#professionalSkills, 
-	#educationItems,
-	#workItems {
-		border: 1px dotted $clr-borde;
-		color: $clr-letra1;
+	.hojadevidaBox {
+		border: none;
 	}
-
+	
 	#encabezado {
+		justify-content: space-around;
+		
 		.fotoJohan {
+			width: 22%;
+			
 			&:hover, &:focus {
 				img {
 					border: 10px solid $clr-letra3;
@@ -151,7 +157,10 @@ body.mono {
 		#workItems {
     	.educationItem, 
 			.workItem {
-				border: $clr-borde 1px dotted;
+				border-bottom: $clr-borde 1px solid;
+				border-left: none;
+				border-right:  none;
+				border-top: none;
 				
 				.eiAnio, 
 				.iiNombre, 
@@ -213,7 +222,7 @@ body.mono {
 	}
 	
 	.tema_box {
-		border: 1px dashed $clr-letra1;
+		border: 1px outset $clr-letra1;
 		color: $clr-letra1;
 		
 		span {
@@ -226,4 +235,18 @@ body.mono {
 			transform: scale(1.1);
 		}
 	}	
+	
+	.percircle {
+		&> span {
+			color: $clr-letra1;
+		}
+		
+		&::after {
+			background: $blanco;
+		}
+		&.pink .bar,
+		&.pink .fill {
+				border-color: yellow;
+		}
+	}
 }

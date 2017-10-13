@@ -7,6 +7,11 @@
 @import "themes/monokai";
 @import "themes/mono";
 
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 a {
 	text-decoration: none;
 }
@@ -110,14 +115,7 @@ em {
 	}
 }
 
-#clientes,
-#encabezado, 
-#hojadevida,
-#intereses, 
-#personalSkills, 
-#professionalSkills, 
-#educationItems,
-#workItems {
+.cajaHV {
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
 	-moz-animation: fadein 2s; /* Firefox < 16 */
 	-ms-animation: fadein 2s; /* Internet Explorer */
