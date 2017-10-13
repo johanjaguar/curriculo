@@ -16,11 +16,11 @@ $clr-letra4: $gris4;
 $clr-letra-hover: $blanco;
 
 $clr-fondo: $blanco;
-$clr-borde: $negro;
+$clr-borde: $negro; 
 
 body.mono {
 	background: $clr-fondo;
-	font-family: 'Droid Sans Mono', monospace;
+	font-family: Helvetica, Arial, serif;
 	
 	img, .percircle {
 	 filter: grayscale(100%);	
