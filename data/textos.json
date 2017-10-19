@@ -1,0 +1,23 @@
+{
+	"textos": {
+		"spanish": {
+			"notaBox": "Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información."
+
+		},
+
+		"english": {
+
+		}
+	},
+	"temas": {
+		"Monokai": {
+			"nombre": "Monokai",
+			"valor": "monokai"
+		},
+		"Monocromatico": {
+			"nombre": "Black and White",
+			"valor": "mono"
+		}
+
+	}
+}
