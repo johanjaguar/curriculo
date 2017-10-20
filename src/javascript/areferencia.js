@@ -1,9 +1,20 @@
+function setReferencias(referencias) {
+		for (var key in referencias) {
+		if (referencias.hasOwnProperty(key)) {
+			//setText("." + key, textos[key]);
+			console.log(key + " valor: " + referencias(key));
+			
+		}
+	}
+}
+
 function referencia(link, imagen, empresa, cargo, telefono, anio, jefe) {
 	var html = '';
 	var lang = document.documentElement.lang;
 	html += '<div class="workItem">';
 	html += '	<a href="' + link + '" target="_blank">';
 	html += '		<p class="wiImgEmpresa"><img src="build/images-op/' + imagen + '.png"/></p>';
+
 	if (empresa.length > 0) {
 		html += '		<p class="wiEmpresa">' + empresa + '</p>';
 	}

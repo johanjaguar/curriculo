@@ -16,11 +16,10 @@ document.addEventListener('DOMContentLoaded', function () {
 				textos = data.textos.spanish;
 			}
 
-			var links = data.links;
-
 			fillHTML(textos);
-			fillLinks(links);
-			setThemeList(data.temas);
+			fillLinks(data.links);
+			setReferencias(data.referencias, '#workItems');
+			//setThemeList(data.temas);
 
 		} else {
 			// We reached our target server, but it returned an error
@@ -68,4 +67,13 @@ function setThemeList(themes) {
 	Object.keys(themes).forEach(function (key) {
 		elem.innerHTML = elem.innerHTML + "<li class='tema_li' data-theme='" + themes[key].valor + "'>" + themes[key].nombre + "</li>";
 	});
+}
+
+function setReferencias(referencias, selector) {
+	let elem = document.querySelector(selector);
+
+	for (var key in referencias) {
+		var ref = referencias[key];
+		elem.innerHTML = elem.innerHTML + referencia(ref.link, key, ref.empresa, ref.cargo, ref.telefono, ref.anio, ref.jefe);
+	}
 }
