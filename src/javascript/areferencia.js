@@ -1,13 +1,3 @@
-function setReferencias(referencias) {
-		for (var key in referencias) {
-		if (referencias.hasOwnProperty(key)) {
-			//setText("." + key, textos[key]);
-			console.log(key + " valor: " + referencias(key));
-			
-		}
-	}
-}
-
 function referencia(link, imagen, empresa, cargo, telefono, anio, jefe) {
 	var html = '';
 	var lang = document.documentElement.lang;
@@ -25,10 +15,7 @@ function referencia(link, imagen, empresa, cargo, telefono, anio, jefe) {
 		html += '<p class="wiAnio">' + anio + '</p>';
 	}
 	if (jefe != 'NULL') {
-		if (lang == "en")
-			html += '<p class="wiJefe">Inmediate Supervisor:<br/>' + jefe + '</p>';
-		else
-			html += '<p class="wiJefe">Jefe Inmediato:<br/>' + jefe + '</p>';
+		html += '<p class="wiJefe"><span class="lblJefe"></span><br/>' + jefe + '</p>';
 	}
 	if (telefono.length > 0) {
 		html += '		<p class="wiTelefono">' + telefono + '</p>';

@@ -15,10 +15,13 @@ document.addEventListener('DOMContentLoaded', function () {
 			} else {
 				textos = data.textos.spanish;
 			}
-
+			
+			setReferencias(data.referencias, '#workItems');
+			setReferencias(data.referenciasPersonales, '#personalItems');
+			setSkills(data.skills, '#professionalSkills');
 			fillHTML(textos);
 			fillLinks(data.links);
-			setReferencias(data.referencias, '#workItems');
+			
 			//setThemeList(data.temas);
 
 		} else {
@@ -37,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function fillHTML(textos) {
 	for (var key in textos) {
 		if (textos.hasOwnProperty(key)) {
-			setText("." + key, textos[key]);
+			setText(key, textos[key]);
 		}
 	}
 }
@@ -51,8 +54,11 @@ function fillLinks(links) {
 }
 
 function setText(selector, texto) {
-	let elem = document.querySelector(selector);
-	elem.innerHTML = elem.innerHTML + texto;
+	let elem = document.getElementsByClassName(selector);
+	
+	Object.keys(elem).forEach(function (key) {
+		elem[key].innerHTML = elem[key].innerHTML + texto ;
+	});
 }
 
 function setLink(selector, link) {
@@ -74,6 +80,29 @@ function setReferencias(referencias, selector) {
 
 	for (var key in referencias) {
 		var ref = referencias[key];
-		elem.innerHTML = elem.innerHTML + referencia(ref.link, key, ref.empresa, ref.cargo, ref.telefono, ref.anio, ref.jefe);
+		var languaje = document.documentElement.lang;
+
+		if (languaje == "en") {
+			elem.innerHTML = elem.innerHTML + referencia(ref.link, key, ref.empresa, ref.cargoEng, ref.telefono, ref.anio, ref.jefe);	
+		}
+		else {
+			elem.innerHTML = elem.innerHTML + referencia(ref.link, key, ref.empresa, ref.cargo, ref.telefono, ref.anio, ref.jefe);
+		}
+	}  
+}
+
+function setSkills(skills, selector) {
+	let elem = document.querySelector(selector);
+	
+	for (var key in skills) {
+		var sk = skills[key];
+		var languaje = document.documentElement.lang;
+		
+		if (languaje == "en") {
+			elem.innerHTML = elem.innerHTML + skill(sk.porcentaje, sk.color, sk.skillEng);	
+		}
+		else {
+			elem.innerHTML = elem.innerHTML +  skill(sk.porcentaje, sk.color, sk.skillSpa);	
+		}
 	}
 }

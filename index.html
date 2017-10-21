@@ -3,10 +3,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="build/css/style.min.css">
-
-		
 		<link rel="stylesheet" href="build/css/percircle.min.css">
-		<link rel="stylesheet" href="build/css/animate.min.css">
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
@@ -22,7 +20,6 @@
 			<ul class="tema">
 			</ul>
 		</div>
-		
 		
 		<div class="container">
 			<h1 class="hcodigo h1HojaDeVida" id="h1HojaDeVida"></h1>
@@ -91,60 +88,35 @@
 						</div>
 						--> 
 						<h2 id="h2Referencias" class="hcodigo h2Trabajo"></h2>
-						<div id="workItems" class="cajaHV">
+						<div id="workItems" class="referenciaItems cajaHV">
 							<em class="h2">}</em>
 						</div>
 
-						<h2 id="h2Work" class="hcodigo">Referencias Personales</h2>
-						<div id="workItems" class="cajaHV">
-
-							<script>
-								document.write( referencia('#', 'cris', 'Cristian Gonzalez', 'Publicista - MediaTIC', '300 8983569 ', 'NULL', 'NULL'));
-								document.write( referencia('#', 'stifen', 'Stifen Panche', 'Consultor de Aplicaciones ORACLE', '301 6628525', 'NULL', 'NULL' ));
-								document.write( referencia('#', 'bimbo', 'Camilo Bermudez', 'Jefe de Oficina de Turismo Tourexito / Egencia', '301 3970158', 'NULL', 'NULL' ));
-								//document.write( referencia('#', 'nando', 'Hernando Navarro', 'Gerente General Codipapel', '310 3466271', 'NULL', 'NULL' ));
-							</script>
+						<h2 id="h2Work" class="hcodigo h2Personales"></h2>
+						<div id="personalItems" class="referenciaItems cajaHV">
 							<em class="h2">}</em>
 						</div>
 
-						<h2 id="h2ProfessionalSkills" class="hcodigo">Habilidades Profesionales</h2>
+						<h2 id="h2ProfessionalSkills" class="hcodigo  h2Profesionales"></h2>
 						<div id="professionalSkills" class="cajaHV">
-							<script>
-								document.write( skill(90, 'yellow', 'Desarrollo Web') );
-								document.write( skill(90, 'green', 'HTML 5') );
-								document.write( skill(70, 'pink', 'Javascript') );
-								document.write( skill(70, 'blue', 'php') );
-								document.write( skill(70, 'yellow', 'Wordpress') );
-								document.write( skill(70, 'green', 'jQuery') );
-								document.write( skill(90, 'pink', 'Diseño Responsive') );
-								document.write( skill(85, 'yellow', 'Diseño De Mailing') );
-								document.write( skill(95, 'blue', 'SASS') );
-								document.write( skill(80, 'green', 'Pug / Jade') );
-								document.write( skill(50, 'pink', 'AngularJs') );
-								document.write( skill(80, 'blue', 'Gulp.js') );
-								document.write( skill(70, 'yellow', 'Grunt.js') );
-								document.write( skill(85, 'green', 'Linux') );
-								document.write( skill(80, 'pink', 'Ingles') );
-								document.write( skill(99, 'blue', 'Español') );
-							</script>
 							<em class="h2">}</em>
 						</div>
 					</div>
 					<div class="middleRight">
 						<h2 id="h2Education" class="hcodigo">Educación</h2>
-						<div id="educationItems" class="cajaHV">
-							<script>
+						<div id="educationItems" class="referenciaItems cajaHV">
+							<!--<script>
 								document.write( educacion('book', '2010-2007', 'Universidad Distrital Francisco José de Caldas', 'Ingenieria de Sistemas' ));
 								document.write( educacion('graduation-cap', '1993-2003', 'Colegio San Antonio', 'Bachiller tecnologico con enfasis en Programación' ));
 								document.write( educacion('flag', '2008-2010', 'Instituto de Lenguas Universidad Distrital ILUD', 'English Intermediate I, II, III' ));
-							</script>
+							</script>-->
 							<em class="h2">}</em>
 						</div>
 						<br/>
 
 						<h2 id="h2Education" class="hcodigo">Workshops</h2>
 						<div id="educationItems" class="cajaHV">
-							<script>
+							<!--<script>
 								document.write( educacion('laptop', '2017', 'Codeacademy', 'React.js' ));
 								document.write( educacion('laptop', '2016', 'Codeacademy - Codeschool', '>Learn Git / Try Git / Git Real<' ));
 								document.write( educacion('laptop', '2015', 'Codeacademy - Codeschool', 'jQuery / Try jQuery' ));
@@ -152,14 +124,14 @@
 								document.write( educacion('laptop', '2015', 'Codeschool', 'Shaping up with Angular.js' ));
 								document.write( educacion('laptop', '2015', 'Codeacademy', 'PHP + Ruby + Javascript' ));
 								document.write( educacion('laptop', '2009', 'SENA VIRTUAL', 'Diseño Web con Adobe Dreamweaver CS3 + Flash - Animacion en 2D' ));
-							</script>
+							</script>-->
 						</div>
 					</div>
 				</div>
 
 				<h2 id="h2Intereses" class="hcodigo">Intereses</h2>
 				<div id="intereses" class="cajaHV">
-					<script>
+					<!--<script>
 						document.write( intereses('rugby', 'Rugby') );
 						document.write( intereses('socialmedia', 'Social Media') );
 						document.write( intereses('programming', 'Programación') );
@@ -168,18 +140,19 @@
 						document.write( intereses('travel', 'Viajes') );
 						document.write( intereses('photo', 'Fotografía') );
 						document.write( intereses('music', 'Música del mundo') );
-					</script>
+					</script>-->
 					<em class="h2">}</em>
 				</div>
 			</div>
 		</div>
-		<br/><br/><br/><br/><br/>	<br/><br/><br/><br/><br/>	<br/><br/><br/><br/><br/>	<br/><br/><br/><br/><br/>
+		
 		<script src="build/js/final.js"></script>
 		<script type="text/javascript">
 			$(function(){
 					$("[id$='circle']").percircle();
 			});
 			
+			/*
 			var tema = document.querySelectorAll('.tema_li');
 			var bodyTag = document.getElementsByTagName("body");
 			var temaSelected = 'monokai';
@@ -189,7 +162,7 @@
 					temaSelected = this.getAttribute('data-theme');
 					document.body.className = temaSelected;
 				});
-			}
+			}*/
 		</script>
 	</body>
 </html>
