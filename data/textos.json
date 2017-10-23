@@ -20,7 +20,9 @@
 			"lblJefe": "Jefe Inmediato: ",
 			"h2Personales": "Referencias Personales",
 			"h2Profesionales": "Habilidades Profesionales",
-			"h2Educacion": "Educación"
+			"h2Educacion": "Educación",
+			"h2Workshops": "Workshops",
+			"h2Intereses": "Intereses"
 		},
 		"english": {
 			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. <br/>Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. https://github.com/johanjaguar/curriculo.<br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.<br/>Until this day, the web page use SASS, Javascript, HTML5, and some visual libraries to display the CV information.",
@@ -42,7 +44,9 @@
 			"lblJefe": "Inmediate Supervisor: ",
 			"h2Personales": "Friends",
 			"h2Profesionales": "Professional Skills",
-			"h2Educacion": "Education"
+			"h2Educacion": "Education",
+			"h2Workshops": "Workshops",
+			"h2Intereses": "Hobbies"
 		}
 	},
 	"temas": {
@@ -54,7 +58,6 @@
 			"nombre": "Black and White",
 			"valor": "mono"
 		}
-
 	},
 	"links": {
 		"github": "https://github.com/johanjaguar",
@@ -236,6 +239,121 @@
 			"color": "blue",
 			"skillSpa": "Español",
 			"skillEng": "Spanish"
+		}
+	},
+	"instituciones": {
+		"distrital": {
+			"icono": "book",
+			"fecha": "2010-2007",
+			"nombre": "Universidad Distrital Francisco José de Caldas",
+			"curso": "Ingenieria de sistemas",
+			"cursoEng": "Computer Engineering"
+		},
+		"sanAntonio": {
+			"icono": "graduation-cap",
+			"fecha": "1993-2003",
+			"nombre": "Colegio San Antonio",
+			"curso": "Bachiller tecnologico con enfasis en Programacion de computadores",
+			"cursoEng": "Bachelor of Technology with emphasis in Computer Programming"
+		},
+		"ilud": {
+			"icono": "flag",
+			"fecha": "2008-2010",
+			"nombre": "ILUD Institulo de Lenguas Universidad Distrital",
+			"curso": "Ingles Intermedio 1, 2 y 3",
+			"cursoEng": "English Intermediate 1, 2 and 3"
+		}
+	},
+	"workshops": {
+		"react": {
+			"icono": "laptop",
+			"fecha": "2017",
+			"nombre": "Codeacademy",
+			"curso": "React.js",
+			"cursoEng": "React.js"
+		},
+		"jQuery": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy - Codeschool",
+			"curso": "jQuery + Try jQuery",
+			"cursoEng": "jQuery + Try jQuery"
+		},
+		"angularJs": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeschool",
+			"curso": "Shaping up with Angular.js",
+			"cursoEng": "Shaping up with Angular.js"
+		},
+		"php": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy",
+			"curso": "php",
+			"cursoEng": "php"
+		},
+		"ruby": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy",
+			"curso": "Ruby on Rails",
+			"cursoEng": "Ruby on Rails"
+		},
+		"javascript": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy",
+			"curso": "Javascript",
+			"cursoEng": "Javascript"
+		},
+		"dreamweaver": {
+			"icono": "laptop",
+			"fecha": "2009",
+			"nombre": "Sena Virtual",
+			"curso": "Diseño web con Adobe Dreamweaver",
+			"cursoEng": "Web Desing with Adobe Dreamweaver"
+		},
+		"flash": {
+			"icono": "laptop",
+			"fecha": "2009",
+			"nombre": "Sena Virtual",
+			"curso": "Flash / Animacion en 2D",
+			"cursoEng": "2D Animation with Flash"
+		}
+	},
+	"intereses": {
+		"rugby": {
+			"textoEsp": "Rugby",
+			"textoEng": "Rugby"
+		},
+		"socialmedia": {
+			"textoEsp": "Social Media",
+			"textoEng": "Social Media"
+		},
+		"programming": {
+			"textoEsp": "Programación",
+			"textoEng": "Programming"
+		},
+		"cloud": {
+			"textoEsp": "Computación en la nube",
+			"textoEng": "Cloud Computing"
+		},
+		"videogames": {
+			"textoEsp": "Video Juegos",
+			"textoEng": "Videogames"
+		},
+		"travel": {
+			"textoEsp": "Viajes",
+			"textoEng": "Traveling"
+		},
+		"photo": {
+			"textoEsp": "Fotografia",
+			"textoEng": "Photos"
+		},
+		"music": {
+			"textoEsp": "Música del mundo",
+			"textoEng": "World Music" 
 		}
 	}
 }

@@ -266,12 +266,12 @@ body.monokai .middle .referenciaItems .workItem .wiEmpresa {
 }
 
 /* line 169, src/scss/themes/_monokai.scss */
-body.monokai #intereses .interes .iiNombre {
+body.monokai #interesesItem .interes .iiNombre {
   color: #a6e22e;
 }
 
 /* line 174, src/scss/themes/_monokai.scss */
-body.monokai #intereses .interes .iiImgEmpresa img:hover, body.monokai #intereses .interes .iiImgEmpresa img:focus {
+body.monokai #interesesItem .interes .iiImgEmpresa img:hover, body.monokai #interesesItem .interes .iiImgEmpresa img:focus {
   border: 8px solid #f8f8f2;
 }
 
@@ -983,13 +983,13 @@ em.h1 {
 }
 
 /* line 337, src/scss/style.scss */
-#intereses {
+#interesesItem {
   display: flex;
   flex-wrap: wrap;
 }
 
 /* line 341, src/scss/style.scss */
-#intereses .interes {
+#interesesItem .interes {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1000,12 +1000,12 @@ em.h1 {
 }
 
 /* line 350, src/scss/style.scss */
-#intereses .interes .iiNombre {
+#interesesItem .interes .iiNombre {
   font-weight: bold;
 }
 
 /* line 354, src/scss/style.scss */
-#intereses .interes .iiImgEmpresa img {
+#interesesItem .interes .iiImgEmpresa img {
   border: 8px solid transparent;
   border-radius: 50%;
   margin: 10px;
@@ -1014,7 +1014,7 @@ em.h1 {
 }
 
 /* line 361, src/scss/style.scss */
-#intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
+#interesesItem .interes .iiImgEmpresa img:hover, #interesesItem .interes .iiImgEmpresa img:focus {
   border-radius: 50%;
   cursor: crosshair;
   transform: scale(1.2) rotate(10deg);
@@ -1022,13 +1022,13 @@ em.h1 {
 
 @media screen and (max-width: 768px) {
   /* line 341, src/scss/style.scss */
-  #intereses .interes {
+  #interesesItem .interes {
     width: 100%;
   }
 }
 
 /* line 374, src/scss/style.scss */
-#intereses em {
+#interesesItem em {
   bottom: 15px;
   left: 15px;
   font-weight: bold;

@@ -15,15 +15,17 @@ document.addEventListener('DOMContentLoaded', function () {
 			} else {
 				textos = data.textos.spanish;
 			}
-			
+
 			setReferencias(data.referencias, '#workItems');
 			setReferencias(data.referenciasPersonales, '#personalItems');
+			setEducacion(data.instituciones, '#educationItems');
+			setEducacion(data.workshops, '#workshopItems');
 			setSkills(data.skills, '#professionalSkills');
+			setIntereses(data.intereses, "#interesesItem");
 			fillHTML(textos);
 			fillLinks(data.links);
-			
-			//setThemeList(data.temas);
 
+			setThemeList(data.temas);
 		} else {
 			// We reached our target server, but it returned an error
 
@@ -55,9 +57,9 @@ function fillLinks(links) {
 
 function setText(selector, texto) {
 	let elem = document.getElementsByClassName(selector);
-	
+
 	Object.keys(elem).forEach(function (key) {
-		elem[key].innerHTML = elem[key].innerHTML + texto ;
+		elem[key].innerHTML = elem[key].innerHTML + texto;
 	});
 }
 
@@ -69,10 +71,21 @@ function setLink(selector, link) {
 function setThemeList(themes) {
 	let elem = document.querySelector('.tema');
 	var length = themes.length;
+	
+	var bodyTag = document.getElementsByTagName("body");
+	var temaSelected = 'monokai';
 
 	Object.keys(themes).forEach(function (key) {
 		elem.innerHTML = elem.innerHTML + "<li class='tema_li' data-theme='" + themes[key].valor + "'>" + themes[key].nombre + "</li>";
 	});
+	var tema = document.querySelectorAll('.tema_li');
+	console.log(tema);
+	for (var i = 0; i < tema.length; i++) {
+		tema[i].addEventListener('click', function (event) {
+			temaSelected = this.getAttribute('data-theme');
+			document.body.className = temaSelected;
+		});
+	}
 }
 
 function setReferencias(referencias, selector) {
@@ -83,26 +96,55 @@ function setReferencias(referencias, selector) {
 		var languaje = document.documentElement.lang;
 
 		if (languaje == "en") {
-			elem.innerHTML = elem.innerHTML + referencia(ref.link, key, ref.empresa, ref.cargoEng, ref.telefono, ref.anio, ref.jefe);	
-		}
-		else {
+			elem.innerHTML = elem.innerHTML + referencia(ref.link, key, ref.empresa, ref.cargoEng, ref.telefono, ref.anio, ref.jefe);
+		} else {
 			elem.innerHTML = elem.innerHTML + referencia(ref.link, key, ref.empresa, ref.cargo, ref.telefono, ref.anio, ref.jefe);
 		}
-	}  
+	}
 }
 
 function setSkills(skills, selector) {
 	let elem = document.querySelector(selector);
-	
+
 	for (var key in skills) {
 		var sk = skills[key];
 		var languaje = document.documentElement.lang;
-		
+
 		if (languaje == "en") {
-			elem.innerHTML = elem.innerHTML + skill(sk.porcentaje, sk.color, sk.skillEng);	
+			elem.innerHTML = elem.innerHTML + skill(sk.porcentaje, sk.color, sk.skillEng);
+		} else {
+			elem.innerHTML = elem.innerHTML + skill(sk.porcentaje, sk.color, sk.skillSpa);
 		}
-		else {
-			elem.innerHTML = elem.innerHTML +  skill(sk.porcentaje, sk.color, sk.skillSpa);	
+	}
+}
+
+function setEducacion(instituciones, selector) {
+	let elem = document.querySelector(selector);
+
+	for (var key in instituciones) {
+		var ref = instituciones[key];
+		var languaje = document.documentElement.lang;
+
+		if (languaje == "en") {
+			elem.innerHTML = elem.innerHTML + educacion(ref.icono, ref.fecha, ref.nombre, ref.cursoEng);
+		} else {
+			elem.innerHTML = elem.innerHTML + educacion(ref.icono, ref.fecha, ref.nombre, ref.curso);
+		}
+	}
+}
+
+
+function setIntereses(interesesList, selector) {
+	let elem = document.querySelector(selector);
+
+	for (var key in interesesList) {
+		var ref = interesesList[key];
+		var languaje = document.documentElement.lang;
+
+		if (languaje == "en") {
+			elem.innerHTML = elem.innerHTML + intereses(key, ref.textoEng);
+		} else {
+			elem.innerHTML = elem.innerHTML + intereses(key, ref.textoEsp);
 		}
 	}
 }
