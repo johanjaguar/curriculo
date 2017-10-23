@@ -7,28 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		if (request.status >= 200 && request.status < 400) {
 			// Success!
 			var data = JSON.parse(request.responseText);
-			var textos = "";
-			var languaje = document.documentElement.lang;
-
-			if (languaje == "en") {
-				textos = data.textos.english;
-			} else {
-				textos = data.textos.spanish;
-			}
-
-			setReferencias(data.referencias, '#workItems');
-			setReferencias(data.referenciasPersonales, '#personalItems');
-			setEducacion(data.instituciones, '#educationItems');
-			setEducacion(data.workshops, '#workshopItems');
-			setSkills(data.skills, '#professionalSkills');
-			setIntereses(data.intereses, "#interesesItem");
-			fillHTML(textos);
-			fillLinks(data.links);
-
-			setThemeList(data.temas);
+			llenaDOM(data);
 		} else {
 			// We reached our target server, but it returned an error
-
 		}
 	};
 
@@ -38,6 +19,27 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	request.send();
 });
+
+function llenaDOM(data) {
+	var textos = "";
+	var languaje = document.documentElement.lang;
+
+	if (languaje == "en") {
+		textos = data.textos.english;
+	} else {
+		textos = data.textos.spanish;
+	}
+	setLanguages(data, ".languageUl");
+	setReferencias(data.referencias, '#workItems');
+	setReferencias(data.referenciasPersonales, '#personalItems');
+	setEducacion(data.instituciones, '#educationItems');
+	setEducacion(data.workshops, '#workshopItems');
+	setSkills(data.skills, '#professionalSkills');
+	setIntereses(data.intereses, "#interesesItem");
+	fillHTML(textos);
+	fillLinks(data.links);
+	setThemeList(data.temas);
+}
 
 function fillHTML(textos) {
 	for (var key in textos) {
@@ -71,7 +73,7 @@ function setLink(selector, link) {
 function setThemeList(themes) {
 	let elem = document.querySelector('.tema');
 	var length = themes.length;
-	
+
 	var bodyTag = document.getElementsByTagName("body");
 	var temaSelected = 'monokai';
 
@@ -79,7 +81,7 @@ function setThemeList(themes) {
 		elem.innerHTML = elem.innerHTML + "<li class='tema_li' data-theme='" + themes[key].valor + "'>" + themes[key].nombre + "</li>";
 	});
 	var tema = document.querySelectorAll('.tema_li');
-	console.log(tema);
+
 	for (var i = 0; i < tema.length; i++) {
 		tema[i].addEventListener('click', function (event) {
 			temaSelected = this.getAttribute('data-theme');
@@ -133,7 +135,6 @@ function setEducacion(instituciones, selector) {
 	}
 }
 
-
 function setIntereses(interesesList, selector) {
 	let elem = document.querySelector(selector);
 
@@ -148,3 +149,35 @@ function setIntereses(interesesList, selector) {
 		}
 	}
 }
+
+function setLanguages(data, selector) {
+	let elem = document.querySelector(selector);
+	var idiomaSelected = 'es';
+	for (var key in data.languages) {
+		var sk = data.languages[key];
+		var languaje = document.documentElement.lang;
+		if (languaje == "en") {
+			elem.innerHTML = elem.innerHTML + idioma(key, sk.nombreEng);
+		} else {
+			elem.innerHTML = elem.innerHTML + idioma(key, sk.nombre);
+		}
+	} 
+
+	var idiomaItem = document.querySelectorAll('.idioma-item');
+
+	for (var i = 0; i < idiomaItem.length; i++) {
+		idiomaItem[i].addEventListener('click', function (event) {
+				idiomaSelected = this.getAttribute('data-value');
+				document.getElementsByTagName('html')[0].setAttribute('lang', idiomaSelected);  
+				llenaDOM(data);
+				});
+		}
+	}
+
+	function idioma(valor, nombre) {
+		var html = '';
+		html += '<li class="idioma-item" data-value="' + valor + '">';
+		html += nombre;
+		html += '</li>';
+		return html;
+	}
