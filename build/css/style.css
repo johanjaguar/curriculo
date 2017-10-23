@@ -223,92 +223,70 @@ body.monokai .middle #personalSkills a[data-peso="7"] {
   color: #ae81ff;
 }
 
-/* line 139, src/scss/themes/_monokai.scss */
-body.monokai .middle #educationItems .educationItem,
-body.monokai .middle #educationItems .workItem,
-body.monokai .middle #workItems .educationItem,
-body.monokai .middle #workItems .workItem {
+/* line 138, src/scss/themes/_monokai.scss */
+body.monokai .middle .referenciaItems .educationItem,
+body.monokai .middle .referenciaItems .workItem {
   border: #ffe792 1px dotted;
 }
 
-/* line 143, src/scss/themes/_monokai.scss */
-body.monokai .middle #educationItems .educationItem:hover,
-body.monokai .middle #educationItems .workItem:hover,
-body.monokai .middle #workItems .educationItem:hover,
-body.monokai .middle #workItems .workItem:hover {
+/* line 142, src/scss/themes/_monokai.scss */
+body.monokai .middle .referenciaItems .educationItem:hover,
+body.monokai .middle .referenciaItems .workItem:hover {
   background: #444;
 }
 
-/* line 147, src/scss/themes/_monokai.scss */
-body.monokai .middle #educationItems .educationItem .eiAnio,
-body.monokai .middle #educationItems .educationItem .iiNombre,
-body.monokai .middle #educationItems .educationItem .wiAnio,
-body.monokai .middle #educationItems .educationItem .wiTelefono,
-body.monokai .middle #educationItems .workItem .eiAnio,
-body.monokai .middle #educationItems .workItem .iiNombre,
-body.monokai .middle #educationItems .workItem .wiAnio,
-body.monokai .middle #educationItems .workItem .wiTelefono,
-body.monokai .middle #workItems .educationItem .eiAnio,
-body.monokai .middle #workItems .educationItem .iiNombre,
-body.monokai .middle #workItems .educationItem .wiAnio,
-body.monokai .middle #workItems .educationItem .wiTelefono,
-body.monokai .middle #workItems .workItem .eiAnio,
-body.monokai .middle #workItems .workItem .iiNombre,
-body.monokai .middle #workItems .workItem .wiAnio,
-body.monokai .middle #workItems .workItem .wiTelefono {
+/* line 146, src/scss/themes/_monokai.scss */
+body.monokai .middle .referenciaItems .educationItem .eiAnio,
+body.monokai .middle .referenciaItems .educationItem .iiNombre,
+body.monokai .middle .referenciaItems .educationItem .wiAnio,
+body.monokai .middle .referenciaItems .educationItem .wiTelefono,
+body.monokai .middle .referenciaItems .workItem .eiAnio,
+body.monokai .middle .referenciaItems .workItem .iiNombre,
+body.monokai .middle .referenciaItems .workItem .wiAnio,
+body.monokai .middle .referenciaItems .workItem .wiTelefono {
   color: #a6e22e;
 }
 
-/* line 154, src/scss/themes/_monokai.scss */
-body.monokai .middle #educationItems .educationItem .eiInstitucion,
-body.monokai .middle #educationItems .educationItem .wiCargo,
-body.monokai .middle #educationItems .educationItem .wiJefe,
-body.monokai .middle #educationItems .workItem .eiInstitucion,
-body.monokai .middle #educationItems .workItem .wiCargo,
-body.monokai .middle #educationItems .workItem .wiJefe,
-body.monokai .middle #workItems .educationItem .eiInstitucion,
-body.monokai .middle #workItems .educationItem .wiCargo,
-body.monokai .middle #workItems .educationItem .wiJefe,
-body.monokai .middle #workItems .workItem .eiInstitucion,
-body.monokai .middle #workItems .workItem .wiCargo,
-body.monokai .middle #workItems .workItem .wiJefe {
+/* line 153, src/scss/themes/_monokai.scss */
+body.monokai .middle .referenciaItems .educationItem .eiInstitucion,
+body.monokai .middle .referenciaItems .educationItem .wiCargo,
+body.monokai .middle .referenciaItems .educationItem .wiJefe,
+body.monokai .middle .referenciaItems .workItem .eiInstitucion,
+body.monokai .middle .referenciaItems .workItem .wiCargo,
+body.monokai .middle .referenciaItems .workItem .wiJefe {
   color: #ffe792;
 }
 
-/* line 160, src/scss/themes/_monokai.scss */
-body.monokai .middle #educationItems .educationItem .eiCarrera,
-body.monokai .middle #educationItems .educationItem .wiEmpresa,
-body.monokai .middle #educationItems .workItem .eiCarrera,
-body.monokai .middle #educationItems .workItem .wiEmpresa,
-body.monokai .middle #workItems .educationItem .eiCarrera,
-body.monokai .middle #workItems .educationItem .wiEmpresa,
-body.monokai .middle #workItems .workItem .eiCarrera,
-body.monokai .middle #workItems .workItem .wiEmpresa {
+/* line 159, src/scss/themes/_monokai.scss */
+body.monokai .middle .referenciaItems .educationItem .eiCarrera,
+body.monokai .middle .referenciaItems .educationItem .wiEmpresa,
+body.monokai .middle .referenciaItems .workItem .eiCarrera,
+body.monokai .middle .referenciaItems .workItem .wiEmpresa {
   color: #F92672;
 }
 
-/* line 170, src/scss/themes/_monokai.scss */
-body.monokai #intereses .interes .iiNombre {
+/* line 169, src/scss/themes/_monokai.scss */
+body.monokai #interesesItem .interes .iiNombre {
   color: #a6e22e;
 }
 
-/* line 175, src/scss/themes/_monokai.scss */
-body.monokai #intereses .interes .iiImgEmpresa img:hover, body.monokai #intereses .interes .iiImgEmpresa img:focus {
+/* line 174, src/scss/themes/_monokai.scss */
+body.monokai #interesesItem .interes .iiImgEmpresa img:hover, body.monokai #interesesItem .interes .iiImgEmpresa img:focus {
   border: 8px solid #f8f8f2;
 }
 
-/* line 183, src/scss/themes/_monokai.scss */
+/* line 182, src/scss/themes/_monokai.scss */
 body.monokai .tema_box {
   border: 1px dashed #ffe792;
   color: #f8f8f2;
 }
 
-/* line 187, src/scss/themes/_monokai.scss */
+/* line 186, src/scss/themes/_monokai.scss */
 body.monokai .tema_box span {
   color: #ffe792;
 }
 
-/* line 191, src/scss/themes/_monokai.scss */
+/* line 190, src/scss/themes/_monokai.scss */
 body.monokai .tema_box li:hover {
   color: #F92672;
 }
@@ -467,161 +445,121 @@ body.mono .middle #personalSkills a[data-peso="7"] {
   color: #75715e;
 }
 
-/* line 158, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem,
-body.mono .middle #educationItems .workItem,
-body.mono .middle #workItems .educationItem,
-body.mono .middle #workItems .workItem {
+/* line 157, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem,
+body.mono .middle .referenciaItems .workItem {
   border-bottom: #000000 1px solid;
   border-left: none;
   border-right: none;
   border-top: none;
 }
 
-/* line 165, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem .eiAnio,
-body.mono .middle #educationItems .educationItem .iiNombre,
-body.mono .middle #educationItems .educationItem .wiAnio,
-body.mono .middle #educationItems .educationItem .wiTelefono,
-body.mono .middle #educationItems .workItem .eiAnio,
-body.mono .middle #educationItems .workItem .iiNombre,
-body.mono .middle #educationItems .workItem .wiAnio,
-body.mono .middle #educationItems .workItem .wiTelefono,
-body.mono .middle #workItems .educationItem .eiAnio,
-body.mono .middle #workItems .educationItem .iiNombre,
-body.mono .middle #workItems .educationItem .wiAnio,
-body.mono .middle #workItems .educationItem .wiTelefono,
-body.mono .middle #workItems .workItem .eiAnio,
-body.mono .middle #workItems .workItem .iiNombre,
-body.mono .middle #workItems .workItem .wiAnio,
-body.mono .middle #workItems .workItem .wiTelefono {
+/* line 164, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem .eiAnio,
+body.mono .middle .referenciaItems .educationItem .iiNombre,
+body.mono .middle .referenciaItems .educationItem .wiAnio,
+body.mono .middle .referenciaItems .educationItem .wiTelefono,
+body.mono .middle .referenciaItems .workItem .eiAnio,
+body.mono .middle .referenciaItems .workItem .iiNombre,
+body.mono .middle .referenciaItems .workItem .wiAnio,
+body.mono .middle .referenciaItems .workItem .wiTelefono {
   color: #75715e;
 }
 
-/* line 172, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem .eiInstitucion,
-body.mono .middle #educationItems .educationItem .wiCargo,
-body.mono .middle #educationItems .educationItem .wiJefe,
-body.mono .middle #educationItems .workItem .eiInstitucion,
-body.mono .middle #educationItems .workItem .wiCargo,
-body.mono .middle #educationItems .workItem .wiJefe,
-body.mono .middle #workItems .educationItem .eiInstitucion,
-body.mono .middle #workItems .educationItem .wiCargo,
-body.mono .middle #workItems .educationItem .wiJefe,
-body.mono .middle #workItems .workItem .eiInstitucion,
-body.mono .middle #workItems .workItem .wiCargo,
-body.mono .middle #workItems .workItem .wiJefe {
+/* line 171, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem .eiInstitucion,
+body.mono .middle .referenciaItems .educationItem .wiCargo,
+body.mono .middle .referenciaItems .educationItem .wiJefe,
+body.mono .middle .referenciaItems .workItem .eiInstitucion,
+body.mono .middle .referenciaItems .workItem .wiCargo,
+body.mono .middle .referenciaItems .workItem .wiJefe {
   color: #000000;
 }
 
-/* line 178, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem .eiCarrera,
-body.mono .middle #educationItems .educationItem .wiEmpresa,
-body.mono .middle #educationItems .workItem .eiCarrera,
-body.mono .middle #educationItems .workItem .wiEmpresa,
-body.mono .middle #workItems .educationItem .eiCarrera,
-body.mono .middle #workItems .educationItem .wiEmpresa,
-body.mono .middle #workItems .workItem .eiCarrera,
-body.mono .middle #workItems .workItem .wiEmpresa {
+/* line 177, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem .eiCarrera,
+body.mono .middle .referenciaItems .educationItem .wiEmpresa,
+body.mono .middle .referenciaItems .workItem .eiCarrera,
+body.mono .middle .referenciaItems .workItem .wiEmpresa {
   color: #49483e;
 }
 
-/* line 183, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem:hover,
-body.mono .middle #educationItems .workItem:hover,
-body.mono .middle #workItems .educationItem:hover,
-body.mono .middle #workItems .workItem:hover {
+/* line 182, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem:hover,
+body.mono .middle .referenciaItems .workItem:hover {
   background: #75715e;
   color: #fff;
 }
 
-/* line 187, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem:hover .eiAnio,
-body.mono .middle #educationItems .educationItem:hover .iiNombre,
-body.mono .middle #educationItems .educationItem:hover .wiAnio,
-body.mono .middle #educationItems .educationItem:hover .wiTelefono,
-body.mono .middle #educationItems .workItem:hover .eiAnio,
-body.mono .middle #educationItems .workItem:hover .iiNombre,
-body.mono .middle #educationItems .workItem:hover .wiAnio,
-body.mono .middle #educationItems .workItem:hover .wiTelefono,
-body.mono .middle #workItems .educationItem:hover .eiAnio,
-body.mono .middle #workItems .educationItem:hover .iiNombre,
-body.mono .middle #workItems .educationItem:hover .wiAnio,
-body.mono .middle #workItems .educationItem:hover .wiTelefono,
-body.mono .middle #workItems .workItem:hover .eiAnio,
-body.mono .middle #workItems .workItem:hover .iiNombre,
-body.mono .middle #workItems .workItem:hover .wiAnio,
-body.mono .middle #workItems .workItem:hover .wiTelefono {
+/* line 186, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem:hover .eiAnio,
+body.mono .middle .referenciaItems .educationItem:hover .iiNombre,
+body.mono .middle .referenciaItems .educationItem:hover .wiAnio,
+body.mono .middle .referenciaItems .educationItem:hover .wiTelefono,
+body.mono .middle .referenciaItems .workItem:hover .eiAnio,
+body.mono .middle .referenciaItems .workItem:hover .iiNombre,
+body.mono .middle .referenciaItems .workItem:hover .wiAnio,
+body.mono .middle .referenciaItems .workItem:hover .wiTelefono {
   color: #fff;
 }
 
-/* line 194, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem:hover .eiInstitucion,
-body.mono .middle #educationItems .educationItem:hover .wiCargo,
-body.mono .middle #educationItems .educationItem:hover .wiJefe,
-body.mono .middle #educationItems .workItem:hover .eiInstitucion,
-body.mono .middle #educationItems .workItem:hover .wiCargo,
-body.mono .middle #educationItems .workItem:hover .wiJefe,
-body.mono .middle #workItems .educationItem:hover .eiInstitucion,
-body.mono .middle #workItems .educationItem:hover .wiCargo,
-body.mono .middle #workItems .educationItem:hover .wiJefe,
-body.mono .middle #workItems .workItem:hover .eiInstitucion,
-body.mono .middle #workItems .workItem:hover .wiCargo,
-body.mono .middle #workItems .workItem:hover .wiJefe {
+/* line 193, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem:hover .eiInstitucion,
+body.mono .middle .referenciaItems .educationItem:hover .wiCargo,
+body.mono .middle .referenciaItems .educationItem:hover .wiJefe,
+body.mono .middle .referenciaItems .workItem:hover .eiInstitucion,
+body.mono .middle .referenciaItems .workItem:hover .wiCargo,
+body.mono .middle .referenciaItems .workItem:hover .wiJefe {
   color: #fff;
 }
 
-/* line 200, src/scss/themes/_mono.scss */
-body.mono .middle #educationItems .educationItem:hover .eiCarrera,
-body.mono .middle #educationItems .educationItem:hover .wiEmpresa,
-body.mono .middle #educationItems .workItem:hover .eiCarrera,
-body.mono .middle #educationItems .workItem:hover .wiEmpresa,
-body.mono .middle #workItems .educationItem:hover .eiCarrera,
-body.mono .middle #workItems .educationItem:hover .wiEmpresa,
-body.mono .middle #workItems .workItem:hover .eiCarrera,
-body.mono .middle #workItems .workItem:hover .wiEmpresa {
+/* line 199, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem:hover .eiCarrera,
+body.mono .middle .referenciaItems .educationItem:hover .wiEmpresa,
+body.mono .middle .referenciaItems .workItem:hover .eiCarrera,
+body.mono .middle .referenciaItems .workItem:hover .wiEmpresa {
   color: #fff;
 }
 
-/* line 211, src/scss/themes/_mono.scss */
+/* line 210, src/scss/themes/_mono.scss */
 body.mono #intereses .interes .iiNombre {
   color: #75715e;
 }
 
-/* line 216, src/scss/themes/_mono.scss */
+/* line 215, src/scss/themes/_mono.scss */
 body.mono #intereses .interes .iiImgEmpresa img:hover, body.mono #intereses .interes .iiImgEmpresa img:focus {
   border: 8px solid #fff;
 }
 
-/* line 224, src/scss/themes/_mono.scss */
+/* line 223, src/scss/themes/_mono.scss */
 body.mono .tema_box {
   border: 1px outset #000000;
   color: #000000;
 }
 
-/* line 228, src/scss/themes/_mono.scss */
+/* line 227, src/scss/themes/_mono.scss */
 body.mono .tema_box span {
   color: #000000;
 }
 
-/* line 232, src/scss/themes/_mono.scss */
+/* line 231, src/scss/themes/_mono.scss */
 body.mono .tema_box li:hover {
   color: #49483e;
   font-weight: bold;
   transform: scale(1.1);
 }
 
-/* line 240, src/scss/themes/_mono.scss */
+/* line 239, src/scss/themes/_mono.scss */
 body.mono .percircle > span {
   color: #000000;
 }
 
-/* line 244, src/scss/themes/_mono.scss */
+/* line 243, src/scss/themes/_mono.scss */
 body.mono .percircle::after {
   background: #fff;
 }
 
-/* line 247, src/scss/themes/_mono.scss */
+/* line 246, src/scss/themes/_mono.scss */
 body.mono .percircle.pink .bar,
 body.mono .percircle.pink .fill {
   border-color: yellow;
@@ -964,17 +902,14 @@ em.h1 {
 }
 
 /* line 278, src/scss/style.scss */
-.middle #educationItems,
-.middle #workItems {
+.middle .referenciaItems {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 283, src/scss/style.scss */
-.middle #educationItems .educationItem,
-.middle #educationItems .workItem,
-.middle #workItems .educationItem,
-.middle #workItems .workItem {
+/* line 282, src/scss/style.scss */
+.middle .referenciaItems .educationItem,
+.middle .referenciaItems .workItem {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -985,101 +920,76 @@ em.h1 {
   width: 22%;
 }
 
-/* line 294, src/scss/style.scss */
-.middle #educationItems .educationItem:hover,
-.middle #educationItems .workItem:hover,
-.middle #workItems .educationItem:hover,
-.middle #workItems .workItem:hover {
+/* line 293, src/scss/style.scss */
+.middle .referenciaItems .educationItem:hover,
+.middle .referenciaItems .workItem:hover {
   cursor: pointer;
 }
 
-/* line 298, src/scss/style.scss */
-.middle #educationItems .educationItem .eiIcono,
-.middle #educationItems .workItem .eiIcono,
-.middle #workItems .educationItem .eiIcono,
-.middle #workItems .workItem .eiIcono {
+/* line 297, src/scss/style.scss */
+.middle .referenciaItems .educationItem .eiIcono,
+.middle .referenciaItems .workItem .eiIcono {
   font-size: 2em;
 }
 
-/* line 302, src/scss/style.scss */
-.middle #educationItems .educationItem .eiAnio,
-.middle #educationItems .educationItem .iiNombre,
-.middle #educationItems .educationItem .wiAnio,
-.middle #educationItems .educationItem .wiTelefono,
-.middle #educationItems .workItem .eiAnio,
-.middle #educationItems .workItem .iiNombre,
-.middle #educationItems .workItem .wiAnio,
-.middle #educationItems .workItem .wiTelefono,
-.middle #workItems .educationItem .eiAnio,
-.middle #workItems .educationItem .iiNombre,
-.middle #workItems .educationItem .wiAnio,
-.middle #workItems .educationItem .wiTelefono,
-.middle #workItems .workItem .eiAnio,
-.middle #workItems .workItem .iiNombre,
-.middle #workItems .workItem .wiAnio,
-.middle #workItems .workItem .wiTelefono {
+/* line 301, src/scss/style.scss */
+.middle .referenciaItems .educationItem .eiAnio,
+.middle .referenciaItems .educationItem .iiNombre,
+.middle .referenciaItems .educationItem .wiAnio,
+.middle .referenciaItems .educationItem .wiTelefono,
+.middle .referenciaItems .workItem .eiAnio,
+.middle .referenciaItems .workItem .iiNombre,
+.middle .referenciaItems .workItem .wiAnio,
+.middle .referenciaItems .workItem .wiTelefono {
   font-weight: bold;
 }
 
-/* line 309, src/scss/style.scss */
-.middle #educationItems .educationItem .eiCarrera, .middle #educationItems .educationItem .wiEmpresa,
-.middle #educationItems .workItem .eiCarrera,
-.middle #educationItems .workItem .wiEmpresa,
-.middle #workItems .educationItem .eiCarrera,
-.middle #workItems .educationItem .wiEmpresa,
-.middle #workItems .workItem .eiCarrera,
-.middle #workItems .workItem .wiEmpresa {
+/* line 308, src/scss/style.scss */
+.middle .referenciaItems .educationItem .eiCarrera, .middle .referenciaItems .educationItem .wiEmpresa,
+.middle .referenciaItems .workItem .eiCarrera,
+.middle .referenciaItems .workItem .wiEmpresa {
   font-weight: bold;
 }
 
-/* line 313, src/scss/style.scss */
-.middle #educationItems .educationItem .wiImgEmpresa img,
-.middle #educationItems .educationItem .iiImgEmpresa img,
-.middle #educationItems .workItem .wiImgEmpresa img,
-.middle #educationItems .workItem .iiImgEmpresa img,
-.middle #workItems .educationItem .wiImgEmpresa img,
-.middle #workItems .educationItem .iiImgEmpresa img,
-.middle #workItems .workItem .wiImgEmpresa img,
-.middle #workItems .workItem .iiImgEmpresa img {
+/* line 312, src/scss/style.scss */
+.middle .referenciaItems .educationItem .wiImgEmpresa img,
+.middle .referenciaItems .educationItem .iiImgEmpresa img,
+.middle .referenciaItems .workItem .wiImgEmpresa img,
+.middle .referenciaItems .workItem .iiImgEmpresa img {
   margin: 10px;
   max-width: 150px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 283, src/scss/style.scss */
-  .middle #educationItems .educationItem,
-  .middle #educationItems .workItem,
-  .middle #workItems .educationItem,
-  .middle #workItems .workItem {
+  /* line 282, src/scss/style.scss */
+  .middle .referenciaItems .educationItem,
+  .middle .referenciaItems .workItem {
     margin: 5px;
     width: 100%;
   }
-  /* line 323, src/scss/style.scss */
-  .middle #educationItems .educationItem p,
-  .middle #educationItems .workItem p,
-  .middle #workItems .educationItem p,
-  .middle #workItems .workItem p {
+  /* line 322, src/scss/style.scss */
+  .middle .referenciaItems .educationItem p,
+  .middle .referenciaItems .workItem p {
     font-size: 0.9em;
   }
 }
 
-/* line 329, src/scss/style.scss */
-.middle #educationItems em,
-.middle #workItems em {
+/* line 328, src/scss/style.scss */
+.middle .referenciaItems em {
   bottom: 15px;
   left: 15px;
   font-weight: bold;
   position: absolute;
 }
 
-/* line 338, src/scss/style.scss */
-#intereses {
+/* line 337, src/scss/style.scss */
+#interesesItem {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 342, src/scss/style.scss */
-#intereses .interes {
+/* line 341, src/scss/style.scss */
+#interesesItem .interes {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1089,13 +999,13 @@ em.h1 {
   width: 22%;
 }
 
-/* line 351, src/scss/style.scss */
-#intereses .interes .iiNombre {
+/* line 350, src/scss/style.scss */
+#interesesItem .interes .iiNombre {
   font-weight: bold;
 }
 
-/* line 355, src/scss/style.scss */
-#intereses .interes .iiImgEmpresa img {
+/* line 354, src/scss/style.scss */
+#interesesItem .interes .iiImgEmpresa img {
   border: 8px solid transparent;
   border-radius: 50%;
   margin: 10px;
@@ -1103,35 +1013,35 @@ em.h1 {
   transition: transform ease-out .3s;
 }
 
-/* line 362, src/scss/style.scss */
-#intereses .interes .iiImgEmpresa img:hover, #intereses .interes .iiImgEmpresa img:focus {
+/* line 361, src/scss/style.scss */
+#interesesItem .interes .iiImgEmpresa img:hover, #interesesItem .interes .iiImgEmpresa img:focus {
   border-radius: 50%;
   cursor: crosshair;
   transform: scale(1.2) rotate(10deg);
 }
 
 @media screen and (max-width: 768px) {
-  /* line 342, src/scss/style.scss */
-  #intereses .interes {
+  /* line 341, src/scss/style.scss */
+  #interesesItem .interes {
     width: 100%;
   }
 }
 
-/* line 375, src/scss/style.scss */
-#intereses em {
+/* line 374, src/scss/style.scss */
+#interesesItem em {
   bottom: 15px;
   left: 15px;
   font-weight: bold;
   position: absolute;
 }
 
-/* line 383, src/scss/style.scss */
+/* line 382, src/scss/style.scss */
 .tema_box {
   padding: 20px;
   width: 200px;
 }
 
-/* line 387, src/scss/style.scss */
+/* line 386, src/scss/style.scss */
 .tema_box li {
   cursor: pointer;
 }

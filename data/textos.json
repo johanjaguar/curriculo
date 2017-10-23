@@ -1,0 +1,359 @@
+{
+	"textos": {
+		"spanish": {
+			"pNotaBox": "Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.",
+			"lblTemaBox": "Tema",
+			"h1HojaDeVida": "Hoja de vida",
+			"h2Encabezado": "Información General",
+			"lblNombre": "Nombre",
+			"lblToBe": "Trabajo",
+			"vlNombre": "Johan Vargas Sánchez",
+			"vlToBe": "Desarrollador Front End",
+			"vlGithub": "johanjaguar",
+			"vlLinkedin": "johanvargas",
+			"vlEmail": "johanvargas@outlook.com",
+			"vlSkype": "johan.vargas4",
+			"vlWhatsapp": "+57 3044704118",
+			"vlPhone": "+571 8011908",
+			"txtDescripcion": "<p>Identificado con C.C. 1032387867 de Bogotá</p><p>Un desarrollador web afín a la tecnología, interesado en las nuevas herramientas que puedan mejorar el flujo de trabajo en el desarrollo web.<br/><br/>Con experiencia de trabajo en tecnología y con diversos grupos de trabajo en temas web, desde páginas para organizaciones sin ánimo de lucro, organizaciones deportivas, agencias, y páginas comerciales en varios idiomas.<br/><br/>Tengo el firme deseo de trabajar en algún lugar donde tenga la oportunidad de explorar nuevos temas y mejorar los que ya he aprendido anteriormente, a través de diferentes desafíos de desarrollo.<br/><br/>Ante una buena propuesta laboral, tengo la disponibilidad de trabajar en una ciudad diferente, país, o de manera remota.</p>",
+			"h2Trabajo": "Trabajo",
+			"lblJefe": "Jefe Inmediato: ",
+			"h2Personales": "Referencias Personales",
+			"h2Profesionales": "Habilidades Profesionales",
+			"h2Educacion": "Educación",
+			"h2Workshops": "Workshops",
+			"h2Intereses": "Intereses"
+		},
+		"english": {
+			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. <br/>Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. https://github.com/johanjaguar/curriculo.<br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.<br/>Until this day, the web page use SASS, Javascript, HTML5, and some visual libraries to display the CV information.",
+			"lblTemaBox": "Skins",
+			"h1HojaDeVida": "CV",
+			"h2Encabezado": "General Information",
+			"lblNombre": "Name",
+			"lblToBe": "Work",
+			"vlNombre": "Pether Johan Vargas Sánchez",
+			"vlToBe": "Front End Developer",
+			"vlGithub": "johanjaguar",
+			"vlLinkedin": "johanvargas",
+			"vlEmail": "johanvargas@outlook.com",
+			"vlSkype": "johan.vargas4",
+			"vlWhatsapp": "+57 3044704118",
+			"vlPhone": "+571 8011908",
+			"txtDescripcion": "<p>I'm a web developer that love all the things related to technology, interesting in new tools to improve the web development workflow.<br/><br/>I had been working several years in the web market, development projects for differents brands in differents topics.<br/><br/>I want to work in a place where I had the opportunity to improve my skills through of code challenges.<br/><br/>I'm able to work in a different city, country or work remotely.Also, I love Rugby that because I'm Coach of the male mayor team in Jaguares Rugby Club, it's my passion, my second work.</p>",
+			"h2Trabajo": "Work",
+			"lblJefe": "Inmediate Supervisor: ",
+			"h2Personales": "Friends",
+			"h2Profesionales": "Professional Skills",
+			"h2Educacion": "Education",
+			"h2Workshops": "Workshops",
+			"h2Intereses": "Hobbies"
+		}
+	},
+	"temas": {
+		"Monokai": {
+			"nombre": "Monokai",
+			"valor": "monokai"
+		},
+		"Monocromatico": {
+			"nombre": "Black and White",
+			"valor": "mono"
+		}
+	},
+	"links": {
+		"github": "https://github.com/johanjaguar",
+		"linkedin": "https://www.linkedin.com/in/johanvargas",
+		"email": "mailto:johanvargas@outlook.com",
+		"skype": "skype:johan.vargas4?call",
+		"whatsapp": "whatsapp://call?number=573044704118",
+		"phone": "tel:+5718011908"
+	},
+	"referencias": {
+		"eltiempo": {
+			"link": "http://eltiempo.com/",
+			"empresa": "Casa Editorial El Tiempo",
+			"cargo": "Desarrollador Front End",
+			"cargoEng": "Front end Developer",
+			"telefono": "317 8945533",
+			"anio": "2016",
+			"jefe": "Gabriel Bobadilla"
+		},
+		"godat": {
+			"link": "http://elevatepeople.tv/",
+			"empresa": "GoDat",
+			"cargo": "Desarrollador Front-End",
+			"cargoEng": "Front end Developer",
+			"telefono": "320 8857544",
+			"anio": "2016",
+			"jefe": "Jair Celis"
+		},
+		"msi": {
+			"link": "http://msiamericas.com/",
+			"empresa": "MSI Americas",
+			"cargo": "Consultor en Telecomunicaciones",
+			"cargoEng": "Test Drive and Telecomunication Consultant",
+			"telefono": "Skype: benjillanes88_1",
+			"anio": "2016",
+			"jefe": "Benjamin Illanes"
+		},
+		"rentingcarz": {
+			"link": "http://rentingcarz.com",
+			"empresa": "Rentingcarz.com",
+			"cargo": "Desarrollador Front End",
+			"cargoEng": "Front end Developer",
+			"telefono": "300 8983569",
+			"anio": "2014-2015",
+			"jefe": "Juan Camilo Restrepo"
+		},
+		"mediatic": {
+			"link": "http://mediatic.com.co",
+			"empresa": "mediaTIC",
+			"cargo": "Desarrollador Front End",
+			"cargoEng": "Front end Developer",
+			"telefono": "311 5313928",
+			"anio": "2013-2016",
+			"jefe": "Gina Sánchez"
+		}
+	},
+	"referenciasPersonales": {
+		"cris": {
+			"link": "#",
+			"empresa": "Cristian Gonzalez",
+			"cargo": "Publicista",
+			"cargoEng": "Publisher",
+			"telefono": "300 8983569",
+			"anio": "NULL",
+			"jefe": "NULL"
+		},
+		"stifen": {
+			"link": "#",
+			"empresa": "Stifen Panche Gutierrez",
+			"cargo": "Desarrollador",
+			"cargoEng": "Developer",
+			"telefono": "301 6628525",
+			"anio": "NULL",
+			"jefe": "NULL"
+		},
+		"bimbo": {
+			"link": "#",
+			"empresa": "Camilo Andres Bermudez",
+			"cargo": "Jefe de Oficina",
+			"cargoEng": "Office Boss",
+			"telefono": "301 3970158",
+			"anio": "NULL",
+			"jefe": "NULL"
+		}
+	},
+	"skills": {
+		"web": {
+			"porcentaje": "90",
+			"color": "yellow",
+			"skillSpa": "Desarrollo Web",
+			"skillEng": "Web Development"
+		},
+		"HTML5": {
+			"porcentaje": "90",
+			"color": "green",
+			"skillSpa": "HTML 5",
+			"skillEng": "HTML 5"
+		},
+		"javascript": {
+			"porcentaje": "70",
+			"color": "pink",
+			"skillSpa": "Javascript",
+			"skillEng": "Javascript"
+		},
+		"php": {
+			"porcentaje": "70",
+			"color": "blue",
+			"skillSpa": "pHp",
+			"skillEng": "pHp"
+		},
+		"wordpress": {
+			"porcentaje": "70",
+			"color": "yellow",
+			"skillSpa": "Wordpress",
+			"skillEng": "Wordpress"
+		},
+		"jquery": {
+			"porcentaje": "70",
+			"color": "green",
+			"skillSpa": "jQuery",
+			"skillEng": "jQuery"
+		},
+		"responsive": {
+			"porcentaje": "90",
+			"color": "pink",
+			"skillSpa": "Diseño Responsive",
+			"skillEng": "Responsive Design"
+		},
+		"mailing": {
+			"porcentaje": "85",
+			"color": "blue",
+			"skillSpa": "Diseño de Mailing",
+			"skillEng": "Mailing Desing"
+		},
+		"SASS": {
+			"porcentaje": "95",
+			"color": "yellow",
+			"skillSpa": "SASS",
+			"skillEng": "SASS"
+		},
+		"pug": {
+			"porcentaje": "80",
+			"color": "green",
+			"skillSpa": "Pug / Jade",
+			"skillEng": "Pug / Jade"
+		},
+		"angular": {
+			"porcentaje": "50",
+			"color": "pink",
+			"skillSpa": "Angular Js",
+			"skillEng": "Angular Js"
+		},
+		"gulp": {
+			"porcentaje": "80",
+			"color": "blue",
+			"skillSpa": "Gulp",
+			"skillEng": "Gulp"
+		},
+		"grunt": {
+			"porcentaje": "70",
+			"color": "yellow",
+			"skillSpa": "Grunt",
+			"skillEng": "Grunt"
+		},
+		"linux": {
+			"porcentaje": "85",
+			"color": "green",
+			"skillSpa": "Linux",
+			"skillEng": "Linux"
+		},
+		"ingles": {
+			"porcentaje": "80",
+			"color": "pink",
+			"skillSpa": "Ingles",
+			"skillEng": "English"
+		},
+		"spanish": {
+			"porcentaje": "99",
+			"color": "blue",
+			"skillSpa": "Español",
+			"skillEng": "Spanish"
+		}
+	},
+	"instituciones": {
+		"distrital": {
+			"icono": "book",
+			"fecha": "2010-2007",
+			"nombre": "Universidad Distrital Francisco José de Caldas",
+			"curso": "Ingenieria de sistemas",
+			"cursoEng": "Computer Engineering"
+		},
+		"sanAntonio": {
+			"icono": "graduation-cap",
+			"fecha": "1993-2003",
+			"nombre": "Colegio San Antonio",
+			"curso": "Bachiller tecnologico con enfasis en Programacion de computadores",
+			"cursoEng": "Bachelor of Technology with emphasis in Computer Programming"
+		},
+		"ilud": {
+			"icono": "flag",
+			"fecha": "2008-2010",
+			"nombre": "ILUD Institulo de Lenguas Universidad Distrital",
+			"curso": "Ingles Intermedio 1, 2 y 3",
+			"cursoEng": "English Intermediate 1, 2 and 3"
+		}
+	},
+	"workshops": {
+		"react": {
+			"icono": "laptop",
+			"fecha": "2017",
+			"nombre": "Codeacademy",
+			"curso": "React.js",
+			"cursoEng": "React.js"
+		},
+		"jQuery": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy - Codeschool",
+			"curso": "jQuery + Try jQuery",
+			"cursoEng": "jQuery + Try jQuery"
+		},
+		"angularJs": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeschool",
+			"curso": "Shaping up with Angular.js",
+			"cursoEng": "Shaping up with Angular.js"
+		},
+		"php": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy",
+			"curso": "php",
+			"cursoEng": "php"
+		},
+		"ruby": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy",
+			"curso": "Ruby on Rails",
+			"cursoEng": "Ruby on Rails"
+		},
+		"javascript": {
+			"icono": "laptop",
+			"fecha": "2015",
+			"nombre": "Codeacademy",
+			"curso": "Javascript",
+			"cursoEng": "Javascript"
+		},
+		"dreamweaver": {
+			"icono": "laptop",
+			"fecha": "2009",
+			"nombre": "Sena Virtual",
+			"curso": "Diseño web con Adobe Dreamweaver",
+			"cursoEng": "Web Desing with Adobe Dreamweaver"
+		},
+		"flash": {
+			"icono": "laptop",
+			"fecha": "2009",
+			"nombre": "Sena Virtual",
+			"curso": "Flash / Animacion en 2D",
+			"cursoEng": "2D Animation with Flash"
+		}
+	},
+	"intereses": {
+		"rugby": {
+			"textoEsp": "Rugby",
+			"textoEng": "Rugby"
+		},
+		"socialmedia": {
+			"textoEsp": "Social Media",
+			"textoEng": "Social Media"
+		},
+		"programming": {
+			"textoEsp": "Programación",
+			"textoEng": "Programming"
+		},
+		"cloud": {
+			"textoEsp": "Computación en la nube",
+			"textoEng": "Cloud Computing"
+		},
+		"videogames": {
+			"textoEsp": "Video Juegos",
+			"textoEng": "Videogames"
+		},
+		"travel": {
+			"textoEsp": "Viajes",
+			"textoEng": "Traveling"
+		},
+		"photo": {
+			"textoEsp": "Fotografia",
+			"textoEng": "Photos"
+		},
+		"music": {
+			"textoEsp": "Música del mundo",
+			"textoEng": "World Music" 
+		}
+	}
+}
