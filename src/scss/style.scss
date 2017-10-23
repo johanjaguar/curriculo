@@ -25,41 +25,7 @@ a {
 	}
 }
 
-.nota {
-	display: inline;
-	float: none;
-	max-width: 100%;
 
-	@media screen and (max-width: $mobile-split-width) {
-		display: block;
-		margin: 0 5px 20px 10px;
-	}
-
-	.notaBox {
-		float: right;
-		opacity: 0.9;
-		padding: 3px 6px;
-		position: absolute;
-		right: 10px;
-		top: 10px;
-		width: 33%;
-		z-index: 11;
-
-		@media screen and (max-width: $mobile-split-width) {
-			float: none;
-			position: relative;
-			width: 100%;
-		}
-
-		p {
-			font-size: 0.6em;
-		}
-
-		a {
-			text-decoration: none;
-		}
-	}
-}
 
 .hcodigo {
 	display: inline-table;
@@ -390,16 +356,68 @@ em {
 	}
 }
 
-.tema_box {
+
+
+.notificaciones_box {
+	align-items: center;
 	display: flex;
-	padding: 20px;
-	width: 200px;
+	flex-wrap: wrap;
+	justify-content: space-around;
 
-	li {
-		cursor: pointer;
 
-		.fa-stack {
-			border-radius: 50%;
+	.notificacion_item {
+		width: 20%;
+
+		@media screen and (max-width: $mobile-split-width) {
+			box-sizing: border-box;
+			width: 50%;
+		}
+	}
+
+	.tema_box {
+		padding: 20px;
+		
+		@media screen and (max-width: $mobile-split-width) {
+			padding: 0;
+			
+			.lblTemaBox {
+
+				display: none;
+			}
+		}
+
+		li {
+			cursor: pointer;
+
+			.fa-stack {
+				border-radius: 50%;
+			}
+		}
+	}
+
+	.nota {
+		@media screen and (max-width: $mobile-split-width) {
+			display: block;
+			margin: 0 5px 10px 10px;
+			width: 100%;
+		}
+
+		.notaBox {
+			opacity: 0.9;
+			padding: 3px 6px;
+			@media screen and (max-width: $mobile-split-width) {
+				float: none;
+				position: relative;
+				width: 100%;
+			}
+
+			p {
+				font-size: 0.6em;
+			}
+
+			a {
+				text-decoration: none;
+			}
 		}
 	}
 }
