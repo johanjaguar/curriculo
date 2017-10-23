@@ -3,10 +3,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="build/css/style.min.css">
-
-		<script src="build/js/final.js"></script>
 		<link rel="stylesheet" href="build/css/percircle.min.css">
-		<link rel="stylesheet" href="build/css/animate.min.css">
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 </head>
@@ -14,23 +12,19 @@
 <body class="monokai">
 		<div class="nota no-print">
 			<div class="notaBox">
-				<p>Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href="https://github.com/johanjaguar/curriculo" target="_blank">https://github.com/johanjaguar/curriculo</a>.</p>
-				<p>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.</p>
+				<p class="pNotaBox"></p>
 			</div>
 		</div>
 		<div class="tema_box no-print">
-			<span>Tema: </span>
+			<span class="lblTemaBox"></span>
 			<ul class="tema">
-				<li class="tema_li" data-theme="mono">Monocromatico</li>
-				<li class="tema_li" data-theme="monokai">Monokai</li>
 			</ul>
 		</div>
 		
-		
 		<div class="container">
-			<h1 class="hcodigo" id="h1HojaDeVida">Hoja de vida</h1>
+			<h1 class="hcodigo h1HojaDeVida" id="h1HojaDeVida"></h1>
 			<div class="hojadevidaBox cajaHV" id="hojaDeVida">
-				<h2 id="h2Encabezado" class="hcodigo">Información General</h2>
+				<h2 id="h2Encabezado" class="hcodigo h2Encabezado"></h2>
 				<div id="encabezado" class="cajaHV">
 					<div class="fotoJohan">
 						<img src="build/images-op/johan.png"/>
@@ -38,28 +32,38 @@
 					<div class="encabezadoRight">
 						<div class="eRightTop">
 							<div class="eRightTopHs">
-								<h3><b>id</b><span>=</span>"Johan Vargas Sánchez"<span>,</span></h3>
-								<h4><b>class</b><span>=</span>"Desarrollador Front-End"<span>,</span></h4>
+								<h3><b class="lblNombre"></b> = <span class="vlNombre"></span>, </h3>
+								<h4><b class="lblToBe"></b> = <span class="vlToBe"></span>,</h4>
 							</div>
 							<div class="eRightTopRedes">
-								<a href="https://www.linkedin.com/in/johanvargas" class="lmagenta"><i class="fa fa-github"></i> johanjaguar</a>
-								<a href="https://www.linkedin.com/in/johanvargas" class="lcuruba"><i class="fa fa-linkedin"></i> johanvargas</a>
-								<a href="#" class="lverde"><i class="fa fa-envelope-o"></i> johanvargas@outlook.com</a><br/>
-								<a href="https://www.linkedin.com/in/johanvargas" class="lmagenta"><i class="fa fa-skype"></i> johan.vargas4</a>
-								<a href="https://www.linkedin.com/in/johanvargas" class="lcuruba"><i class="fa fa-whatsapp"></i> +573044704118</a>
-								<a href="#" class="lverde"><i class="fa fa-phone"></i> +571 8011908</a>
+								<a target="_blank" id="link_github" href="#" class="lmagenta">
+									<i class="fa fa-github"></i>
+									<span class="vlGithub"></span>
+								</a>
+								<a target="_blank" id="link_linkedin" href="#" class="lcuruba">
+									<i class="fa fa-linkedin"></i>
+									<span class="vlLinkedin"></span>
+								</a>
+								<a target="_blank" href="#" id="link_email" class="lverde">
+									<i class="fa fa-envelope-o"></i> 
+									<span class="vlEmail"></span>
+								</a><br/>
+								<a target="_blank" href="#" id="link_skype" class="lmagenta">
+									<i class="fa fa-skype"></i>
+									<span class="vlSkype"></span>
+								</a>
+								<a target="_blank" href="#" id="link_whatsapp" class="lcuruba">
+									<i class="fa fa-whatsapp"></i>
+									<span class="vlWhatsapp"></span>
+								</a>
+								<a target="_blank" id="link_phone" href="#" class="lverde">
+									<i class="fa fa-phone"></i>
+									<span class="vlPhone"></span>
+									</a>
 							</div>
 						</div>
-						<div class="eRightBottom">
-							<p>Identificado con C.C. 1032387867 de Bogotá</p>
-							<p>Un desarrollador web afín a la tecnología, interesado en las nuevas herramientas que puedan mejorar el flujo de trabajo en el desarrollo web.
-							<br/><br/>
-							Con experiencia de trabajo en tecnología y con diversos grupos de trabajo en temas web, desde páginas para organizaciones sin ánimo de lucro, organizaciones deportivas, agencias, y páginas comerciales en varios idiomas.
-							<br/><br/>
-							Tengo el firme deseo de trabajar en algún lugar donde tenga la oportunidad de explorar nuevos temas y mejorar los que ya he aprendido anteriormente, a través de diferentes desafíos de desarrollo.
-							<br/><br/>
-							Ante una buena propuesta laboral, tengo la disponibilidad de trabajar en una ciudad diferente, país, o de manera remota.
-							</p>
+						<div class="eRightBottom txtDescripcion">
+							
 						</div>
 					</div>
 					<em class="h2">}</em>
@@ -82,118 +86,44 @@
 							</script>
 							<em class="h2">}</em>
 						</div>
-						-->
-						<h2 id="h2Referencias" class="hcodigo">Trabajo</h2>
-						<div id="workItems" class="cajaHV">
-							<script>
-								document.write( referencia('http://eltiempo.com/', 'eltiempo', 'Casa Editorial El Tiempo (Actualmente)', 'Desarrollador Front-End','317 8945533','2016','Gabriel Bobadilla' ));
-								document.write( referencia('http://elevatepeople.tv/', 'godat', 'Godat', 'Desarrollador Front-End','320 8857544','2016','Jair Celis' ));
-								document.write( referencia('http://msiamericas.com/', 'msi', 'MSI Americas', 'Consultor en Telecomunicaciones','Skype: benjillanes88_1','2016','Benjamin Illanes' ));
-								document.write( referencia('http://rentingcarz.com', 'rentingcarz', 'Rentingcarz.com', 'Desarrollador Front-End','300 8983569','2014-2015','Juan Camilo Restrepo' ));
-								//document.write( referencia('http://jaguaresrugbybogota.com/', 'jaguares', 'Jaguares Rugby Club', 'Head Coach / Webmaster','','2011-2016','NULL' ));
-								//document.write( referencia('http://www.tourtugas.org/', 'tourtugas', 'Fundación Tourtugas', 'Webmaster','313 8730956','2010-2016','Diana Ramirez' ));
-								document.write( referencia('http://mediatic.com.co', 'mediatic', 'mediaTIC', 'Desarrollador Front-End','311 5313928','2013-2016','Gina Sánchez' ));
-								//document.write( referencia('http://happyvending.net/', 'garabato', 'Garabato Corp', 'Desarrollador Web','310 3012054','2012-2013','Hernan Cuartas' ));
-								document.write( referencia('http://www.pcslatin.org/portal/', 'zetta', 'Zetta Ingenieria', 'Desarrollador Jr.','','2011-2012','NULL' ));
-								document.write( referencia('http://www.cdi.co/#', 'cdi', 'CDI Software', 'Desarrollador Jr.','','2007-2008','NULL' ));
-							</script>
+						--> 
+						<h2 id="h2Referencias" class="hcodigo h2Trabajo"></h2>
+						<div id="workItems" class="referenciaItems cajaHV">
 							<em class="h2">}</em>
 						</div>
 
-						<h2 id="h2Work" class="hcodigo">Referencias Personales</h2>
-						<div id="workItems" class="cajaHV">
-
-							<script>
-								document.write( referencia('#', 'cris', 'Cristian Gonzalez', 'Publicista - MediaTIC', '300 8983569 ', 'NULL', 'NULL'));
-								document.write( referencia('#', 'stifen', 'Stifen Panche', 'Consultor de Aplicaciones ORACLE', '301 6628525', 'NULL', 'NULL' ));
-								document.write( referencia('#', 'bimbo', 'Camilo Bermudez', 'Jefe de Oficina de Turismo Tourexito / Egencia', '301 3970158', 'NULL', 'NULL' ));
-								//document.write( referencia('#', 'nando', 'Hernando Navarro', 'Gerente General Codipapel', '310 3466271', 'NULL', 'NULL' ));
-							</script>
+						<h2 id="h2Work" class="hcodigo h2Personales"></h2>
+						<div id="personalItems" class="referenciaItems cajaHV">
 							<em class="h2">}</em>
 						</div>
 
-						<h2 id="h2ProfessionalSkills" class="hcodigo">Habilidades Profesionales</h2>
+						<h2 id="h2ProfessionalSkills" class="hcodigo  h2Profesionales"></h2>
 						<div id="professionalSkills" class="cajaHV">
-							<script>
-								document.write( skill(90, 'yellow', 'Desarrollo Web') );
-								document.write( skill(90, 'green', 'HTML 5') );
-								document.write( skill(70, 'pink', 'Javascript') );
-								document.write( skill(70, 'blue', 'php') );
-								document.write( skill(70, 'yellow', 'Wordpress') );
-								document.write( skill(70, 'green', 'jQuery') );
-								document.write( skill(90, 'pink', 'Diseño Responsive') );
-								document.write( skill(85, 'yellow', 'Diseño De Mailing') );
-								document.write( skill(95, 'blue', 'SASS') );
-								document.write( skill(80, 'green', 'Pug / Jade') );
-								document.write( skill(50, 'pink', 'AngularJs') );
-								document.write( skill(80, 'blue', 'Gulp.js') );
-								document.write( skill(70, 'yellow', 'Grunt.js') );
-								document.write( skill(85, 'green', 'Linux') );
-								document.write( skill(80, 'pink', 'Ingles') );
-								document.write( skill(99, 'blue', 'Español') );
-							</script>
 							<em class="h2">}</em>
 						</div>
 					</div>
 					<div class="middleRight">
-						<h2 id="h2Education" class="hcodigo">Educación</h2>
-						<div id="educationItems" class="cajaHV">
-							<script>
-								document.write( educacion('book', '2010-2007', 'Universidad Distrital Francisco José de Caldas', 'Ingenieria de Sistemas' ));
-								document.write( educacion('graduation-cap', '1993-2003', 'Colegio San Antonio', 'Bachiller tecnologico con enfasis en Programación' ));
-								document.write( educacion('flag', '2008-2010', 'Instituto de Lenguas Universidad Distrital ILUD', 'English Intermediate I, II, III' ));
-							</script>
+						<h2 id="h2Education" class="hcodigo h2Educacion"></h2>
+						<div id="educationItems" class="referenciaItems cajaHV">
 							<em class="h2">}</em>
 						</div>
 						<br/>
 
-						<h2 id="h2Education" class="hcodigo">Workshops</h2>
-						<div id="educationItems" class="cajaHV">
-							<script>
-								document.write( educacion('laptop', '2017', 'Codeacademy', 'React.js' ));
-								document.write( educacion('laptop', '2016', 'Codeacademy - Codeschool', '>Learn Git / Try Git / Git Real<' ));
-								document.write( educacion('laptop', '2015', 'Codeacademy - Codeschool', 'jQuery / Try jQuery' ));
-								document.write( educacion('laptop', '2015', 'Codeacademy - Codeschool', 'HTML & CSS / Assembling Sass' ));
-								document.write( educacion('laptop', '2015', 'Codeschool', 'Shaping up with Angular.js' ));
-								document.write( educacion('laptop', '2015', 'Codeacademy', 'PHP + Ruby + Javascript' ));
-								document.write( educacion('laptop', '2009', 'SENA VIRTUAL', 'Diseño Web con Adobe Dreamweaver CS3 + Flash - Animacion en 2D' ));
-							</script>
+						<h2 id="h2Education" class="hcodigo h2Workshops"></h2>
+						<div id="workshopItems" class="cajaHV referenciaItems">
+
 						</div>
 					</div>
-				</div>
+				</div>	
 
-				<h2 id="h2Intereses" class="hcodigo">Intereses</h2>
-				<div id="intereses" class="cajaHV">
-					<script>
-						document.write( intereses('rugby', 'Rugby') );
-						document.write( intereses('socialmedia', 'Social Media') );
-						document.write( intereses('programming', 'Programación') );
-						document.write( intereses('cloud', 'Cloud Computing') );
-						document.write( intereses('videogames', 'Videojuegos') );
-						document.write( intereses('travel', 'Viajes') );
-						document.write( intereses('photo', 'Fotografía') );
-						document.write( intereses('music', 'Música del mundo') );
-					</script>
+				<h2 id="h2Intereses" class="hcodigo h2Intereses"></h2>
+				<div id="interesesItem" class="cajaHV">
 					<em class="h2">}</em>
 				</div>
 			</div>
 		</div>
-		<br/><br/><br/><br/><br/>	<br/><br/><br/><br/><br/>	<br/><br/><br/><br/><br/>	<br/><br/><br/><br/><br/>
-		<script type="text/javascript">
-			$(function(){
-					$("[id$='circle']").percircle();
-			});
-			
-			var tema = document.querySelectorAll('.tema_li');
-			var bodyTag = document.getElementsByTagName("body");
-			var temaSelected = 'monokai';
-			
-			for (var i = 0; i < tema.length; i++) {
-				tema[i].addEventListener('click', function(event) {
-					temaSelected = this.getAttribute('data-theme');
-					document.body.className = temaSelected;
-				});
-			}
-		</script>
+		
+		<script src="build/js/final.js"></script>
+
 	</body>
 </html>

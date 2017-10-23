@@ -134,8 +134,7 @@ body.monokai {
 			}
 		}
 		
-		#educationItems, 
-		#workItems {
+		.referenciaItems {
     	.educationItem, 
 			.workItem {
 				border: $curuba 1px dotted;
@@ -165,7 +164,7 @@ body.monokai {
 		}
 	}
 	
-	#intereses {
+	#interesesItem {
 		.interes {
 			.iiNombre {
 				color: $verde;
