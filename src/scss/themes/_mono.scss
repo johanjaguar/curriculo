@@ -105,6 +105,16 @@ body.mono {
 		color: $clr-letra1;
 	}
 
+	.language_box {
+		border: 1px outset $clr-borde;
+		color: $clr-letra1;
+		margin: 10px 0;
+
+		li {
+			cursor: pointer;
+		}
+	}
+	
 	.hojadevidaBox {
 		border: none;
 	}
@@ -224,7 +234,7 @@ body.mono {
 		}
 	}
 
-	.tema_box { 
+	.tema_box {
 		border: 1px outset $clr-letra1;
 		color: $clr-letra1;
 
@@ -239,7 +249,7 @@ body.mono {
 			margin: 2px;
 
 			.fa-stack {
-				border-radius: 50%; 
+				border-radius: 50%;
 			}
 
 			&:hover {

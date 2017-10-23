@@ -94,6 +94,16 @@ body.monokai {
 		color: $blanco;
 	}
 
+	.language_box {
+		border: 1px dashed $curuba;
+		color: $curuba;
+		margin: 10px 0;
+
+		li {
+			cursor: pointer;
+		}
+	}
+
 	.cajaHV {
 		border: 1px dotted $curuba;
 		color: $curuba;
@@ -200,7 +210,7 @@ body.monokai {
 			list-style: none;
 			float: left;
 			margin: 2px;
-			
+
 			.fa-stack {
 				border-radius: 50%;
 			}
