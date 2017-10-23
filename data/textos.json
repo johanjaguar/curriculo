@@ -54,11 +54,17 @@
 	"temas": {
 		"Monokai": {
 			"nombre": "Monokai",
-			"valor": "monokai"
+			"valor": "monokai",
+			"colorLetra": "#ffe792",
+			"colorFondo": "#272822",
+			"colorBorde": "#F92672"
 		},
 		"Monocromatico": {
 			"nombre": "Black and White",
-			"valor": "mono"
+			"valor": "mono",
+			"colorLetra": "#000",
+			"colorFondo": "#fff",
+			"colorBorde": "#ccc"
 		}
 	},
 	"links": {

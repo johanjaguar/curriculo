@@ -61,6 +61,7 @@ function setText(selector, texto) {
 	let elem = document.getElementsByClassName(selector);
 
 	Object.keys(elem).forEach(function (key) {
+		elem[key].innerHTML = "";
 		elem[key].innerHTML = elem[key].innerHTML + texto;
 	});
 }
@@ -72,16 +73,19 @@ function setLink(selector, link) {
 
 function setThemeList(themes) {
 	let elem = document.querySelector('.tema');
+	elem.innerHTML = "";
+
 	var length = themes.length;
 
 	var bodyTag = document.getElementsByTagName("body");
 	var temaSelected = 'monokai';
 
 	Object.keys(themes).forEach(function (key) {
-		elem.innerHTML = elem.innerHTML + "<li class='tema_li' data-theme='" + themes[key].valor + "'>" + themes[key].nombre + "</li>";
+		elem.innerHTML = elem.innerHTML + "<li class='tema_li' data-theme='" + themes[key].valor + "'><span class='fa-stack fa-lg' style='border: 4px dotted " + themes[key].colorBorde + ";'><i class='fa fa-circle fa-stack-2x' style='color: " + themes[key].colorFondo + ";'></i><i class='fa fa-paint-brush fa-stack-1x fa-inverse' style='color: " + themes[key].colorLetra + ";'></i></span></li>"; 
 	});
+	
 	var tema = document.querySelectorAll('.tema_li');
-
+	
 	for (var i = 0; i < tema.length; i++) {
 		tema[i].addEventListener('click', function (event) {
 			temaSelected = this.getAttribute('data-theme');
@@ -92,6 +96,7 @@ function setThemeList(themes) {
 
 function setReferencias(referencias, selector) {
 	let elem = document.querySelector(selector);
+	elem.innerHTML = "";
 
 	for (var key in referencias) {
 		var ref = referencias[key];
@@ -107,6 +112,7 @@ function setReferencias(referencias, selector) {
 
 function setSkills(skills, selector) {
 	let elem = document.querySelector(selector);
+	elem.innerHTML = "";
 
 	for (var key in skills) {
 		var sk = skills[key];
@@ -122,6 +128,7 @@ function setSkills(skills, selector) {
 
 function setEducacion(instituciones, selector) {
 	let elem = document.querySelector(selector);
+	elem.innerHTML = "";
 
 	for (var key in instituciones) {
 		var ref = instituciones[key];
@@ -137,6 +144,7 @@ function setEducacion(instituciones, selector) {
 
 function setIntereses(interesesList, selector) {
 	let elem = document.querySelector(selector);
+	elem.innerHTML = "";
 
 	for (var key in interesesList) {
 		var ref = interesesList[key];
@@ -152,6 +160,7 @@ function setIntereses(interesesList, selector) {
 
 function setLanguages(data, selector) {
 	let elem = document.querySelector(selector);
+	elem.innerHTML = "";
 	var idiomaSelected = 'es';
 	for (var key in data.languages) {
 		var sk = data.languages[key];
@@ -161,23 +170,23 @@ function setLanguages(data, selector) {
 		} else {
 			elem.innerHTML = elem.innerHTML + idioma(key, sk.nombre);
 		}
-	} 
+	}
 
 	var idiomaItem = document.querySelectorAll('.idioma-item');
 
 	for (var i = 0; i < idiomaItem.length; i++) {
 		idiomaItem[i].addEventListener('click', function (event) {
-				idiomaSelected = this.getAttribute('data-value');
-				document.getElementsByTagName('html')[0].setAttribute('lang', idiomaSelected);  
-				llenaDOM(data);
-				});
-		}
+			idiomaSelected = this.getAttribute('data-value');
+			document.getElementsByTagName('html')[0].setAttribute('lang', idiomaSelected);
+			llenaDOM(data);
+		});
 	}
+}
 
-	function idioma(valor, nombre) {
-		var html = '';
-		html += '<li class="idioma-item" data-value="' + valor + '">';
-		html += nombre;
-		html += '</li>';
-		return html;
-	}
+function idioma(valor, nombre) {
+	var html = '';
+	html += '<li class="idioma-item" data-value="' + valor + '">';
+	html += nombre;
+	html += '</li>';
+	return html;
+}

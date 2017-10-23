@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
-$fte-droid-sans-mono: 'Droid Sans Mono', monospace;
+$fte-droid-sans-mono: 'Droid Sans Mono',
+monospace;
 $blanco:#f8f8f2;
 $cyan: #66f9ef;
 $curuba: #ffe792;
@@ -12,7 +13,13 @@ $naranja: #fd971f;
 $negro: #272822;
 $verde: #a6e22e;
 
-$coloresLetra: $blanco, $magenta, $cyan, $verde, $naranja, $curuba, $moradito;
+$coloresLetra: $blanco,
+$magenta,
+$cyan,
+$verde,
+$naranja,
+$curuba,
+$moradito;
 
 $clr-fondo: $negro;
 
@@ -43,13 +50,13 @@ body.monokai {
 	.lverde {
 		color: $verde;
 	}
-	
+
 	.nota {
 		.notaBox {
 			background: $clr-fondo;
 			border: 1px dotted rgba($blanco, 0.7);
-			
-			p { 
+
+			p {
 				color: $grisMedio;
 			}
 
@@ -58,7 +65,7 @@ body.monokai {
 			}
 		}
 	}
-	
+
 	.hcodigo {
 		background: $negro;
 		color: $verde;
@@ -69,7 +76,8 @@ body.monokai {
 		}
 	}
 
-	h3, h4 {
+	h3,
+	h4 {
 		color: $curuba;
 
 		b {
@@ -85,7 +93,7 @@ body.monokai {
 		background: $negro;
 		color: $blanco;
 	}
-	
+
 	.cajaHV {
 		border: 1px dotted $curuba;
 		color: $curuba;
@@ -93,102 +101,113 @@ body.monokai {
 
 	#encabezado {
 		.fotoJohan {
-			&:hover, &:focus {
+			&:hover,
+			&:focus {
 				img {
 					border: 10px solid $blanco;
 				}
 			}
 		}
 	}
-	
+
 	.middle {
 		#personalSkills {
 			a {
-				&[data-peso = "1"]{
+				&[data-peso="1"] {
 					color: nth($coloresLetra, 1);
 				}
-				
-				&[data-peso = "2"]{
+
+				&[data-peso="2"] {
 					color: nth($coloresLetra, 2);
 				}
-				
-				&[data-peso = "3"]{
+
+				&[data-peso="3"] {
 					color: nth($coloresLetra, 3);
 				}
-				
-				&[data-peso = "4"]{
+
+				&[data-peso="4"] {
 					color: nth($coloresLetra, 4);
 				}
-				
-				&[data-peso = "5"]{
+
+				&[data-peso="5"] {
 					color: nth($coloresLetra, 5);
 				}
-				
-				&[data-peso = "6"]{
+
+				&[data-peso="6"] {
 					color: nth($coloresLetra, 6);
 				}
-				
-				&[data-peso = "7"]{
+
+				&[data-peso="7"] {
 					color: nth($coloresLetra, 7);
 				}
 			}
 		}
-		
+
 		.referenciaItems {
-    	.educationItem, 
+			.educationItem,
 			.workItem {
 				border: $curuba 1px dotted;
-				
+
 				&:hover {
 					background: $gris4;
 				}
-				
-				.eiAnio, 
-				.iiNombre, 
-				.wiAnio, 
+
+				.eiAnio,
+				.iiNombre,
+				.wiAnio,
 				.wiTelefono {
 					color: $verde;
 				}
-				
-				.eiInstitucion, 
-				.wiCargo, 
+
+				.eiInstitucion,
+				.wiCargo,
 				.wiJefe {
 					color: $curuba;
 				}
-				
-				.eiCarrera, 
+
+				.eiCarrera,
 				.wiEmpresa {
 					color: $magenta;
 				}
 			}
 		}
 	}
-	
+
 	#interesesItem {
 		.interes {
 			.iiNombre {
 				color: $verde;
 			}
-			
+
 			.iiImgEmpresa img {
-				&:hover, 
+				&:hover,
 				&:focus {
 					border: 8px solid $blanco;
 				}
 			}
 		}
 	}
-	
+
 	.tema_box {
 		border: 1px dashed $curuba;
 		color: $blanco;
-		
+
 		span {
 			color: $curuba;
-		} 
-		
-		li:hover {
-			color: $magenta;
 		}
-	}	
+
+		li {
+			list-style: none;
+			float: left;
+			margin: 2px;
+			
+			.fa-stack {
+				border-radius: 50%;
+			}
+
+			&:hover {
+				color: $magenta;
+			}
+		}
+	}
 }
