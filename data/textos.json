@@ -3,6 +3,7 @@
 		"spanish": {
 			"pNotaBox": "Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.",
 			"lblTemaBox": "Tema",
+			"lblLanguageBox": "Idioma",
 			"h1HojaDeVida": "Hoja de vida",
 			"h2Encabezado": "Información General",
 			"lblNombre": "Nombre",
@@ -27,6 +28,7 @@
 		"english": {
 			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. <br/>Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. https://github.com/johanjaguar/curriculo.<br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.<br/>Until this day, the web page use SASS, Javascript, HTML5, and some visual libraries to display the CV information.",
 			"lblTemaBox": "Skins",
+			"lblLanguageBox": "Language",
 			"h1HojaDeVida": "CV",
 			"h2Encabezado": "General Information",
 			"lblNombre": "Name",
@@ -52,11 +54,17 @@
 	"temas": {
 		"Monokai": {
 			"nombre": "Monokai",
-			"valor": "monokai"
+			"valor": "monokai",
+			"colorLetra": "#ffe792",
+			"colorFondo": "#272822",
+			"colorBorde": "#F92672"
 		},
 		"Monocromatico": {
 			"nombre": "Black and White",
-			"valor": "mono"
+			"valor": "mono",
+			"colorLetra": "#000",
+			"colorFondo": "#fff",
+			"colorBorde": "#ccc"
 		}
 	},
 	"links": {
@@ -354,6 +362,16 @@
 		"music": {
 			"textoEsp": "Música del mundo",
 			"textoEng": "World Music" 
+		}
+	},
+	"languages": {
+		"es": {
+			"nombre": "Español",
+			"nombreEng": "Spanish"
+		},
+		"en": {
+			"nombre": "Ingles",
+			"nombreEng": "English"
 		}
 	}
 }
