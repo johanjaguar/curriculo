@@ -59,20 +59,7 @@ body.mono {
 		color: $clr-letra2;
 	}
 
-	.nota {
-		.notaBox {
-			background: $clr-fondo;
-			border: 1px outset rgba( $clr-borde, 0.7);
 
-			p {
-				color: $clr-letra2;
-			}
-
-			a {
-				color: $clr-letra3;
-			}
-		}
-	}
 
 	.hcodigo {
 		background: $clr-fondo;
@@ -105,16 +92,6 @@ body.mono {
 		color: $clr-letra1;
 	}
 
-	.language_box {
-		border: 1px outset $clr-borde;
-		color: $clr-letra1;
-		margin: 10px 0;
-
-		li {
-			cursor: pointer;
-		}
-	}
-	
 	.hojadevidaBox {
 		border: none;
 	}
@@ -234,28 +211,54 @@ body.mono {
 		}
 	}
 
-	.tema_box {
-		border: 1px outset $clr-letra1;
-		color: $clr-letra1;
-
-
-		span {
+	.notificaciones_box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.tema_box {
 			color: $clr-letra1;
-		}
 
-		li {
-			list-style: none;
-			float: left;
-			margin: 2px;
-
-			.fa-stack {
-				border-radius: 50%;
+			span {
+				color: $clr-letra1;
 			}
 
-			&:hover {
-				color: $clr-letra2;
-				font-weight: bold;
-				transform: scale(1.1);
+			li {
+				list-style: none;
+				float: left;
+				margin: 2px;
+
+				.fa-stack {
+					border-radius: 50%;
+				}
+
+				&:hover {
+					color: $clr-letra2;
+					font-weight: bold;
+					transform: scale(1.1);
+				}
+			}
+		}
+
+		.nota {
+			.notaBox {
+				background: $clr-fondo;
+
+				p {
+					color: $clr-letra2;
+				}
+
+				a {
+					color: $clr-letra3;
+				}
+			}
+		}
+
+		.language_box {
+			color: $clr-letra1;
+			margin: 10px 0;
+
+			li {
+				cursor: pointer;
 			}
 		}
 	}

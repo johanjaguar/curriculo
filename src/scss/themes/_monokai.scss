@@ -51,20 +51,7 @@ body.monokai {
 		color: $verde;
 	}
 
-	.nota {
-		.notaBox {
-			background: $clr-fondo;
-			border: 1px dotted rgba($blanco, 0.7);
 
-			p {
-				color: $grisMedio;
-			}
-
-			a {
-				color: $cyan;
-			}
-		}
-	}
 
 	.hcodigo {
 		background: $negro;
@@ -94,15 +81,7 @@ body.monokai {
 		color: $blanco;
 	}
 
-	.language_box {
-		border: 1px dashed $curuba;
-		color: $curuba;
-		margin: 10px 0;
 
-		li {
-			cursor: pointer;
-		}
-	}
 
 	.cajaHV {
 		border: 1px dotted $curuba;
@@ -197,27 +176,53 @@ body.monokai {
 			}
 		}
 	}
+	
+	.notificaciones_box {
+		.tema_box {
+			color: $blanco;
 
-	.tema_box {
-		border: 1px dashed $curuba;
-		color: $blanco;
+			span {
+				color: $curuba;
+			}
 
-		span {
+			li {
+				list-style: none;
+				float: left;
+				margin: 2px;
+
+				.fa-stack {
+					border-radius: 50%;
+				}
+
+				&:hover {
+					color: $magenta;
+				}
+			}
+		}
+
+		.language_box {
 			color: $curuba;
-		}
-
-		li {
-			list-style: none;
-			float: left;
-			margin: 2px;
-
-			.fa-stack {
-				border-radius: 50%;
-			}
-
-			&:hover {
-				color: $magenta;
+			margin: 10px 0;
+ 
+			li {
+				cursor: pointer;
 			}
 		}
+
+		.nota {
+			.notaBox {
+				background: $clr-fondo;
+
+				p {
+					color: $grisMedio;
+				}
+
+				a {
+					color: $cyan;
+				}
+			}
+		}
+
 	}
+
 }
