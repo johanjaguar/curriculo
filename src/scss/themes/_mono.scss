@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Arimo');
-$fte-arimo: 'Arimo', sans-serif;
+$fte-arimo: 'Arimo',
+sans-serif;
 $blanco: #fff;
 $cyan: #66f9ef;
 $clr-letra1: #ffe792;
@@ -24,15 +25,16 @@ $clr-borde2: $grisMedio;
 body.mono {
 	background: $clr-fondo;
 	font-family: $fte-arimo;
-	
+
 	.container {
-		width: 100%;	
+		width: 100%;
 	}
-	
-	img, .percircle {
-	 filter: grayscale(100%);	
+
+	img,
+	.percircle {
+		filter: grayscale(100%);
 	}
-	
+
 	.lmagenta {
 		color: $clr-letra1;
 	}
@@ -56,13 +58,13 @@ body.mono {
 	.lverde {
 		color: $clr-letra2;
 	}
-	
+
 	.nota {
 		.notaBox {
 			background: $clr-fondo;
-			border: 1px outset rgba( $clr-borde, 0.7 );
-			
-			p { 
+			border: 1px outset rgba( $clr-borde, 0.7);
+
+			p {
 				color: $clr-letra2;
 			}
 
@@ -71,7 +73,7 @@ body.mono {
 			}
 		}
 	}
-	
+
 	.hcodigo {
 		background: $clr-fondo;
 		color: $clr-letra1;
@@ -81,7 +83,8 @@ body.mono {
 		}
 	}
 
-	h3, h4 {
+	h3,
+	h4 {
 		color: $clr-letra1;
 
 		b {
@@ -96,107 +99,118 @@ body.mono {
 	em {
 		display: none;
 	}
-	
+
 	.cajaHV {
 		border: 1px outset $clr-borde;
 		color: $clr-letra1;
+	}
+
+	.language_box {
+		border: 1px outset $clr-borde;
+		color: $clr-letra1;
+		margin: 10px 0;
+
+		li {
+			cursor: pointer;
+		}
 	}
 	
 	.hojadevidaBox {
 		border: none;
 	}
-	
+
 	#encabezado {
 		justify-content: space-around;
-		
+
 		.fotoJohan {
 			width: 22%;
-			
-			&:hover, &:focus {
+
+			&:hover,
+			&:focus {
 				img {
 					border: 10px solid $clr-letra3;
 				}
 			}
 		}
 	}
-	
+
 	.middle {
 		#personalSkills {
 			a {
-				&[data-peso = "1"]{
+				&[data-peso="1"] {
 					color: $clr-letra1;
 				}
-				
-				&[data-peso = "2"]{
+
+				&[data-peso="2"] {
 					color: $clr-letra2;
 				}
-				
-				&[data-peso = "3"]{
+
+				&[data-peso="3"] {
 					color: $clr-letra3;
 				}
-				
-				&[data-peso = "4"]{
+
+				&[data-peso="4"] {
 					color: $clr-letra4;
 				}
-				
-				&[data-peso = "5"]{
+
+				&[data-peso="5"] {
 					color: $clr-letra1;
 				}
-				
-				&[data-peso = "6"]{
+
+				&[data-peso="6"] {
 					color: $clr-letra2;
 				}
-				
-				&[data-peso = "7"]{
+
+				&[data-peso="7"] {
 					color: $clr-letra3;
 				}
 			}
 		}
-		
+
 		.referenciaItems {
-    	.educationItem, 
+			.educationItem,
 			.workItem {
 				border-bottom: $clr-borde 1px solid;
 				border-left: none;
-				border-right:  none;
+				border-right: none;
 				border-top: none;
-				
-				.eiAnio, 
-				.iiNombre, 
-				.wiAnio, 
+
+				.eiAnio,
+				.iiNombre,
+				.wiAnio,
 				.wiTelefono {
 					color: $clr-letra3;
 				}
-				
-				.eiInstitucion, 
-				.wiCargo, 
+
+				.eiInstitucion,
+				.wiCargo,
 				.wiJefe {
 					color: $clr-letra1;
 				}
-				
-				.eiCarrera, 
+
+				.eiCarrera,
 				.wiEmpresa {
 					color: $clr-letra2;
 				}
-				
+
 				&:hover {
 					background: $clr-letra3;
 					color: $clr-letra-hover;
-					
-					.eiAnio, 
-					.iiNombre, 
-					.wiAnio, 
+
+					.eiAnio,
+					.iiNombre,
+					.wiAnio,
 					.wiTelefono {
 						color: $clr-letra-hover;
 					}
 
-					.eiInstitucion, 
-					.wiCargo, 
+					.eiInstitucion,
+					.wiCargo,
 					.wiJefe {
 						color: $clr-letra-hover;
 					}
 
-					.eiCarrera, 
+					.eiCarrera,
 					.wiEmpresa {
 						color: $clr-letra-hover;
 					}
@@ -204,48 +218,45 @@ body.mono {
 			}
 		}
 	}
-	
+
 	#intereses {
 		.interes {
 			.iiNombre {
 				color: $clr-letra3;
 			}
-			
+
 			.iiImgEmpresa img {
-				&:hover, 
+				&:hover,
 				&:focus {
 					border: 8px solid $clr-fondo;
 				}
 			}
 		}
 	}
-	
+
 	.tema_box {
 		border: 1px outset $clr-letra1;
 		color: $clr-letra1;
-		
+
+
 		span {
 			color: $clr-letra1;
-		} 
-		
-		li:hover {
-			color: $clr-letra2;
-			font-weight: bold;
-			transform: scale(1.1);
 		}
-	}	
-	
-	.percircle {
-		&> span {
-			color: $clr-letra1;
-		}
-		
-		&::after {
-			background: $blanco;
-		}
-		&.pink .bar,
-		&.pink .fill {
-				border-color: yellow;
+
+		li {
+			list-style: none;
+			float: left;
+			margin: 2px;
+
+			.fa-stack {
+				border-radius: 50%;
+			}
+
+			&:hover {
+				color: $clr-letra2;
+				font-weight: bold;
+				transform: scale(1.1);
+			}
 		}
 	}
 }

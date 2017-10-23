@@ -19,22 +19,22 @@ a {
 .container {
 	margin: 0 auto;
 	width: 960px;
-	
+
 	@media screen and (max-width: $mobile-split-width) {
 		width: 100%;
 	}
 }
 
 .nota {
-	display: inline; 
+	display: inline;
 	float: none;
 	max-width: 100%;
-	
+
 	@media screen and (max-width: $mobile-split-width) {
 		display: block;
-    margin: 0 5px 20px 10px;
+		margin: 0 5px 20px 10px;
 	}
-	
+
 	.notaBox {
 		float: right;
 		opacity: 0.9;
@@ -44,17 +44,17 @@ a {
 		top: 10px;
 		width: 33%;
 		z-index: 11;
-    
+
 		@media screen and (max-width: $mobile-split-width) {
 			float: none;
 			position: relative;
 			width: 100%;
 		}
-		
-		p { 
+
+		p {
 			font-size: 0.6em;
 		}
-		
+
 		a {
 			text-decoration: none;
 		}
@@ -68,7 +68,7 @@ a {
 	padding: 0px 5px 5px 5px;
 	position: relative;
 	z-index: 2;
-	
+
 	&::after {
 		content: "{";
 	}
@@ -80,12 +80,16 @@ a {
 }
 
 h1 {
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 2s; /* Firefox < 16 */
-	-ms-animation: fadein 2s; /* Internet Explorer */
-	-o-animation: fadein 2s; /* Opera < 12.1 */
+	-webkit-animation: fadein 2s;
+	/* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s;
+	/* Firefox < 16 */
+	-ms-animation: fadein 2s;
+	/* Internet Explorer */
+	-o-animation: fadein 2s;
+	/* Opera < 12.1 */
 	animation: fadein 2s;
-	
+
 	@media screen and (max-width: $mobile-split-width) {
 		&.hcodigo {
 			font-size: 1.8em;
@@ -100,15 +104,15 @@ em {
 	font-size: 1.5em;
 	margin-bottom: -30px;
 	width: 20px;
-	
+
 	@media screen and (max-width: $mobile-split-width) {
 		font-size: 1em;
 	}
-	
+
 	&.h1 {
 		font-size: 2em;
 		margin-bottom: -40px;
-		
+
 		@media screen and (max-width: $mobile-split-width) {
 			font-size: 1em;
 		}
@@ -116,15 +120,19 @@ em {
 }
 
 .cajaHV {
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-	-moz-animation: fadein 2s; /* Firefox < 16 */
-	-ms-animation: fadein 2s; /* Internet Explorer */
-	-o-animation: fadein 2s; /* Opera < 12.1 */
+	-webkit-animation: fadein 2s;
+	/* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s;
+	/* Firefox < 16 */
+	-ms-animation: fadein 2s;
+	/* Internet Explorer */
+	-o-animation: fadein 2s;
+	/* Opera < 12.1 */
 	animation: fadein 2s;
 	padding: 20px;
 	position: relative;
 	z-index: 1;
-	
+
 	@media screen and (max-width: $mobile-split-width) {
 		padding: 5px;
 	}
@@ -142,13 +150,13 @@ em {
 		left: 15px;
 		position: absolute;
 	}
-	
+
 	.fotoJohan {
 		float: left;
 		padding: 20px;
 		transition: transform ease-out .3s;
 		width: 33%;
-		
+
 		img {
 			border: 10px solid transparent;
 			border-radius: 50%;
@@ -156,44 +164,46 @@ em {
 			max-width: 250px;
 			transition: border ease-in-out .5s;
 		}
-		
+
 		@media screen and (max-width: $mobile-split-width) {
 			float: none;
 			padding: 5px;
 			width: 100%;
-			
+
 			img {
 				display: flex;
 				max-width: 85%;
 				margin: 0 auto;
 			}
 		}
-		
-		
-		&:hover, &:focus {
+
+
+		&:hover,
+		&:focus {
 			cursor: crosshair;
-			transform: scale(1.2) rotate(10deg);
-			
+			transform: rotate(10deg);
+
 			img {
 				border-radius: 50%;
 			}
 		}
 	}
-	
-	.encabezadoRight{
+
+	.encabezadoRight {
 		float: left;
 		width: 61%;
 		@media screen and (max-width: $mobile-split-width) {
 			width: 100%;
 			float: none;
-	    font-size: 0.8em;
+			font-size: 0.8em;
 		}
-		.eRightTopRedes{
-			a{
+		.eRightTopRedes {
+			a {
 				text-decoration: none;
 				cursor: pointer;
 				transition: color ease-in-out .5s;
-				&:hover, &:focus{
+				&:hover,
+				&:focus {
 					color: white;
 				}
 			}
@@ -204,12 +214,12 @@ em {
 }
 
 .middle {
-	#professionalSkills {  
+	#professionalSkills {
 		align-items: center;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		
+
 		.professionalSkill {
 			align-items: center;
 			display: flex;
@@ -219,7 +229,7 @@ em {
 			padding: 20px;
 			text-align: center;
 		}
-		
+
 		em {
 			bottom: 15px;
 			left: 15px;
@@ -227,46 +237,46 @@ em {
 			position: absolute;
 		}
 	}
-	
+
 	#personalSkills {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		margin-bottom: -30px;
 		padding: 30px 30px 20px 30px;
-		
+
 		a {
 			text-decoration: none;
-			
-			&[data-peso = "1"]{
+
+			&[data-peso="1"] {
 				font-size: 1em;
 			}
-			
-			&[data-peso = "2"]{
+
+			&[data-peso="2"] {
 				font-size: 1.5em;
 			}
-			
-			&[data-peso = "3"]{
+
+			&[data-peso="3"] {
 				font-size: 2em;
 			}
-			
-			&[data-peso = "4"]{
+
+			&[data-peso="4"] {
 				font-size: 2.5em;
 			}
-			
-			&[data-peso = "5"]{
+
+			&[data-peso="5"] {
 				font-size: 3em;
 			}
-			
-			&[data-peso = "6"]{
+
+			&[data-peso="6"] {
 				font-size: 3.5em;
 			}
-			
-			&[data-peso = "7"]{
+
+			&[data-peso="7"] {
 				font-size: 4em;
 			}
 		}
-		
+
 		em {
 			bottom: 15px;
 			font-weight: bold;
@@ -274,12 +284,12 @@ em {
 			position: absolute;
 		}
 	}
-	
+
 	.referenciaItems {
-    display: flex;
+		display: flex;
 		flex-wrap: wrap;
-		
-		.educationItem, 
+
+		.educationItem,
 		.workItem {
 			display: flex;
 			flex-direction: column;
@@ -289,42 +299,43 @@ em {
 			text-align: center;
 			transition: background ease-out .3s;
 			width: 22%;
-			
+
 			&:hover {
 				cursor: pointer;
 			}
-			
-			.eiIcono{
+
+			.eiIcono {
 				font-size: 2em;
 			}
-			
-			.eiAnio, 
-			.iiNombre, 
-			.wiAnio, 
+
+			.eiAnio,
+			.iiNombre,
+			.wiAnio,
 			.wiTelefono {
 				font-weight: bold;
 			}
-			
-			.eiCarrera, .wiEmpresa{
+
+			.eiCarrera,
+			.wiEmpresa {
 				font-weight: bold;
 			}
-			
-			.wiImgEmpresa img, 
+
+			.wiImgEmpresa img,
 			.iiImgEmpresa img {
 				margin: 10px;
 				max-width: 150px;
 			}
-			
+
 			@media screen and (max-width: $mobile-split-width) {
 				margin: 5px;
 				width: 100%;
-				
+
 				p {
 					font-size: 0.9em;
 				}
 			}
 		}
-		
+
 		em {
 			bottom: 15px;
 			left: 15px;
@@ -337,7 +348,7 @@ em {
 #interesesItem {
 	display: flex;
 	flex-wrap: wrap;
-	
+
 	.interes {
 		display: flex;
 		flex-direction: column;
@@ -346,19 +357,19 @@ em {
 		padding: 5px;
 		text-align: center;
 		width: 22%;
-			
+
 		.iiNombre {
 			font-weight: bold;
 		}
-		
+
 		.iiImgEmpresa img {
 			border: 8px solid transparent;
 			border-radius: 50%;
 			margin: 10px;
 			max-width: 150px;
 			transition: transform ease-out .3s;
-			
-			&:hover, 
+
+			&:hover,
 			&:focus {
 				border-radius: 50%;
 				cursor: crosshair;
@@ -370,7 +381,7 @@ em {
 			width: 100%;
 		}
 	}
-	
+
 	em {
 		bottom: 15px;
 		left: 15px;
@@ -380,10 +391,15 @@ em {
 }
 
 .tema_box {
+	display: flex;
 	padding: 20px;
 	width: 200px;
 
 	li {
 		cursor: pointer;
+
+		.fa-stack {
+			border-radius: 50%;
+		}
 	}
-}	
+}
