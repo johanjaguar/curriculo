@@ -193,11 +193,17 @@ em {
 			text-align: center;
 			
 			#redcircle {
-				height: 10px; 
+				height: 20px; 
 				width: 100%;
 				
 				span {
 					float: left;	
+					font-weight: bold;
+					
+					&::before {
+						content: attr(data-width) " %";
+						font-size: 12px
+					}
 				}
 			} 
 		}

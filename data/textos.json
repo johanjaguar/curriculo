@@ -163,19 +163,19 @@
 	},
 	"skills": {
 		"web": {
-			"porcentaje": "90",
+			"porcentaje": "95",
 			"color": "yellow",
 			"skillSpa": "Desarrollo Web",
 			"skillEng": "Web Development"
 		},
 		"HTML5": {
-			"porcentaje": "90",
+			"porcentaje": "95",
 			"color": "green",
 			"skillSpa": "HTML 5",
 			"skillEng": "HTML 5"
 		},
 		"javascript": {
-			"porcentaje": "70",
+			"porcentaje": "75",
 			"color": "pink",
 			"skillSpa": "Javascript",
 			"skillEng": "Javascript"
@@ -217,25 +217,25 @@
 			"skillEng": "SASS"
 		},
 		"pug": {
-			"porcentaje": "80",
+			"porcentaje": "85",
 			"color": "green",
 			"skillSpa": "Pug / Jade",
 			"skillEng": "Pug / Jade"
 		},
 		"angular": {
-			"porcentaje": "50",
+			"porcentaje": "60",
 			"color": "pink",
 			"skillSpa": "Angular Js",
 			"skillEng": "Angular Js"
 		},
 		"gulp": {
-			"porcentaje": "80",
+			"porcentaje": "85",
 			"color": "blue",
 			"skillSpa": "Gulp",
 			"skillEng": "Gulp"
 		},
 		"grunt": {
-			"porcentaje": "70",
+			"porcentaje": "75",
 			"color": "yellow",
 			"skillSpa": "Grunt",
 			"skillEng": "Grunt"
