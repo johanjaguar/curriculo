@@ -16,17 +16,22 @@
 			"vlSkype": "johan.vargas4",
 			"vlWhatsapp": "+57 3044704118",
 			"vlPhone": "+571 8011908",
-			"txtDescripcion": "<p>Identificado con C.C. 1032387867 de Bogotá</p><p>Un desarrollador web afín a la tecnología, interesado en las nuevas herramientas que puedan mejorar el flujo de trabajo en el desarrollo web.<br/><br/>Con experiencia de trabajo en tecnología y con diversos grupos de trabajo en temas web, desde páginas para organizaciones sin ánimo de lucro, organizaciones deportivas, agencias, y páginas comerciales en varios idiomas.<br/><br/>Tengo el firme deseo de trabajar en algún lugar donde tenga la oportunidad de explorar nuevos temas y mejorar los que ya he aprendido anteriormente, a través de diferentes desafíos de desarrollo.<br/><br/>Ante una buena propuesta laboral, tengo la disponibilidad de trabajar en una ciudad diferente, país, o de manera remota.</p>",
+			"txtDescripcion": "<p>Identificado con C.C. 1032387867 de Bogotá</p><p>Un desarrollador web afín a la tecnología, interesado en las nuevas herramientas que puedan mejorar el flujo de trabajo en el desarrollo web.<br/><br/>Con experiencia de trabajo en tecnología y con diversos grupos de trabajo en temas web, desde páginas para organizaciones sin ánimo de lucro, organizaciones deportivas, agencias y páginas comerciales en varios idiomas.<br/><br/>Tengo el firme deseo de trabajar en algún lugar donde tenga la oportunidad de explorar nuevos temas y mejorar los que ya he aprendido anteriormente; a través de diferentes desafíos de desarrollo.<br/><br/>Ante una buena propuesta laboral, tengo la disponibilidad de trabajar en una ciudad diferente, país, o de manera remota.</p>",
 			"h2Trabajo": "Trabajo",
 			"lblJefe": "Jefe Inmediato: ",
 			"h2Personales": "Referencias Personales",
 			"h2Profesionales": "Habilidades Profesionales",
 			"h2Educacion": "Educación",
 			"h2Workshops": "Workshops",
-			"h2Intereses": "Intereses"
+			"h2Intereses": "Intereses",
+			"tagActual": "Actual"
 		},
 		"english": {
+<<<<<<< HEAD
 			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. <br/>Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. https://github.com/johanjaguar/curriculo.<br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.<br/>Until this day, the web page use SASS, Vanilla Js, JSON, HTML5 y Gulp.js.",
+=======
+			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Until this day, the web page use SASS, Javascript, HTML5, and some visual libraries to display the CV information.",
+>>>>>>> 0a0c5fb4222b859f56594eb1aeb379e277cac890
 			"lblTemaBox": "Skins",
 			"lblLanguageBox": "Language",
 			"h1HojaDeVida": "CV",
@@ -41,14 +46,15 @@
 			"vlSkype": "johan.vargas4",
 			"vlWhatsapp": "+57 3044704118",
 			"vlPhone": "+571 8011908",
-			"txtDescripcion": "<p>I'm a web developer that love all the things related to technology, interesting in new tools to improve the web development workflow.<br/><br/>I had been working several years in the web market, development projects for differents brands in differents topics.<br/><br/>I want to work in a place where I had the opportunity to improve my skills through of code challenges.<br/><br/>I'm able to work in a different city, country or work remotely.Also, I love Rugby that because I'm Coach of the male mayor team in Jaguares Rugby Club, it's my passion, my second work.</p>",
+			"txtDescripcion": "<p>I'm a web developer who loves everything related to technology, interested in new tools to improve web development workflow.<br/><br/>I have been working for years in the web market, developing projects from different companies on many different topics.<br/><br/>I want to work in a place where I have the opportunity to improve my skills through of many challenges.<br/><br/>I'm able to work in a different city, country or work remotely.Also, I love Rugby that because I'm Coach in Jaguares Rugby Club, it's my passion, my second work.</p>",
 			"h2Trabajo": "Work",
 			"lblJefe": "Inmediate Supervisor: ",
 			"h2Personales": "Friends",
-			"h2Profesionales": "Professional Skills",
+			"h2Profesionales": "Technichal Skills",
 			"h2Educacion": "Education",
 			"h2Workshops": "Workshops",
-			"h2Intereses": "Hobbies"
+			"h2Intereses": "Hobbies",
+			"tagActual": "Now"
 		}
 	},
 	"temas": {
@@ -83,7 +89,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "317 8945533",
 			"anio": "2016",
-			"jefe": "Gabriel Bobadilla"
+			"jefe": "Gabriel Bobadilla",
+			"actual": "true"
 		},
 		"godat": {
 			"link": "http://elevatepeople.tv/",
@@ -92,7 +99,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "320 8857544",
 			"anio": "2016",
-			"jefe": "Jair Celis"
+			"jefe": "Jair Celis",
+			"actual": "false"
 		},
 		"msi": {
 			"link": "http://msiamericas.com/",
@@ -101,7 +109,8 @@
 			"cargoEng": "Test Drive and Telecomunication Consultant",
 			"telefono": "Skype: benjillanes88_1",
 			"anio": "2016",
-			"jefe": "Benjamin Illanes"
+			"jefe": "Benjamin Illanes",
+			"actual": "false"
 		},
 		"rentingcarz": {
 			"link": "http://rentingcarz.com",
@@ -110,7 +119,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "300 8983569",
 			"anio": "2014-2015",
-			"jefe": "Juan Camilo Restrepo"
+			"jefe": "Juan Camilo Restrepo",
+			"actual": "false"
 		},
 		"mediatic": {
 			"link": "http://mediatic.com.co",
@@ -119,7 +129,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "311 5313928",
 			"anio": "2013-2016",
-			"jefe": "Gina Sánchez"
+			"jefe": "Gina Sánchez",
+			"actual": "false"
 		}
 	},
 	"referenciasPersonales": {
@@ -130,7 +141,8 @@
 			"cargoEng": "Publisher",
 			"telefono": "300 8983569",
 			"anio": "NULL",
-			"jefe": "NULL"
+			"jefe": "NULL",
+			"actual": "false"
 		},
 		"stifen": {
 			"link": "#",
@@ -139,33 +151,35 @@
 			"cargoEng": "Developer",
 			"telefono": "301 6628525",
 			"anio": "NULL",
-			"jefe": "NULL"
+			"jefe": "NULL",
+			"actual": "false"
 		},
 		"bimbo": {
 			"link": "#",
 			"empresa": "Camilo Andres Bermudez",
 			"cargo": "Jefe de Oficina",
 			"cargoEng": "Office Boss",
-			"telefono": "301 3970158",
+			"telefono": "3046032016",
 			"anio": "NULL",
-			"jefe": "NULL"
+			"jefe": "NULL",
+			"actual": "false"
 		}
 	},
 	"skills": {
 		"web": {
-			"porcentaje": "90",
+			"porcentaje": "95",
 			"color": "yellow",
 			"skillSpa": "Desarrollo Web",
 			"skillEng": "Web Development"
 		},
 		"HTML5": {
-			"porcentaje": "90",
+			"porcentaje": "95",
 			"color": "green",
 			"skillSpa": "HTML 5",
 			"skillEng": "HTML 5"
 		},
 		"javascript": {
-			"porcentaje": "70",
+			"porcentaje": "75",
 			"color": "pink",
 			"skillSpa": "Javascript",
 			"skillEng": "Javascript"
@@ -207,25 +221,25 @@
 			"skillEng": "SASS"
 		},
 		"pug": {
-			"porcentaje": "80",
+			"porcentaje": "85",
 			"color": "green",
 			"skillSpa": "Pug / Jade",
 			"skillEng": "Pug / Jade"
 		},
 		"angular": {
-			"porcentaje": "50",
+			"porcentaje": "60",
 			"color": "pink",
 			"skillSpa": "Angular Js",
 			"skillEng": "Angular Js"
 		},
 		"gulp": {
-			"porcentaje": "80",
+			"porcentaje": "85",
 			"color": "blue",
 			"skillSpa": "Gulp",
 			"skillEng": "Gulp"
 		},
 		"grunt": {
-			"porcentaje": "70",
+			"porcentaje": "75",
 			"color": "yellow",
 			"skillSpa": "Grunt",
 			"skillEng": "Grunt"
@@ -261,7 +275,7 @@
 			"icono": "graduation-cap",
 			"fecha": "1993-2003",
 			"nombre": "Colegio San Antonio",
-			"curso": "Bachiller tecnologico con enfasis en Programacion de computadores",
+			"curso": "Bachiller tecnológico con énfasis en Programación de computadores",
 			"cursoEng": "Bachelor of Technology with emphasis in Computer Programming"
 		},
 		"ilud": {

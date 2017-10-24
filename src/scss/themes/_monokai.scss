@@ -7,11 +7,11 @@ $curuba: #ffe792;
 $gris4: #444;
 $grisMedio: #75715e;
 $grisMuyOscuro: #49483e;
-$magenta: #F92672;
+$magenta: #f92672;
 $moradito: #ae81ff;
 $naranja: #fd971f;
 $negro: #272822;
-$verde: #a6e22e;
+$verde: #a6e22f;
 
 $coloresLetra: $blanco,
 $magenta,
@@ -100,6 +100,18 @@ body.monokai {
 	}
 
 	.middle {
+		#professionalSkills {
+			.professionalSkill {
+				#redcircle {
+					border: 1px dotted $blanco;
+					
+					span {
+						background: $magenta;
+						height: 20px; 
+					}
+				}
+			}
+		}
 		#personalSkills {
 			a {
 				&[data-peso="1"] {
@@ -141,6 +153,11 @@ body.monokai {
 					background: $gris4;
 				}
 
+				.tagActual {
+					background: nth($coloresLetra, 2);
+					color: $coloresLetra[0];
+				}
+
 				.eiAnio,
 				.iiNombre,
 				.wiAnio,
@@ -176,7 +193,7 @@ body.monokai {
 			}
 		}
 	}
-	
+
 	.notificaciones_box {
 		.tema_box {
 			color: $blanco;
@@ -203,7 +220,7 @@ body.monokai {
 		.language_box {
 			color: $curuba;
 			margin: 10px 0;
- 
+
 			li {
 				cursor: pointer;
 			}

@@ -35,9 +35,6 @@ a {
 	position: relative;
 	z-index: 2;
 
-	&::after {
-		content: "{";
-	}
 
 	@media screen and (max-width: $mobile-split-width) {
 		font-size: 1em;
@@ -194,6 +191,21 @@ em {
 			justify-content: center;
 			padding: 20px;
 			text-align: center;
+			
+			#redcircle {
+				height: 20px; 
+				width: 100%;
+				
+				span {
+					float: left;	
+					font-weight: bold;
+					
+					&::before {
+						content: attr(data-width) " %";
+						font-size: 12px
+					}
+				}
+			} 
 		}
 
 		em {
@@ -270,6 +282,11 @@ em {
 				cursor: pointer;
 			}
 
+			.tagActual {
+				transform: rotate(330deg);
+				width: 100px;
+			}
+			
 			.eiIcono {
 				font-size: 2em;
 			}
@@ -376,10 +393,10 @@ em {
 
 	.tema_box {
 		padding: 20px;
-		
+
 		@media screen and (max-width: $mobile-split-width) {
 			padding: 0;
-			
+
 			.lblTemaBox {
 
 				display: none;
