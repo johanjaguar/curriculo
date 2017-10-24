@@ -1,7 +1,7 @@
 {
 	"textos": {
 		"spanish": {
-			"pNotaBox": "Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.",
+			"pNotaBox": "Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Al día de hoy, esta página web usa: SASS, Vanilla Js, JSON, HTML5 y Gulp.js.",
 			"lblTemaBox": "Tema",
 			"lblLanguageBox": "Idioma",
 			"h1HojaDeVida": "Hoja de vida",
@@ -27,13 +27,17 @@
 			"tagActual": "Actual"
 		},
 		"english": {
+<<<<<<< HEAD
+			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. <br/>Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. https://github.com/johanjaguar/curriculo.<br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.<br/>Until this day, the web page use SASS, Vanilla Js, JSON, HTML5 y Gulp.js.",
+=======
 			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Until this day, the web page use SASS, Javascript, HTML5, and some visual libraries to display the CV information.",
+>>>>>>> 0a0c5fb4222b859f56594eb1aeb379e277cac890
 			"lblTemaBox": "Skins",
 			"lblLanguageBox": "Language",
 			"h1HojaDeVida": "CV",
 			"h2Encabezado": "General Information",
 			"lblNombre": "Name",
-			"lblToBe": "Work",
+			"lblToBe": "Current Job",
 			"vlNombre": "Pether Johan Vargas Sánchez",
 			"vlToBe": "Front End Developer",
 			"vlGithub": "johanjaguar",
@@ -283,13 +287,6 @@
 		}
 	},
 	"workshops": {
-		"react": {
-			"icono": "laptop",
-			"fecha": "2017",
-			"nombre": "Codeacademy",
-			"curso": "React.js",
-			"cursoEng": "React.js"
-		},
 		"jQuery": {
 			"icono": "laptop",
 			"fecha": "2015",
@@ -299,8 +296,8 @@
 		},
 		"angularJs": {
 			"icono": "laptop",
-			"fecha": "2015",
-			"nombre": "Codeschool",
+			"fecha": "2015-2017",
+			"nombre": "Pluralsight - Codeschool",
 			"curso": "Shaping up with Angular.js",
 			"cursoEng": "Shaping up with Angular.js"
 		},
