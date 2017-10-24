@@ -183,7 +183,7 @@ body.monokai .middle #professionalSkills .professionalSkill #redcircle {
 /* line 108, src/scss/themes/_monokai.scss */
 body.monokai .middle #professionalSkills .professionalSkill #redcircle span {
   background: #f92672;
-  height: 10px;
+  height: 20px;
 }
 
 /* line 117, src/scss/themes/_monokai.scss */
@@ -447,8 +447,8 @@ body.mono .middle #professionalSkills .professionalSkill #redcircle {
 
 /* line 120, src/scss/themes/_mono.scss */
 body.mono .middle #professionalSkills .professionalSkill #redcircle span {
-  background: #000;
-  height: 10px;
+  background: #75715e;
+  height: 20px;
 }
 
 /* line 130, src/scss/themes/_mono.scss */
@@ -863,16 +863,23 @@ em.h1 {
 
 /* line 195, src/scss/style.scss */
 .middle #professionalSkills .professionalSkill #redcircle {
-  height: 10px;
+  height: 20px;
   width: 100%;
 }
 
 /* line 199, src/scss/style.scss */
 .middle #professionalSkills .professionalSkill #redcircle span {
   float: left;
+  font-weight: bold;
 }
 
-/* line 205, src/scss/style.scss */
+/* line 203, src/scss/style.scss */
+.middle #professionalSkills .professionalSkill #redcircle span::before {
+  content: attr(data-width) " %";
+  font-size: 12px;
+}
+
+/* line 211, src/scss/style.scss */
 .middle #professionalSkills em {
   bottom: 15px;
   left: 15px;
@@ -880,7 +887,7 @@ em.h1 {
   position: absolute;
 }
 
-/* line 213, src/scss/style.scss */
+/* line 219, src/scss/style.scss */
 .middle #personalSkills {
   display: flex;
   flex-wrap: wrap;
@@ -889,47 +896,47 @@ em.h1 {
   padding: 30px 30px 20px 30px;
 }
 
-/* line 220, src/scss/style.scss */
+/* line 226, src/scss/style.scss */
 .middle #personalSkills a {
   text-decoration: none;
 }
 
-/* line 223, src/scss/style.scss */
+/* line 229, src/scss/style.scss */
 .middle #personalSkills a[data-peso="1"] {
   font-size: 1em;
 }
 
-/* line 227, src/scss/style.scss */
+/* line 233, src/scss/style.scss */
 .middle #personalSkills a[data-peso="2"] {
   font-size: 1.5em;
 }
 
-/* line 231, src/scss/style.scss */
+/* line 237, src/scss/style.scss */
 .middle #personalSkills a[data-peso="3"] {
   font-size: 2em;
 }
 
-/* line 235, src/scss/style.scss */
+/* line 241, src/scss/style.scss */
 .middle #personalSkills a[data-peso="4"] {
   font-size: 2.5em;
 }
 
-/* line 239, src/scss/style.scss */
+/* line 245, src/scss/style.scss */
 .middle #personalSkills a[data-peso="5"] {
   font-size: 3em;
 }
 
-/* line 243, src/scss/style.scss */
+/* line 249, src/scss/style.scss */
 .middle #personalSkills a[data-peso="6"] {
   font-size: 3.5em;
 }
 
-/* line 247, src/scss/style.scss */
+/* line 253, src/scss/style.scss */
 .middle #personalSkills a[data-peso="7"] {
   font-size: 4em;
 }
 
-/* line 252, src/scss/style.scss */
+/* line 258, src/scss/style.scss */
 .middle #personalSkills em {
   bottom: 15px;
   font-weight: bold;
@@ -937,13 +944,13 @@ em.h1 {
   position: absolute;
 }
 
-/* line 260, src/scss/style.scss */
+/* line 266, src/scss/style.scss */
 .middle .referenciaItems {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 264, src/scss/style.scss */
+/* line 270, src/scss/style.scss */
 .middle .referenciaItems .educationItem,
 .middle .referenciaItems .workItem {
   display: flex;
@@ -956,26 +963,26 @@ em.h1 {
   width: 22%;
 }
 
-/* line 275, src/scss/style.scss */
+/* line 281, src/scss/style.scss */
 .middle .referenciaItems .educationItem:hover,
 .middle .referenciaItems .workItem:hover {
   cursor: pointer;
 }
 
-/* line 279, src/scss/style.scss */
+/* line 285, src/scss/style.scss */
 .middle .referenciaItems .educationItem .tagActual,
 .middle .referenciaItems .workItem .tagActual {
   transform: rotate(330deg);
   width: 100px;
 }
 
-/* line 284, src/scss/style.scss */
+/* line 290, src/scss/style.scss */
 .middle .referenciaItems .educationItem .eiIcono,
 .middle .referenciaItems .workItem .eiIcono {
   font-size: 2em;
 }
 
-/* line 288, src/scss/style.scss */
+/* line 294, src/scss/style.scss */
 .middle .referenciaItems .educationItem .eiAnio,
 .middle .referenciaItems .educationItem .iiNombre,
 .middle .referenciaItems .educationItem .wiAnio,
@@ -987,7 +994,7 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 295, src/scss/style.scss */
+/* line 301, src/scss/style.scss */
 .middle .referenciaItems .educationItem .eiCarrera,
 .middle .referenciaItems .educationItem .wiEmpresa,
 .middle .referenciaItems .workItem .eiCarrera,
@@ -995,7 +1002,7 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 300, src/scss/style.scss */
+/* line 306, src/scss/style.scss */
 .middle .referenciaItems .educationItem .wiImgEmpresa img,
 .middle .referenciaItems .educationItem .iiImgEmpresa img,
 .middle .referenciaItems .workItem .wiImgEmpresa img,
@@ -1005,20 +1012,20 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 264, src/scss/style.scss */
+  /* line 270, src/scss/style.scss */
   .middle .referenciaItems .educationItem,
   .middle .referenciaItems .workItem {
     margin: 5px;
     width: 100%;
   }
-  /* line 310, src/scss/style.scss */
+  /* line 316, src/scss/style.scss */
   .middle .referenciaItems .educationItem p,
   .middle .referenciaItems .workItem p {
     font-size: 0.9em;
   }
 }
 
-/* line 316, src/scss/style.scss */
+/* line 322, src/scss/style.scss */
 .middle .referenciaItems em {
   bottom: 15px;
   left: 15px;
@@ -1026,13 +1033,13 @@ em.h1 {
   position: absolute;
 }
 
-/* line 325, src/scss/style.scss */
+/* line 331, src/scss/style.scss */
 #interesesItem {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 329, src/scss/style.scss */
+/* line 335, src/scss/style.scss */
 #interesesItem .interes {
   display: flex;
   flex-direction: column;
@@ -1043,12 +1050,12 @@ em.h1 {
   width: 22%;
 }
 
-/* line 338, src/scss/style.scss */
+/* line 344, src/scss/style.scss */
 #interesesItem .interes .iiNombre {
   font-weight: bold;
 }
 
-/* line 342, src/scss/style.scss */
+/* line 348, src/scss/style.scss */
 #interesesItem .interes .iiImgEmpresa img {
   border: 8px solid transparent;
   border-radius: 50%;
@@ -1057,7 +1064,7 @@ em.h1 {
   transition: transform ease-out .3s;
 }
 
-/* line 349, src/scss/style.scss */
+/* line 355, src/scss/style.scss */
 #interesesItem .interes .iiImgEmpresa img:hover, #interesesItem .interes .iiImgEmpresa img:focus {
   border-radius: 50%;
   cursor: crosshair;
@@ -1065,13 +1072,13 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 329, src/scss/style.scss */
+  /* line 335, src/scss/style.scss */
   #interesesItem .interes {
     width: 100%;
   }
 }
 
-/* line 362, src/scss/style.scss */
+/* line 368, src/scss/style.scss */
 #interesesItem em {
   bottom: 15px;
   left: 15px;
@@ -1079,7 +1086,7 @@ em.h1 {
   position: absolute;
 }
 
-/* line 372, src/scss/style.scss */
+/* line 378, src/scss/style.scss */
 .notificaciones_box {
   align-items: center;
   display: flex;
@@ -1087,47 +1094,47 @@ em.h1 {
   justify-content: space-around;
 }
 
-/* line 379, src/scss/style.scss */
+/* line 385, src/scss/style.scss */
 .notificaciones_box .notificacion_item {
   width: 20%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 379, src/scss/style.scss */
+  /* line 385, src/scss/style.scss */
   .notificaciones_box .notificacion_item {
     box-sizing: border-box;
     width: 50%;
   }
 }
 
-/* line 388, src/scss/style.scss */
+/* line 394, src/scss/style.scss */
 .notificaciones_box .tema_box {
   padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 388, src/scss/style.scss */
+  /* line 394, src/scss/style.scss */
   .notificaciones_box .tema_box {
     padding: 0;
   }
-  /* line 394, src/scss/style.scss */
+  /* line 400, src/scss/style.scss */
   .notificaciones_box .tema_box .lblTemaBox {
     display: none;
   }
 }
 
-/* line 400, src/scss/style.scss */
+/* line 406, src/scss/style.scss */
 .notificaciones_box .tema_box li {
   cursor: pointer;
 }
 
-/* line 403, src/scss/style.scss */
+/* line 409, src/scss/style.scss */
 .notificaciones_box .tema_box li .fa-stack {
   border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 409, src/scss/style.scss */
+  /* line 415, src/scss/style.scss */
   .notificaciones_box .nota {
     display: block;
     margin: 0 5px 10px 10px;
@@ -1135,14 +1142,14 @@ em.h1 {
   }
 }
 
-/* line 416, src/scss/style.scss */
+/* line 422, src/scss/style.scss */
 .notificaciones_box .nota .notaBox {
   opacity: 0.9;
   padding: 3px 6px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 416, src/scss/style.scss */
+  /* line 422, src/scss/style.scss */
   .notificaciones_box .nota .notaBox {
     float: none;
     position: relative;
@@ -1150,12 +1157,12 @@ em.h1 {
   }
 }
 
-/* line 425, src/scss/style.scss */
+/* line 431, src/scss/style.scss */
 .notificaciones_box .nota .notaBox p {
   font-size: 0.6em;
 }
 
-/* line 429, src/scss/style.scss */
+/* line 435, src/scss/style.scss */
 .notificaciones_box .nota .notaBox a {
   text-decoration: none;
 }

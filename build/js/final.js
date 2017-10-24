@@ -208,7 +208,7 @@ function setSkills(skills, selector) {
 function skill(porcentaje, color, skill) {
 	var html = '';
 	html += '<div class="professionalSkill">';
-	html += '	<div id="redcircle" class="' + color + ' dark"><span style="width:' + porcentaje + '%;"></span></div>';
+	html += '	<div id="redcircle" class="' + color + ' dark"><span style="width:' + porcentaje + '%;" data-width="' + porcentaje + '"></span></div>';
 	html += '	<p>' + skill + '</p>';
 	html += '</div>';
 	return html;
