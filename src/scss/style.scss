@@ -191,6 +191,15 @@ em {
 			justify-content: center;
 			padding: 20px;
 			text-align: center;
+			
+			#redcircle {
+				height: 10px; 
+				width: 100%;
+				
+				span {
+					float: left;	
+				}
+			} 
 		}
 
 		em {
