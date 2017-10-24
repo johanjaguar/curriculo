@@ -23,10 +23,11 @@
 			"h2Profesionales": "Habilidades Profesionales",
 			"h2Educacion": "Educación",
 			"h2Workshops": "Workshops",
-			"h2Intereses": "Intereses"
+			"h2Intereses": "Intereses",
+			"tagActual": "Actual"
 		},
 		"english": {
-			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. <br/>Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. https://github.com/johanjaguar/curriculo.<br/>Al día de hoy, esta página web usa: SASS, JavaScript, HTML5, Gulp.js, y algunas librerías js para mostrar la información.<br/>Until this day, the web page use SASS, Javascript, HTML5, and some visual libraries to display the CV information.",
+			"pNotaBox": "This cv is a coding exercise where I found the best way to show my work to anyone that require it, this website is updating constantly, the source code can be consulted in the following git repository <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Until this day, the web page use SASS, Javascript, HTML5, and some visual libraries to display the CV information.",
 			"lblTemaBox": "Skins",
 			"lblLanguageBox": "Language",
 			"h1HojaDeVida": "CV",
@@ -48,7 +49,8 @@
 			"h2Profesionales": "Professional Skills",
 			"h2Educacion": "Education",
 			"h2Workshops": "Workshops",
-			"h2Intereses": "Hobbies"
+			"h2Intereses": "Hobbies",
+			"tagActual": "Now"
 		}
 	},
 	"temas": {
@@ -83,7 +85,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "317 8945533",
 			"anio": "2016",
-			"jefe": "Gabriel Bobadilla"
+			"jefe": "Gabriel Bobadilla",
+			"actual": "true"
 		},
 		"godat": {
 			"link": "http://elevatepeople.tv/",
@@ -92,7 +95,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "320 8857544",
 			"anio": "2016",
-			"jefe": "Jair Celis"
+			"jefe": "Jair Celis",
+			"actual": "false"
 		},
 		"msi": {
 			"link": "http://msiamericas.com/",
@@ -101,7 +105,8 @@
 			"cargoEng": "Test Drive and Telecomunication Consultant",
 			"telefono": "Skype: benjillanes88_1",
 			"anio": "2016",
-			"jefe": "Benjamin Illanes"
+			"jefe": "Benjamin Illanes",
+			"actual": "false"
 		},
 		"rentingcarz": {
 			"link": "http://rentingcarz.com",
@@ -110,7 +115,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "300 8983569",
 			"anio": "2014-2015",
-			"jefe": "Juan Camilo Restrepo"
+			"jefe": "Juan Camilo Restrepo",
+			"actual": "false"
 		},
 		"mediatic": {
 			"link": "http://mediatic.com.co",
@@ -119,7 +125,8 @@
 			"cargoEng": "Front end Developer",
 			"telefono": "311 5313928",
 			"anio": "2013-2016",
-			"jefe": "Gina Sánchez"
+			"jefe": "Gina Sánchez",
+			"actual": "false"
 		}
 	},
 	"referenciasPersonales": {
@@ -130,7 +137,8 @@
 			"cargoEng": "Publisher",
 			"telefono": "300 8983569",
 			"anio": "NULL",
-			"jefe": "NULL"
+			"jefe": "NULL",
+			"actual": "false"
 		},
 		"stifen": {
 			"link": "#",
@@ -139,7 +147,8 @@
 			"cargoEng": "Developer",
 			"telefono": "301 6628525",
 			"anio": "NULL",
-			"jefe": "NULL"
+			"jefe": "NULL",
+			"actual": "false"
 		},
 		"bimbo": {
 			"link": "#",
@@ -148,7 +157,8 @@
 			"cargoEng": "Office Boss",
 			"telefono": "301 3970158",
 			"anio": "NULL",
-			"jefe": "NULL"
+			"jefe": "NULL",
+			"actual": "false"
 		}
 	},
 	"skills": {

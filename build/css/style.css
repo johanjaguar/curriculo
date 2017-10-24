@@ -223,6 +223,13 @@ body.monokai .middle .referenciaItems .workItem:hover {
 }
 
 /* line 144, src/scss/themes/_monokai.scss */
+body.monokai .middle .referenciaItems .educationItem .tagActual,
+body.monokai .middle .referenciaItems .workItem .tagActual {
+  background: #F92672;
+  color: #f8f8f2, #F92672, #66f9ef, #a6e22e, #fd971f, #ffe792, #ae81ff [0];
+}
+
+/* line 149, src/scss/themes/_monokai.scss */
 body.monokai .middle .referenciaItems .educationItem .eiAnio,
 body.monokai .middle .referenciaItems .educationItem .iiNombre,
 body.monokai .middle .referenciaItems .educationItem .wiAnio,
@@ -234,7 +241,7 @@ body.monokai .middle .referenciaItems .workItem .wiTelefono {
   color: #a6e22e;
 }
 
-/* line 151, src/scss/themes/_monokai.scss */
+/* line 156, src/scss/themes/_monokai.scss */
 body.monokai .middle .referenciaItems .educationItem .eiInstitucion,
 body.monokai .middle .referenciaItems .educationItem .wiCargo,
 body.monokai .middle .referenciaItems .educationItem .wiJefe,
@@ -244,7 +251,7 @@ body.monokai .middle .referenciaItems .workItem .wiJefe {
   color: #ffe792;
 }
 
-/* line 157, src/scss/themes/_monokai.scss */
+/* line 162, src/scss/themes/_monokai.scss */
 body.monokai .middle .referenciaItems .educationItem .eiCarrera,
 body.monokai .middle .referenciaItems .educationItem .wiEmpresa,
 body.monokai .middle .referenciaItems .workItem .eiCarrera,
@@ -252,65 +259,65 @@ body.monokai .middle .referenciaItems .workItem .wiEmpresa {
   color: #F92672;
 }
 
-/* line 167, src/scss/themes/_monokai.scss */
+/* line 172, src/scss/themes/_monokai.scss */
 body.monokai #interesesItem .interes .iiNombre {
   color: #a6e22e;
 }
 
-/* line 172, src/scss/themes/_monokai.scss */
+/* line 177, src/scss/themes/_monokai.scss */
 body.monokai #interesesItem .interes .iiImgEmpresa img:hover, body.monokai #interesesItem .interes .iiImgEmpresa img:focus {
   border: 8px solid #f8f8f2;
 }
 
-/* line 181, src/scss/themes/_monokai.scss */
+/* line 186, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .tema_box {
   color: #f8f8f2;
 }
 
-/* line 184, src/scss/themes/_monokai.scss */
+/* line 189, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .tema_box span {
   color: #ffe792;
 }
 
-/* line 188, src/scss/themes/_monokai.scss */
+/* line 193, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .tema_box li {
   list-style: none;
   float: left;
   margin: 2px;
 }
 
-/* line 193, src/scss/themes/_monokai.scss */
+/* line 198, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .tema_box li .fa-stack {
   border-radius: 50%;
 }
 
-/* line 197, src/scss/themes/_monokai.scss */
+/* line 202, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .tema_box li:hover {
   color: #F92672;
 }
 
-/* line 203, src/scss/themes/_monokai.scss */
+/* line 208, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .language_box {
   color: #ffe792;
   margin: 10px 0;
 }
 
-/* line 207, src/scss/themes/_monokai.scss */
+/* line 212, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .language_box li {
   cursor: pointer;
 }
 
-/* line 213, src/scss/themes/_monokai.scss */
+/* line 218, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .nota .notaBox {
   background: #272822;
 }
 
-/* line 216, src/scss/themes/_monokai.scss */
+/* line 221, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .nota .notaBox p {
   color: #75715e;
 }
 
-/* line 220, src/scss/themes/_monokai.scss */
+/* line 225, src/scss/themes/_monokai.scss */
 body.monokai .notificaciones_box .nota .notaBox a {
   color: #66f9ef;
 }
@@ -467,6 +474,13 @@ body.mono .middle .referenciaItems .workItem {
 }
 
 /* line 155, src/scss/themes/_mono.scss */
+body.mono .middle .referenciaItems .educationItem .tagActual,
+body.mono .middle .referenciaItems .workItem .tagActual {
+  background: #000000;
+  color: #fff;
+}
+
+/* line 160, src/scss/themes/_mono.scss */
 body.mono .middle .referenciaItems .educationItem .eiAnio,
 body.mono .middle .referenciaItems .educationItem .iiNombre,
 body.mono .middle .referenciaItems .educationItem .wiAnio,
@@ -478,7 +492,7 @@ body.mono .middle .referenciaItems .workItem .wiTelefono {
   color: #75715e;
 }
 
-/* line 162, src/scss/themes/_mono.scss */
+/* line 167, src/scss/themes/_mono.scss */
 body.mono .middle .referenciaItems .educationItem .eiInstitucion,
 body.mono .middle .referenciaItems .educationItem .wiCargo,
 body.mono .middle .referenciaItems .educationItem .wiJefe,
@@ -488,7 +502,7 @@ body.mono .middle .referenciaItems .workItem .wiJefe {
   color: #000000;
 }
 
-/* line 168, src/scss/themes/_mono.scss */
+/* line 173, src/scss/themes/_mono.scss */
 body.mono .middle .referenciaItems .educationItem .eiCarrera,
 body.mono .middle .referenciaItems .educationItem .wiEmpresa,
 body.mono .middle .referenciaItems .workItem .eiCarrera,
@@ -496,14 +510,14 @@ body.mono .middle .referenciaItems .workItem .wiEmpresa {
   color: #49483e;
 }
 
-/* line 173, src/scss/themes/_mono.scss */
+/* line 178, src/scss/themes/_mono.scss */
 body.mono .middle .referenciaItems .educationItem:hover,
 body.mono .middle .referenciaItems .workItem:hover {
   background: #75715e;
   color: #fff;
 }
 
-/* line 177, src/scss/themes/_mono.scss */
+/* line 182, src/scss/themes/_mono.scss */
 body.mono .middle .referenciaItems .educationItem:hover .eiAnio,
 body.mono .middle .referenciaItems .educationItem:hover .iiNombre,
 body.mono .middle .referenciaItems .educationItem:hover .wiAnio,
@@ -515,7 +529,7 @@ body.mono .middle .referenciaItems .workItem:hover .wiTelefono {
   color: #fff;
 }
 
-/* line 184, src/scss/themes/_mono.scss */
+/* line 189, src/scss/themes/_mono.scss */
 body.mono .middle .referenciaItems .educationItem:hover .eiInstitucion,
 body.mono .middle .referenciaItems .educationItem:hover .wiCargo,
 body.mono .middle .referenciaItems .educationItem:hover .wiJefe,
@@ -525,7 +539,7 @@ body.mono .middle .referenciaItems .workItem:hover .wiJefe {
   color: #fff;
 }
 
-/* line 190, src/scss/themes/_mono.scss */
+/* line 195, src/scss/themes/_mono.scss */
 body.mono .middle .referenciaItems .educationItem:hover .eiCarrera,
 body.mono .middle .referenciaItems .educationItem:hover .wiEmpresa,
 body.mono .middle .referenciaItems .workItem:hover .eiCarrera,
@@ -533,74 +547,74 @@ body.mono .middle .referenciaItems .workItem:hover .wiEmpresa {
   color: #fff;
 }
 
-/* line 201, src/scss/themes/_mono.scss */
+/* line 206, src/scss/themes/_mono.scss */
 body.mono #intereses .interes .iiNombre {
   color: #75715e;
 }
 
-/* line 206, src/scss/themes/_mono.scss */
+/* line 211, src/scss/themes/_mono.scss */
 body.mono #intereses .interes .iiImgEmpresa img:hover, body.mono #intereses .interes .iiImgEmpresa img:focus {
   border: 8px solid #fff;
 }
 
-/* line 214, src/scss/themes/_mono.scss */
+/* line 219, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 218, src/scss/themes/_mono.scss */
+/* line 223, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .tema_box {
   color: #000000;
 }
 
-/* line 221, src/scss/themes/_mono.scss */
+/* line 226, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .tema_box span {
   color: #000000;
 }
 
-/* line 225, src/scss/themes/_mono.scss */
+/* line 230, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .tema_box li {
   list-style: none;
   float: left;
   margin: 2px;
 }
 
-/* line 230, src/scss/themes/_mono.scss */
+/* line 235, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .tema_box li .fa-stack {
   border-radius: 50%;
 }
 
-/* line 234, src/scss/themes/_mono.scss */
+/* line 239, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .tema_box li:hover {
   color: #49483e;
   font-weight: bold;
   transform: scale(1.1);
 }
 
-/* line 243, src/scss/themes/_mono.scss */
+/* line 248, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .nota .notaBox {
   background: #fff;
 }
 
-/* line 246, src/scss/themes/_mono.scss */
+/* line 251, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .nota .notaBox p {
   color: #49483e;
 }
 
-/* line 250, src/scss/themes/_mono.scss */
+/* line 255, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .nota .notaBox a {
   color: #75715e;
 }
 
-/* line 256, src/scss/themes/_mono.scss */
+/* line 261, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .language_box {
   color: #000000;
   margin: 10px 0;
 }
 
-/* line 260, src/scss/themes/_mono.scss */
+/* line 265, src/scss/themes/_mono.scss */
 body.mono .notificaciones_box .language_box li {
   cursor: pointer;
 }
@@ -639,11 +653,6 @@ a {
   z-index: 2;
 }
 
-/* line 38, src/scss/style.scss */
-.hcodigo::after {
-  content: "{";
-}
-
 @media screen and (max-width: 768px) {
   /* line 30, src/scss/style.scss */
   .hcodigo {
@@ -652,7 +661,7 @@ a {
   }
 }
 
-/* line 48, src/scss/style.scss */
+/* line 45, src/scss/style.scss */
 h1 {
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -666,14 +675,14 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 60, src/scss/style.scss */
+  /* line 57, src/scss/style.scss */
   h1.hcodigo {
     font-size: 1.8em;
     margin-top: 0;
   }
 }
 
-/* line 67, src/scss/style.scss */
+/* line 64, src/scss/style.scss */
 em {
   display: block;
   font-style: normal;
@@ -683,26 +692,26 @@ em {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 67, src/scss/style.scss */
+  /* line 64, src/scss/style.scss */
   em {
     font-size: 1em;
   }
 }
 
-/* line 78, src/scss/style.scss */
+/* line 75, src/scss/style.scss */
 em.h1 {
   font-size: 2em;
   margin-bottom: -40px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 78, src/scss/style.scss */
+  /* line 75, src/scss/style.scss */
   em.h1 {
     font-size: 1em;
   }
 }
 
-/* line 88, src/scss/style.scss */
+/* line 85, src/scss/style.scss */
 .cajaHV {
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -719,13 +728,13 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 88, src/scss/style.scss */
+  /* line 85, src/scss/style.scss */
   .cajaHV {
     padding: 5px;
   }
 }
 
-/* line 107, src/scss/style.scss */
+/* line 104, src/scss/style.scss */
 #encabezado {
   align-items: center;
   display: flex;
@@ -733,7 +742,7 @@ em.h1 {
   justify-content: center;
 }
 
-/* line 113, src/scss/style.scss */
+/* line 110, src/scss/style.scss */
 #encabezado em {
   bottom: 15px;
   font-weight: bold;
@@ -741,7 +750,7 @@ em.h1 {
   position: absolute;
 }
 
-/* line 120, src/scss/style.scss */
+/* line 117, src/scss/style.scss */
 #encabezado .fotoJohan {
   float: left;
   padding: 20px;
@@ -749,7 +758,7 @@ em.h1 {
   width: 33%;
 }
 
-/* line 126, src/scss/style.scss */
+/* line 123, src/scss/style.scss */
 #encabezado .fotoJohan img {
   border: 10px solid transparent;
   border-radius: 50%;
@@ -759,13 +768,13 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 120, src/scss/style.scss */
+  /* line 117, src/scss/style.scss */
   #encabezado .fotoJohan {
     float: none;
     padding: 5px;
     width: 100%;
   }
-  /* line 139, src/scss/style.scss */
+  /* line 136, src/scss/style.scss */
   #encabezado .fotoJohan img {
     display: flex;
     max-width: 85%;
@@ -773,25 +782,25 @@ em.h1 {
   }
 }
 
-/* line 147, src/scss/style.scss */
+/* line 144, src/scss/style.scss */
 #encabezado .fotoJohan:hover, #encabezado .fotoJohan:focus {
   cursor: crosshair;
   transform: rotate(10deg);
 }
 
-/* line 152, src/scss/style.scss */
+/* line 149, src/scss/style.scss */
 #encabezado .fotoJohan:hover img, #encabezado .fotoJohan:focus img {
   border-radius: 50%;
 }
 
-/* line 158, src/scss/style.scss */
+/* line 155, src/scss/style.scss */
 #encabezado .encabezadoRight {
   float: left;
   width: 61%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 158, src/scss/style.scss */
+  /* line 155, src/scss/style.scss */
   #encabezado .encabezadoRight {
     width: 100%;
     float: none;
@@ -799,19 +808,19 @@ em.h1 {
   }
 }
 
-/* line 167, src/scss/style.scss */
+/* line 164, src/scss/style.scss */
 #encabezado .encabezadoRight .eRightTopRedes a {
   text-decoration: none;
   cursor: pointer;
   transition: color ease-in-out .5s;
 }
 
-/* line 171, src/scss/style.scss */
+/* line 168, src/scss/style.scss */
 #encabezado .encabezadoRight .eRightTopRedes a:hover, #encabezado .encabezadoRight .eRightTopRedes a:focus {
   color: white;
 }
 
-/* line 183, src/scss/style.scss */
+/* line 180, src/scss/style.scss */
 .middle #professionalSkills {
   align-items: center;
   display: flex;
@@ -819,7 +828,7 @@ em.h1 {
   justify-content: center;
 }
 
-/* line 189, src/scss/style.scss */
+/* line 186, src/scss/style.scss */
 .middle #professionalSkills .professionalSkill {
   align-items: center;
   display: flex;
@@ -830,7 +839,7 @@ em.h1 {
   text-align: center;
 }
 
-/* line 199, src/scss/style.scss */
+/* line 196, src/scss/style.scss */
 .middle #professionalSkills em {
   bottom: 15px;
   left: 15px;
@@ -838,7 +847,7 @@ em.h1 {
   position: absolute;
 }
 
-/* line 207, src/scss/style.scss */
+/* line 204, src/scss/style.scss */
 .middle #personalSkills {
   display: flex;
   flex-wrap: wrap;
@@ -847,47 +856,47 @@ em.h1 {
   padding: 30px 30px 20px 30px;
 }
 
-/* line 214, src/scss/style.scss */
+/* line 211, src/scss/style.scss */
 .middle #personalSkills a {
   text-decoration: none;
 }
 
-/* line 217, src/scss/style.scss */
+/* line 214, src/scss/style.scss */
 .middle #personalSkills a[data-peso="1"] {
   font-size: 1em;
 }
 
-/* line 221, src/scss/style.scss */
+/* line 218, src/scss/style.scss */
 .middle #personalSkills a[data-peso="2"] {
   font-size: 1.5em;
 }
 
-/* line 225, src/scss/style.scss */
+/* line 222, src/scss/style.scss */
 .middle #personalSkills a[data-peso="3"] {
   font-size: 2em;
 }
 
-/* line 229, src/scss/style.scss */
+/* line 226, src/scss/style.scss */
 .middle #personalSkills a[data-peso="4"] {
   font-size: 2.5em;
 }
 
-/* line 233, src/scss/style.scss */
+/* line 230, src/scss/style.scss */
 .middle #personalSkills a[data-peso="5"] {
   font-size: 3em;
 }
 
-/* line 237, src/scss/style.scss */
+/* line 234, src/scss/style.scss */
 .middle #personalSkills a[data-peso="6"] {
   font-size: 3.5em;
 }
 
-/* line 241, src/scss/style.scss */
+/* line 238, src/scss/style.scss */
 .middle #personalSkills a[data-peso="7"] {
   font-size: 4em;
 }
 
-/* line 246, src/scss/style.scss */
+/* line 243, src/scss/style.scss */
 .middle #personalSkills em {
   bottom: 15px;
   font-weight: bold;
@@ -895,13 +904,13 @@ em.h1 {
   position: absolute;
 }
 
-/* line 254, src/scss/style.scss */
+/* line 251, src/scss/style.scss */
 .middle .referenciaItems {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 258, src/scss/style.scss */
+/* line 255, src/scss/style.scss */
 .middle .referenciaItems .educationItem,
 .middle .referenciaItems .workItem {
   display: flex;
@@ -914,19 +923,26 @@ em.h1 {
   width: 22%;
 }
 
-/* line 269, src/scss/style.scss */
+/* line 266, src/scss/style.scss */
 .middle .referenciaItems .educationItem:hover,
 .middle .referenciaItems .workItem:hover {
   cursor: pointer;
 }
 
-/* line 273, src/scss/style.scss */
+/* line 270, src/scss/style.scss */
+.middle .referenciaItems .educationItem .tagActual,
+.middle .referenciaItems .workItem .tagActual {
+  transform: rotate(330deg);
+  width: 100px;
+}
+
+/* line 275, src/scss/style.scss */
 .middle .referenciaItems .educationItem .eiIcono,
 .middle .referenciaItems .workItem .eiIcono {
   font-size: 2em;
 }
 
-/* line 277, src/scss/style.scss */
+/* line 279, src/scss/style.scss */
 .middle .referenciaItems .educationItem .eiAnio,
 .middle .referenciaItems .educationItem .iiNombre,
 .middle .referenciaItems .educationItem .wiAnio,
@@ -938,7 +954,7 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 284, src/scss/style.scss */
+/* line 286, src/scss/style.scss */
 .middle .referenciaItems .educationItem .eiCarrera,
 .middle .referenciaItems .educationItem .wiEmpresa,
 .middle .referenciaItems .workItem .eiCarrera,
@@ -946,7 +962,7 @@ em.h1 {
   font-weight: bold;
 }
 
-/* line 289, src/scss/style.scss */
+/* line 291, src/scss/style.scss */
 .middle .referenciaItems .educationItem .wiImgEmpresa img,
 .middle .referenciaItems .educationItem .iiImgEmpresa img,
 .middle .referenciaItems .workItem .wiImgEmpresa img,
@@ -956,20 +972,20 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 258, src/scss/style.scss */
+  /* line 255, src/scss/style.scss */
   .middle .referenciaItems .educationItem,
   .middle .referenciaItems .workItem {
     margin: 5px;
     width: 100%;
   }
-  /* line 299, src/scss/style.scss */
+  /* line 301, src/scss/style.scss */
   .middle .referenciaItems .educationItem p,
   .middle .referenciaItems .workItem p {
     font-size: 0.9em;
   }
 }
 
-/* line 305, src/scss/style.scss */
+/* line 307, src/scss/style.scss */
 .middle .referenciaItems em {
   bottom: 15px;
   left: 15px;
@@ -977,13 +993,13 @@ em.h1 {
   position: absolute;
 }
 
-/* line 314, src/scss/style.scss */
+/* line 316, src/scss/style.scss */
 #interesesItem {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* line 318, src/scss/style.scss */
+/* line 320, src/scss/style.scss */
 #interesesItem .interes {
   display: flex;
   flex-direction: column;
@@ -994,12 +1010,12 @@ em.h1 {
   width: 22%;
 }
 
-/* line 327, src/scss/style.scss */
+/* line 329, src/scss/style.scss */
 #interesesItem .interes .iiNombre {
   font-weight: bold;
 }
 
-/* line 331, src/scss/style.scss */
+/* line 333, src/scss/style.scss */
 #interesesItem .interes .iiImgEmpresa img {
   border: 8px solid transparent;
   border-radius: 50%;
@@ -1008,7 +1024,7 @@ em.h1 {
   transition: transform ease-out .3s;
 }
 
-/* line 338, src/scss/style.scss */
+/* line 340, src/scss/style.scss */
 #interesesItem .interes .iiImgEmpresa img:hover, #interesesItem .interes .iiImgEmpresa img:focus {
   border-radius: 50%;
   cursor: crosshair;
@@ -1016,13 +1032,13 @@ em.h1 {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 318, src/scss/style.scss */
+  /* line 320, src/scss/style.scss */
   #interesesItem .interes {
     width: 100%;
   }
 }
 
-/* line 351, src/scss/style.scss */
+/* line 353, src/scss/style.scss */
 #interesesItem em {
   bottom: 15px;
   left: 15px;
@@ -1030,7 +1046,7 @@ em.h1 {
   position: absolute;
 }
 
-/* line 361, src/scss/style.scss */
+/* line 363, src/scss/style.scss */
 .notificaciones_box {
   align-items: center;
   display: flex;
@@ -1038,47 +1054,47 @@ em.h1 {
   justify-content: space-around;
 }
 
-/* line 368, src/scss/style.scss */
+/* line 370, src/scss/style.scss */
 .notificaciones_box .notificacion_item {
   width: 20%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 368, src/scss/style.scss */
+  /* line 370, src/scss/style.scss */
   .notificaciones_box .notificacion_item {
     box-sizing: border-box;
     width: 50%;
   }
 }
 
-/* line 377, src/scss/style.scss */
+/* line 379, src/scss/style.scss */
 .notificaciones_box .tema_box {
   padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 377, src/scss/style.scss */
+  /* line 379, src/scss/style.scss */
   .notificaciones_box .tema_box {
     padding: 0;
   }
-  /* line 383, src/scss/style.scss */
+  /* line 385, src/scss/style.scss */
   .notificaciones_box .tema_box .lblTemaBox {
     display: none;
   }
 }
 
-/* line 389, src/scss/style.scss */
+/* line 391, src/scss/style.scss */
 .notificaciones_box .tema_box li {
   cursor: pointer;
 }
 
-/* line 392, src/scss/style.scss */
+/* line 394, src/scss/style.scss */
 .notificaciones_box .tema_box li .fa-stack {
   border-radius: 50%;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 398, src/scss/style.scss */
+  /* line 400, src/scss/style.scss */
   .notificaciones_box .nota {
     display: block;
     margin: 0 5px 10px 10px;
@@ -1086,14 +1102,14 @@ em.h1 {
   }
 }
 
-/* line 405, src/scss/style.scss */
+/* line 407, src/scss/style.scss */
 .notificaciones_box .nota .notaBox {
   opacity: 0.9;
   padding: 3px 6px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 405, src/scss/style.scss */
+  /* line 407, src/scss/style.scss */
   .notificaciones_box .nota .notaBox {
     float: none;
     position: relative;
@@ -1101,12 +1117,12 @@ em.h1 {
   }
 }
 
-/* line 414, src/scss/style.scss */
+/* line 416, src/scss/style.scss */
 .notificaciones_box .nota .notaBox p {
   font-size: 0.6em;
 }
 
-/* line 418, src/scss/style.scss */
+/* line 420, src/scss/style.scss */
 .notificaciones_box .nota .notaBox a {
   text-decoration: none;
 }

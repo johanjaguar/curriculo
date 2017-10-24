@@ -152,6 +152,11 @@ body.mono {
 				border-right: none;
 				border-top: none;
 
+				.tagActual {
+					background: $clr-letra1;
+					color: $clr-fondo;
+				}
+
 				.eiAnio,
 				.iiNombre,
 				.wiAnio,

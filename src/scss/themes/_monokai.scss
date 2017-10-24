@@ -140,6 +140,11 @@ body.monokai {
 				&:hover {
 					background: $gris4;
 				}
+				
+				.tagActual{
+					background: nth($coloresLetra, 2);
+					color: $coloresLetra[0];
+				}
 
 				.eiAnio,
 				.iiNombre,
