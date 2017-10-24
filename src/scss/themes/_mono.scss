@@ -9,7 +9,7 @@ $grisMedio: #75715e;
 $grisMuyOscuro: #49483e;
 $clr-letra2: #f92672;
 $moradito: #ae81ff;
-$naranja: #fd971f; 
+$naranja: #fd971f;
 $negro: #000;
 
 $clr-letra1: $negro;
@@ -112,6 +112,19 @@ body.mono {
 	}
 
 	.middle {
+		#professionalSkills {
+			.professionalSkill {
+				#redcircle {
+					border: 1px dotted $negro;
+
+					span {
+						background: $negro;
+						height: 10px;
+					}
+				}
+			}
+		}
+		
 		#personalSkills {
 			a {
 				&[data-peso="1"] {
