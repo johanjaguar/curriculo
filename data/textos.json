@@ -1,7 +1,7 @@
 {
   "textos": {
     "spanish": {
-      "pNotaBox": "Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johanjaguar/curriculo</a>. <br/>Al día de hoy, esta página web usa: SASS, Vanilla Js, JSON, HTML5 y Gulp.js.",
+      "pNotaBox": "Esta hoja de vida es un ejercicio de desarrollo, la mejor forma que encontré para mostrar mi trabajo a cualquier persona que requiera verlo. Esta página se actualiza constantemente, y el código fuente puede ser consultado en el siguiente repositorio de git. <a href='https://github.com/johanjaguar/curriculo'>https://github.com/johangulpjaguar/curriculo</a>. <br/>Al día de hoy, esta página web usa: SASS, Vanilla Js, JSON, HTML5 y Gulp.js.",
       "lblTemaBox": "Tema",
       "lblLanguageBox": "Idioma",
       "h1HojaDeVida": "Hoja de vida",
@@ -78,16 +78,7 @@
     "phone": "tel:+5718011908"
   },
   "referencias": {
-    "tambourine": {
-      "link": "https://www.tambourine.com/",
-      "empresa": "Tambourine",
-      "cargo": "Desarrollador Front End",
-      "cargoEng": "Front-end Developer",
-      "telefono": "",
-      "anio": "2018",
-      "jefe": "Breno Sisnando",
-      "actual": "true"
-    },
+
     "eltiempo": {
       "link": "http://eltiempo.com/",
       "empresa": "Casa Editorial El Tiempo",
