@@ -2,18 +2,14 @@ function llenaDOM(data) {
   var textos = "";
 
   var idiomaUrl = getQueryVariable('lang');
-  if (idiomaUrl !== null && idiomaUrl !== '' && idiomaUrl !== false) {
-    var languaje = idiomaUrl;
-    console.log('por aqui paso se supone q hay idioma' + idiomaUrl);
+  
+  var languaje = (idiomaUrl !== null && idiomaUrl !== '' && idiomaUrl !== false) ? StrinidiomaUrl : document.documentElement.lang;
+  
+  if (languaje == "en") { 
+    textos = data.textos.english;
   } else {
-    var languaje = document.documentElement.lang;
-    if (languaje == "en") {
-      textos = data.textos.english;
-    } else {
-      textos = data.textos.spanish;
-    }
+    textos = data.textos.spanish;
   }
-
 
 
 
