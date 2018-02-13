@@ -3,14 +3,13 @@ function llenaDOM(data) {
 
   var idiomaUrl = getQueryVariable('lang');
   
-  var languaje = (idiomaUrl !== null && idiomaUrl !== '' && idiomaUrl !== false) ? StrinidiomaUrl : document.documentElement.lang;
+  var languaje = (idiomaUrl !== null && idiomaUrl !== '' && idiomaUrl !== false) ? idiomaUrl : document.documentElement.lang;
   
   if (languaje == "en") { 
     textos = data.textos.english;
   } else {
     textos = data.textos.spanish;
   }
-
 
 
   setLanguages(data, ".languageUl");
