@@ -1,16 +1,12 @@
 function llenaDOM(data) {
   var textos = "";
+  var languaje = document.documentElement.lang;
 
-  var idiomaUrl = getQueryVariable('lang');
-  
-  var languaje = (idiomaUrl !== null && idiomaUrl !== '' && idiomaUrl !== false) ? idiomaUrl : document.documentElement.lang;
-  
-  if (languaje == "en") { 
+  if (languaje == "en") {
     textos = data.textos.english;
   } else {
     textos = data.textos.spanish;
   }
-
 
   setLanguages(data, ".languageUl");
   setReferencias(data.referencias, '#workItems');
