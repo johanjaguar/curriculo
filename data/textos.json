@@ -78,7 +78,16 @@
     "phone": "tel:+5718011908"
   },
   "referencias": {
-
+    "davinci": {
+      "link": "http://www.davincitech.co/",
+      "empresa": "Davinci technologies",
+      "cargo": "Desarrollador Front End",
+      "cargoEng": "Front end Developer",
+      "telefono": "301 2124144",
+      "anio": "2018",
+      "jefe": "Cristian Becerra",
+      "actual": "true"
+    },
     "eltiempo": {
       "link": "http://eltiempo.com/",
       "empresa": "Casa Editorial El Tiempo",
@@ -176,19 +185,55 @@
       "skillEng": "HTML 5"
     },
     "javascript": {
-      "porcentaje": "75",
+      "porcentaje": "85",
       "color": "pink",
       "skillSpa": "Javascript",
       "skillEng": "Javascript"
     },
+    "angular": {
+      "porcentaje": "80",
+      "color": "blue",
+      "skillSpa": "Angular 6",
+      "skillEng": "Angular 6"
+    },
+    "typescript": {
+      "porcentaje": "80",
+      "color": "pink",
+      "skillSpa": "Typescript",
+      "skillEng": "Typescript"
+    },
+    "react": {
+      "porcentaje": "75",
+      "color": "green",
+      "skillSpa": "React",
+      "skillEng": "React"
+    },
+    "flutter": {
+      "porcentaje": "85",
+      "color": "blue",
+      "skillSpa": "Flutter",
+      "skillEng": "Flutter"
+    },
+    "dart": {
+      "porcentaje": "85",
+      "color": "yellow",
+      "skillSpa": "Dart",
+      "skillEng": "Dart"
+    },
+    "Adobe XD": {
+      "porcentaje": "90",
+      "color": "red",
+      "skillSpa": "Adobe XD",
+      "skillEng": "Adobe XD"
+    },
     "php": {
-      "porcentaje": "70",
+      "porcentaje": "80",
       "color": "blue",
       "skillSpa": "pHp",
       "skillEng": "pHp"
     },
     "wordpress": {
-      "porcentaje": "70",
+      "porcentaje": "85",
       "color": "yellow",
       "skillSpa": "Wordpress",
       "skillEng": "Wordpress"
@@ -223,7 +268,7 @@
       "skillSpa": "Pug / Jade",
       "skillEng": "Pug / Jade"
     },
-    "angular": {
+    "angularjs": {
       "porcentaje": "60",
       "color": "pink",
       "skillSpa": "Angular Js",
